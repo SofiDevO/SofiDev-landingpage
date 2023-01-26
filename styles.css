@@ -1,4 +1,15 @@
-#
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+    text-align: left;
+    justify-content: flex-start;
+}
 #contenido{
-    align-items: center;
+    align-content: center;
+    size-adjust: 20px;
 }
