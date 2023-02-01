@@ -40,15 +40,18 @@ button:hover{
 }
 
 .container{
-  max-width: 1350px;
+  max-width: 15000px;
   margin: auto;
 }
+
 header{
   background-color: rgb(14, 14, 14);
 }
+
 header .logo{
   margin: 0;
-  padding: 25px 0px;
+  padding: 30px 25px;
+  text-align: left;
   font-weight: bold;
   color: rgba(212, 157, 6, 0.774);
   font-size: 1.9em;
