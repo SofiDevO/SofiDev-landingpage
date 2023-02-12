@@ -3,6 +3,9 @@
   padding: auto; 
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 body{
     font-family:monospace;
@@ -45,7 +48,7 @@ button:hover{
   margin: auto;
 }
 
-.color-acento{color: rgb(201, 155, 3);}
+.color-acento{color: rgba(0, 86, 143, 0.952);}
 
 header{
   background-color: rgb(0, 0, 0);
@@ -56,8 +59,8 @@ header .logo{
   flex-direction: justify;
   padding: 25px 30px;
   font-weight: bold;
-  color: rgb(201, 155, 3);
-  font-size: 1.8em;
+  color: rgb(252, 252, 252);
+  font-size: 1.5em;
 } 
 
 header .container{
@@ -73,19 +76,20 @@ header .nav{
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 18px;
 }
 
 header a{
-  padding: 5px 12px;
+  padding: 5px 11px;
   text-decoration: none;
   font-weight: bold;
   color: antiquewhite;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 header a:hover{
-  color: rgba(212, 157, 6, 0.774);
+  color: rgb(199, 77, 195);
+  
   
 }
 #hero{
@@ -95,7 +99,7 @@ header a:hover{
   text-align: center;
   flex-direction: column;
   height: 90vh;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 84, 198);
   background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.863),
@@ -123,7 +127,7 @@ header a:hover{
 
 #habilidades{
   text-align: center;
-  color: rgba(212, 157, 6, 0.774);
+  color: rgba(255, 129, 238, 0.959);
 
 }
 
@@ -134,9 +138,64 @@ header a:hover{
 
 #habilidades h2{
   margin-top: 0;
+  font-size: 3em;
 }
 
 #habilidades p{
   display: none;
 
+}
+#habilidades .carta{
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 40px;
+
+}
+
+.carta:first-child{
+  background-image: linear-Gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)    
+  ),url("img/frontend.jpg");
+
+}
+
+.carta:nth-child(2){
+  background-image: linear-Gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)    
+  ),url("img/diseno.jpg");
+}
+
+
+.carta:nth-child(3){
+  background-image: linear-Gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)    
+  ),url("img/ilustracion.jpg");
+ 
+}
+#contactar{
+  display: flex;
+  margin: 11px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(7, 7, 7);
+  color: aqua;
+  height: 80vh;
+}
+
+#contactar h2{
+  font-size: 7vw;
+}
+
+#contactar button{
+  font-size: 1.4em;
 }
