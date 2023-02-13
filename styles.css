@@ -76,11 +76,11 @@ header .nav{
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 18px;
+  padding-bottom: 11px;
 }
 
 header a{
-  padding: 5px 11px;
+  padding: 5px 10px;
   text-decoration: none;
   font-weight: bold;
   color: antiquewhite;
