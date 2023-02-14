@@ -22,9 +22,12 @@
    </header>
    
    <section id="hero">
-      <h1>Ángela Sofía Osorio</h1><br>
+    <div class="img-container" id="perfil-pic">
+      <img src="img\perfil.png" alt="Angela Sofia Osorio" style="float: left;">
+    </div>     
+      <h1>Ángela Sofía Osorio</h1>
       <h2>Frontend developer</h2>
-      <form action="#habilidades" >
+      <form action="#Contacto" >
           <button>Contacto</button>  
       </form>
     </section>
@@ -33,74 +36,17 @@
     <section id="acercade">
              
       <div class="container">
-           <div class="img-container" id="foto-perfil">
-             <img src="img\perfil.png" alt="Angela Sofia Osorio" style="float: left;">
-           </div>
-           <h2>¿Quién es <span class="color-acento">  AnSof?</span></h2>
-           <p>Frontend developer, pero también me declaro fan de Wordpress</p>
+          <h2>¿Quién es <span class="color-acento">  AnSof?</span></h2>
+          <p>Trans woman, passionate of new technologies. Frontend developer, Podcaster and Youtuber. <br>Student at Platzi💚</p>
       </div>
     </section>
 
-    <section id="Contacto">
-        <div class="contact_form">
-            <div class="formulario">
-                <h1>Enviar mensaje</h1>
-                 <h3>Déjame tu mensaje 😁</h3>
-                   <form action="submeter-formulario.php" method="post">
-                   </form>
-                          
-                   <p>
-                        <label for="nombre" class="coloca tu nombre">
-                            Nombre <span class="obligatorio">
-                                *</span>
-                        </label>
-                        <input type="text" name="Introducir nombre" id="nombre" required="Obligatorio" placeholder="Escribe tu nombre">
-                    </p>
-                    <p>
-                      <label for="email"         class="colocar_email">Email
-                      <span class="obligatorio">*</span>
-                      </label>
-                      <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                    </p>
-            
-                    <p>
-                     <label for="telefone" class="colocar_telefono">Teléfono
-                     </label>
-                     <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                    </p>    
-              
-                    <p>
-                     <label for="website" class="colocar_website">Sitio web
-                     </label>
-                     <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
-                    </p>    
-              
-                    <p>
-                     <label for="asunto" class="colocar_asunto">Asunto
-                     <span class="obligatorio">*</span>
-                     </label>
-                     <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                    </p>    
-              
-                    <p>
-                      <label for="mensaje" class="colocar_mensaje">Mensaje                      <span class="obligatorio">*</span>
-                      </label>                     
-                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                    </p>                  
-              
-                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-
-                <p class="aviso">
-                  <span class="obligatorio"> * </span>los campos son obligatorios.
-                </p>          
-            
-            </form>
-            </div>
-
-        </div>
-
-    </section>
-   
+    <section id="whatsapp"> 
+      <h2>Chat with me</h2>
+      <form action="https://wa.me/message/YGWCCZCOA2NXL1" target="_blank"  rel="noreferrer noopener"/form>
+      <button>whatsapp</button> 
+   </form>
+</section> 
 
    <section id="habilidades">
     <div class="class">
@@ -128,15 +74,58 @@
         </div>
     </div>
    </section>
+   <section id="Contacto">
+    <div class="contact_form">
+        <div class="formulario">
+            <h1>Contact</h1>
+             <h3>Leave your message</h3>
+               <form action="submeter-formulario.php" method="post">
+               </form>
+                      
+               <p>
+                    <label for="nombre" class="coloca tu nombre">
+                        Name <span class="obligatorio">
+                            *</span>
+                    </label>
+                    <input type="text" name="Introducir nombre" id="nombre" required="Obligatorio" placeholder="Your name">
+                </p>
+                <p>
+                  <label for="email"         class="colocar_email">Email
+                  <span class="obligatorio">*</span>
+                  </label>
+                  <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Your e-mail">
+                </p>
+        
+                
+          
+                <p>
+                 <label for="website" class="colocar_website">Website
+                 </label>
+                 <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>    
+          
+                
+          
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Message                      <span class="obligatorio">*</span>
+                  </label>                     
+                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Leave Your message"></textarea> 
+                </p>                  
+          
+            <button type="submit" name="enviar_formulario" id="enviar"><p>Send</p></button>
 
-   <section id="contactar"> 
-       <h2>Enviar mensaje</h2>
-       <form action="https://wa.me/message/  YGWCCZCOA2NXL1" target="_blank"  rel="noreferrer noopener"/form>
-       <button>whatsapp</button> 
-    </form>
-       
-       
-    </section>
+            <p class="aviso">
+              <span class="obligatorio"> * </span>this fields are mandatory.
+            </p>          
+        
+        </form>
+        </div>
+
+    </div>
+
+</section>
+
+
    
    
    <footer>
