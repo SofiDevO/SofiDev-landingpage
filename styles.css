@@ -151,7 +151,7 @@ header a:hover{
   align-items: center;
   text-align: center;
   background-color: rgb(5, 5, 5);
-  height: 40vh;
+  height: 60vh;
   padding: 100px 1px;
   background-image: linear-gradient(
     0deg,
@@ -165,12 +165,12 @@ header a:hover{
 }
 
 #whatsapp h2{
-  font-size: 7vw;
+  font-size: 5vw;
   
 }
 
 #whatsapp button{
-  font-size: 5vw;
+  font-size: 4vw;
   color: rgba(255, 129, 238, 0.959);
   text-shadow: 1.5px 1.5px 5px rgba(255, 255, 255, 0.541);
 }
