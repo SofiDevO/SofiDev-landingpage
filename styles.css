@@ -76,7 +76,7 @@ header .nav{
   display: flex;
   flex-direction: column;
   text-align: justify;
-  padding-bottom: 11px;
+  padding-bottom: 10px;
 }
 
 header a{
