@@ -44,24 +44,29 @@ button:hover{
 }
 
 .container{
-  max-width: 1400px;
+  max-width: 1600px;
   margin: auto;
+  
 }
 
-.color-acento{color: rgb(25, 42, 231);}
+.color-acento{color: rgb(255, 84, 198);}
 
 header{
   background-color: rgb(0, 0, 0);
+  position: fixed;
+    width: 100%;
+    z-index: 1001;
 }
 
 header .logo{
   margin: 0;
   display: flex;
   flex-direction: justify;
-  padding: 16px 20px;
+  padding: 10px 20px;
   font-weight: bold;
-  color: rgb(252, 252, 252);
-  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  
+  font-size: 1.8em;
   
 } 
 
@@ -69,6 +74,7 @@ header .container{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: auto;
 }
 
 header .nav{
@@ -76,15 +82,15 @@ header .nav{
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 11px;
+  padding-bottom: 150px;
 }
 
 header a{
-  padding: 5px 10px;
+  padding: 15px 5px;
   text-decoration: none;
   font-weight: bold;
-  color: rgb(255, 84, 198);
-  font-size: 1em;
+  color: rgb(255, 255, 255);
+  font-size: 1.1em;
 }
 
 header a:hover{
@@ -97,9 +103,9 @@ header a:hover{
   align-items:center;
   justify-content: center;
   text-align: center;
-  font-size: 1.30em;
+  font-size: 1.1em;
   flex-direction: column;
-  height: 70vh;
+  height: 66vh;
   color: rgb(255, 84, 198);
   background-image: linear-gradient(
     0deg,
@@ -119,7 +125,7 @@ header a:hover{
   margin: 0;
   flex-direction: column; 
   padding: 0px 15px;
-  width: 190px;
+  width: 185px;
   float: left;
  
 }
@@ -128,8 +134,8 @@ header a:hover{
 
 #acercade .container{
   text-align: center;
-  padding: 40px 0px;
-  font-size: 12px;
+  padding: 66px 30px;
+  font-size: 10px;
   
 }
 #acercade h2{
@@ -150,7 +156,7 @@ header a:hover{
   align-items: center;
   text-align: center;
   background-color: rgb(5, 5, 5);
-  height: 60vh;
+  height: 35vh;
   padding: 100px 1px;
   background-image: linear-gradient(
     0deg,
@@ -344,4 +350,61 @@ footer .container{
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+
+@media (min-width: 720px){
+  header{
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+
+  }
+   header .container{
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 2.1em;
+      max-width: 3300px;
+    }
+    header .logo{
+      font-size: 3em;
+     } 
+   header .nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;   
+    } 
+   
+  h1{
+    font-size: 5em;
+  }
+  h2{
+    font-size: 3em;
+  }
+  p{
+    font-size: 3em;
+  }
+   header .a{
+    font-size: 6em;
+   }
+  
+   #hero .img-container{
+    width: 420px;
+    
+   }
+   button{
+    font-size: 3em;
+   }    
+  #acercade .container{
+    text-align: justify;
+    padding: 300px 250px;
+    font-size: 12px;
+    text-indent: 1.5em;
+    
+  }
+  #acercade h2{
+    font-size: 8.7em;
+    text-align: center;
+  }
+ 
+
 }
