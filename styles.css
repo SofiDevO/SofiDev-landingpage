@@ -15,13 +15,13 @@ body{
     color: rgb(168, 168, 168, 0.774);
 }
 
-h1{font-size: 1.5em;
+h1{font-size: 2em;
    color: rgba(236, 234, 234, 0.986);
 }
-h2{font-size: 1em;
+h2{font-size: 1.5em;
 color:rgb(197, 197, 197);}
-h3{font-size: 2em;}
-p{font-size: 1.50em;}
+h3{font-size: 1.80em;}
+p{font-size: 1.5em;}
     
 button{
   font-size: .80em;
@@ -75,8 +75,8 @@ header .nav{
   margin: 0;
   display: flex;
   flex-direction: column;
-  text-align: justify;
-  padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 11px;
 }
 
 header a{
@@ -84,7 +84,7 @@ header a{
   text-decoration: none;
   font-weight: bold;
   color: rgb(255, 84, 198);
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 header a:hover{
@@ -93,12 +93,11 @@ header a:hover{
   
 }
 #hero{
-  position: relative;
   display: flex;
   align-items:center;
   justify-content: center;
-  text-align: left;
-  font-size: 1.60em;
+  text-align: center;
+  font-size: 1.30em;
   flex-direction: column;
   height: 70vh;
   color: rgb(255, 84, 198);
