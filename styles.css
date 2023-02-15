@@ -388,6 +388,7 @@ footer .container{
    }    
   #acercade .container{
     display: flex;
+    justify-content: center;
     
   }
   #acercade h2{
