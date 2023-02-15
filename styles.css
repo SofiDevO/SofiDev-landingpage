@@ -132,10 +132,12 @@ header a:hover{
 
 
 #acercade .container{
-  padding: 10px  20px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px  40px;
   font-size: 10px;
   align-items: center;
-  justify-content: center;
 
  
 }
@@ -146,10 +148,12 @@ header a:hover{
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
     ), url(img/acercaimg.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
-    height: 380px;
-    width: 300px;      
+ 
+    height: 135px;
+    width: 135px;      
+    border-radius: 100%;
 }
 #acercade .texto{
   flex-direction: column;
@@ -162,7 +166,7 @@ header a:hover{
 
 #acercade h2{
   font-size: 2em;
-  text-align: left;
+  text-align: center;
 
 }
 #acercade{
@@ -170,7 +174,7 @@ header a:hover{
 }
 
 
-#whatsapp{
+#mis-redes{
   display: flex;
   flex-direction: column;
   margin:0;
@@ -178,28 +182,24 @@ header a:hover{
   align-items: center;
   text-align: center;
   background-color: rgb(5, 5, 5);
-  height: 35vh;
+  height: 55vh;
   padding: 80px 1px;
-  background-image: linear-gradient(
-    0deg,
-    rgba(2, 2, 2, 0.699),
-    rgba(0, 0, 0, 0.904)
-    )
-    ,url("img/whatsapp.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+ 
 }
 
-#whatsapp h2{
-  font-size: 5vw;
+#mis-redes h2{
+  font-size: 4.5vw;
   
 }
 
-#whatsapp button{
+
+#mis-redes button{
   font-size: 4vw;
   color: rgba(255, 129, 238, 0.959);
   text-shadow: 1.5px 1.5px 5px rgba(255, 255, 255, 0.541);
+  
+  padding: 15px;
+  margin: 5px;
 }
 
 
@@ -407,10 +407,11 @@ footer .container{
     font-size: 1em;
    }    
   #acercade .container{
-    display: flex;
+    flex-direction: row;
     justify-content: center;
     padding: 50px 80px;
     font-size: 11px;
+    
   }
   #acercade h2{
     font-size: 4em;
@@ -427,13 +428,14 @@ footer .container{
   #acercade .img-container{
     background-image: linear-gradient(
       0deg,
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
+      rgba(0, 0, 0, 0.11),
+      rgba(0, 0, 0, 0.123)
       ), url(img/acercaimg.jpg);
-      background-size: cover;
+      background-size: contain;
       background-position: center center;
-      height: 500px;
-      width: 400px;
+      height: 350px;
+      width: 300px;
+      border-radius: 0%;
       
         
   }
@@ -445,10 +447,10 @@ footer .container{
     height: 60vh;
 
   }
-  #whatsapp button{
+  #mis-redes button{
     font-size: 1.5em;
   }
-  #whatsapp h2{
+  #mis-redes h2{
     font-size: 4.5em;
   }
 
