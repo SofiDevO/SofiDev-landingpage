@@ -138,14 +138,7 @@ header a:hover{
   align-items: center;
   
 }
-#acercade .img-container{
-  display: flex;
-  margin: 0;
-  padding: 100px 20px;
-  flex-direction: column;
-  justify-content: center;
-  width: 320px;
-}
+
 
 #acercade h2{
   font-size: 1.9em;
@@ -394,21 +387,39 @@ footer .container{
     font-size: 1em;
    }    
   #acercade .container{
-    text-align: center;
-    padding: 200px 180px;
-    font-size: 11px;
-    text-indent: 1.5em;
+    display: flex;
     
   }
   #acercade h2{
     font-size: 4.5em;
-    text-align: center;
   }
-  #whatsapp{
-    padding: 200px 180px;
-    height: fit-content;
-
+ 
+  #acercade .texto{
+    width: 50%;
+    text-align: initial;
+    padding: 10px 40px;
+       
     
+  }
+  #acercade .img-container{
+    background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+      ), url(img/acercaimg.jpg);
+      background-size: cover;
+      background-position: center center;
+      height: 500px;
+      width: 400px;
+  }
+
+  #whatsapp{
+    padding: 100px 50px;
+    background-size: cover;
+    background-position: center center;
+    padding: 0px 100px;
+    height: 60vh;
+
   }
   #whatsapp button{
     font-size: 1.5em;
@@ -416,4 +427,9 @@ footer .container{
   #whatsapp h2{
     font-size: 4.5em;
   }
+
+  
+
+  
+  
 }
