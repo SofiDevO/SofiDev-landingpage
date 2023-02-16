@@ -557,6 +557,8 @@ padding-left: 50px;  }
   #habilidades p{
     display: block;
     margin-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
   }
     
 }
@@ -700,4 +702,4 @@ padding-left: 50px;  }
   
   
 
-  
+}
