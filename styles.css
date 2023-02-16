@@ -16,19 +16,18 @@ body{
 }
 
 h1{font-size: 2em;
-   color: rgba(236, 234, 234, 0.986);
-}
+   color: rgba(236, 234, 234, 0.986);}
 h2{font-size: 1.5em;
 color:rgb(197, 197, 197);}
 h3{font-size: 1.80em;}
-p{font-size: 1.5em;}
+p{font-size: 1.5em; color:rgb(197, 197, 197);}
     
 button{
   font-size: 1em;
   text-align: justify;
   font-weight: bold;
   padding: 10px 27px;
-  border-radius: 20px;
+  border-radius: 30px;
   border: 2px solid rgb(26, 25, 25);
   box-shadow: 1.5px 1.5px 9px rgba(255, 255, 255, 0.692);
   color: rgb(255, 255, 255);
@@ -44,7 +43,7 @@ button:hover{
 }
 
 .container{
-  max-width: 1900px;
+  max-width: 1700px;
   margin: 0;
   
 }
@@ -85,7 +84,7 @@ header .nav{
 }
 
 header a{
-  padding: 15px 5px;
+  padding: 15px 10px;
   text-decoration: none;
   font-weight: bold;
   color: rgb(255, 255, 255);
@@ -98,92 +97,117 @@ header a:hover{
   
 }
 #hero{
-   margin: 0px;
-   max-width: 1900px;
+   margin: 0;
   display: flex;
-  flex-direction: row;
-  padding: 100px  85px;
-  font-size: 10px;
   align-items: center;
   color: rgb(175, 175, 175);
   background-image: linear-gradient(
     0deg,
-    rgba(11, 0, 15, 0.89),
-    rgba(17, 4, 13, 0.61)
+    rgb(11, 0, 15),
+    rgba(29, 1, 19, 0.5)
     )
     ,url("img/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
+    padding: 10px 30px;
 
 }
 #hero .container{
-  margin: -30px;
   display: flex;
   flex-direction: column;
-  border-spacing: 0px;
-  padding: 10px -10px;
-  font-size: 11px;
+  justify-content: center;
   align-items: center;
   }
 
 #hero .img-container{
   display: flex;
   flex-direction: column; 
-  margin: 0;
+  margin-top: 80px;
   background-image: 
     url("img/perfil.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
     height: 130px;
     width: 130px;
+    background-position: center center;
   }
 
 #hero .texto{
   display: flex;
-  margin: 0;
+  text-align: center;
   flex-direction:column;
-  width: fit-content;
-  text-align: left;
-  padding: 10px 0px;
+  margin: 0;
+  padding: 0px 15px;
      
   }
+  #hero .texto h1{
+    font-size: 1.90em;
+    margin: 0;
+    
+  }
+  #hero .texto h1
+  #hero .texto h2{
+    font-size: 1.5em;
+    margin: 0px;
+    
+  }
   #hero .texto p{
-    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+
   }
  
   
+#mis-redes .container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 
+}
 
 #mis-redes{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin:0;
   width: 100%;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: rgb(5, 5, 5);
-  height: 55vh;
-  padding: 80px 1px;
+  height: auto;
+  padding: 90px 10px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(11, 0, 15, 0.527),
+    rgba(29, 1, 19, 0.5)
+    )
+    ,url("img/neon\ heart.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
  
 }
 
 #mis-redes h2{
-  font-size: 4.5vw;
+  font-size: 8.2vw;
   
 }
 
 
 #mis-redes button{
-  font-size: 4vw;
-  size-adjust: ;
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+  width: 300px;
   color: rgba(255, 255, 255, 0.959);
-  text-shadow: 1.5px 1.5px 5px rgba(255, 255, 255, 0.541);
-  
-  padding: 15px;
-  margin: 5px;
+  border-radius: 10px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493;   
+  padding: 10px  100px;
+  margin: 5.5px;
 }
 
 #mis-redes button:hover{
@@ -222,29 +246,40 @@ header a:hover{
 }
 
 .carta:first-child{
-  background-image: linear-Gradient(
+  background-image: linear-gradient(
     0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)    
-  ),url("img/frontend.jpg");
-
+    rgb(0, 0, 0),
+    rgba(14, 1, 9, 0.692)
+    ),url("img/frontend.jpg");
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
 }
 
 .carta:nth-child(2){
-  background-image: linear-Gradient(
+  background-image: linear-gradient(
     0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)    
-  ),url("img/diseno.jpg");
+    rgb(0, 0, 0),
+    rgba(14, 1, 9, 0.692)
+    ),url("img/diseno.jpg");
+    border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
 }
 
 
 .carta:nth-child(3){
-  background-image: linear-Gradient(
+  background-image: linear-gradient(
     0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)    
-  ),url("img/ilustracion.jpg");
+    rgb(0, 0, 0),
+    rgba(14, 1, 9, 0.692)
+    ),url("img/ilustracion.jpg");
+    border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
  
 }
 
@@ -252,7 +287,7 @@ header a:hover{
 #contacto .container{
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 3100px;
   height: auto;
   padding: 0 25px;
   margin: 20px;
@@ -262,7 +297,7 @@ header a:hover{
 
 
 .contact_form{
-  width: 350px;
+  width: 310px;
   height: auto;
   padding: 10px 12px;
   margin:  auto;
@@ -275,7 +310,7 @@ header a:hover{
   background-color: #fbfbfb; 
   display: flex;
   flex-direction: column;
-  width: 310px; 
+  width: 300px; 
   height: 40px; 
   border-radius: 5px;  
   border-style: solid; 
@@ -288,7 +323,7 @@ header a:hover{
 
 #Contacto textarea{
   background-color: #fbfbfb; 
-  width: 310px; 
+  width: 300px; 
   height: 110px; 
   border-radius: 5px;  
   border-style: solid; 
@@ -372,97 +407,297 @@ footer .container{
   align-items: flex-end;
 }
 
-@media (min-width: 720px){
+
+/*For desktop Size*/
+@media (min-width: 800px){
   header{
     position: fixed;
     width: 100%;
     z-index: 1001;
-    margin: 0;
+    margin: 0px;
 
   }
    header .container{
       flex-direction: row;
       justify-content: space-between;
       font-size: 1em;
-      max-width: 1450px;
+      max-width: 1750px;
     }
     header .logo{
-      font-size: 3em;
+      font-size: 2.5em;
+      margin-left: 50px;
+      
      } 
    header .nav{
     flex-direction: row;
     padding-bottom: 0;
-    margin-left: 20px;
-    padding-right: 50;   
     } 
 
+    header a{
+      margin-right: 18px;
+      padding-left: 30px;
+
+
+    }
+
     #hero{
-      width: 100%;
+      justify-content: space-evenly;
+      display: flex;
+      padding: 300px 100px;
+      
+      
     }
     #hero .container{
-    width: 100%; 
-    flex-direction: row;
-    justify-content: space-between;
-    justify-content: center;
-    padding: 50px 80px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
     
-    }
-   
-  #hero h1{
-      font-size: 4.5em;
+  }
+  #hero .img-container{
+      background-size: contain;
+      background-position: center center;
+      height: 250px;
+      width: 250px;
+  }
+
+  
+  #hero .texto{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    max-width: 800px;
+padding-left: 50px;  }
+  
+  #hero .texto h1{
+    font-size: 2.3em;
+    margin-top: 0;
   }
   
-  #hero h2{
-      font-size: 2em;
+  #hero .texto h2{
+    margin-top: 0;
+      font-size: 1.5em;
+      
   }
   
-  #hero p{
+  #hero .texto p{
       font-size: 14px;
+      text-align: left;
+
+
   }
  
   
-  #hero .img-container{
-    background-size: contain;
-      background-position: center center;
-      height: 200px;
-      width: 200px;
-       border-radius: 0%;
-  }
   
-  #hero .texto{
-    width: 55%;
-    text-align: initial;
-    padding: 300px 50px;
-  }
   
-  button{
-    font-size: 1.5em;
-  } 
-   
   #mis-redes .container{
     display: flex;
     flex-direction: column;
-    padding: 50px 80px;
+    width: 250px;
     justify-content: center;
+  
   }
-
+  
+  #mis-redes{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(
+    0deg,
+    rgba(11, 0, 15, 0.527),
+    rgba(29, 1, 19, 0.5)
+    )
+    ,url("img/neon\ heart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 90px 10px;
+   
+  }
+  
   #mis-redes h2{
-    font-size: 3em;
+    font-size: 2em;
+    text-align: center;
+    
   }
-
+  
+  
   #mis-redes button{
-  font-size: 1.20em;
-  color: aliceblue;
-  text-transform:capitalize;
-  border-color: #7a787a; 
-  border-style: solid; 
-  border-radius: none;
-  width: auto;   
-  cursor: pointer;
-  padding: 15px 80px;
-  margin-top: 15px;
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    color: rgba(255, 255, 255, 0.959);
+    border-radius: 10px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493;   
+    padding: 10px  100px;
+    margin: 5.5px;
+  }
+  
+  #mis-redes button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+  }
+  
+  #habilidades .habilidad{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
   }
 
-
+  #habilidades p{
+    display: block;
+    margin-bottom: 30px;
+  }
     
 }
+/* Size for tablets*/
+@media (min-width: 490px){
+  header{
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+    margin: 0px;
+
+  }
+   header .container{
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 1em;
+      max-width: 1750px;
+    }
+    header .logo{
+      font-size: 2.5em;
+      margin-left: 50px;
+      
+     } 
+   header .nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    } 
+
+    header a{
+      margin-right: 18px;
+      padding-left: 30px;
+
+
+    }
+
+    #hero{
+      justify-content: space-evenly;
+      display: flex;
+      padding: 300px 100px;
+      
+      
+    }
+    #hero .container{
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    
+  }
+  #hero .img-container{
+      background-size: contain;
+      background-position: center center;
+      height: 250px;
+      width: 250px;
+  }
+
+  
+  #hero .texto{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    max-width: 800px;
+padding-left: 50px;  }
+  
+  #hero .texto h1{
+    font-size: 2.3em;
+    margin-top: 0;
+  }
+  
+  #hero .texto h2{
+    margin-top: 0;
+      font-size: 1.5em;
+      
+  }
+  
+  #hero .texto p{
+      font-size: 14px;
+      text-align: left;
+
+
+  }
+ 
+  
+  #mis-redes .container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+  
+  }
+  
+  #mis-redes{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(
+    0deg,
+    rgba(11, 0, 15, 0.527),
+    rgba(29, 1, 19, 0.5)
+    )
+    ,url("img/neon\ heart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 90px 10px;
+   
+  }
+  
+  #mis-redes h2{
+    font-size: 2em;
+    text-align: center;
+    
+  }
+  
+  
+  #mis-redes button{
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    color: rgba(255, 255, 255, 0.959);
+    border-radius: 10px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493;   
+    padding: 10px  100px;
+    margin: 5.5px;
+  }
+  
+  #mis-redes button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+  }
+  
+  
+
+  
