@@ -31,18 +31,26 @@ body {
 
 #hero .container{
   display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .side-img img{
   width: 230px;
 }
 
+
+.social{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+
 .social img{
-  width: 35px;
+  width: 25px;
   
 }
 
@@ -61,6 +69,31 @@ body {
   font-weight: 500;
 }
 
+.whatsapp{
+  filter: invert(47%) sepia(89%) saturate(2229%) hue-rotate(90deg) brightness(97%) contrast(109%);
+}
+
+
+.github{
+  filter: invert(100%);
+}
+
+
+.linkedin{
+  filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%);
+}
+
+
+
+.platzi{
+  filter: invert(53%) sepia(39%) saturate(3085%) hue-rotate(64deg) brightness(100%) contrast(101%);
+}   
+
+
+.youtube{
+  filter: invert(28%) sepia(90%) saturate(6257%) hue-rotate(354deg) brightness(96%) contrast(106%);
+}
+
 
 
 @media (min-width:800px){
@@ -70,24 +103,33 @@ body {
   
   #hero {
     grid-template-columns: 1fr 1fr;
-    height: 874px;
+    height: 598px;
   }
     
   
   #hero .container{
     display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
   }
   
   .side-img img{
-    width: 377px;
+    width: 268px;
+  }
+  .social{
+    display: flex;
+    flex-direction: column;
+    /* width: 43px; */
+    gap: 16px;
+    /* width: 15px; */
   }
   
+
   .social img{
-    width: 35px;
+    width: 30px;
     
   }
   
