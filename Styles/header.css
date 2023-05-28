@@ -15,15 +15,21 @@
 /* Menu hamburguesa Movil view */
 
 .panel-btn{
-    padding: 0 13px 0 0;
-    margin-right: 10px;
     filter: invert(100%);
+    display: flex;
+    align-items: center;
+    width: 500px;
 }
+
+
+
 
 a{
     text-decoration: none;
     color: var(--seccond-color);
     font-Weight: bold;
+    cursor: pointer;
+    text-shadow: -0.3rem -0.2rem 0.4rem var(--main-color);
 }
 
 a:hover{
@@ -45,13 +51,13 @@ a:hover{
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 0 46px;
+    padding: 0 15px;
     flex-wrap: nowrap;
     width: 100%;
     flex-direction: row;
     align-items: stretch;
-   
 }
+   
 
 
 
@@ -65,17 +71,46 @@ a:hover{
     color: var(--pure-black);
     text-shadow: -0.3rem -0.2rem 0.4rem var(--main-color);
 }
+.logo:hover{
+
+    filter: drop-shadow(0 0 12px var(--blue));
+}
 
 .logo span{
     color: var(--seccond-color);
+    
 }
+
+.logo span:hover{
+    color: var(--blue);
+    filter: drop-shadow(0 0 12px var(--blue));
+}
+
+
 
 .menu {
     display: none;
 
 }
 
+i{
+    display: flex;
+    font-size: 38px;
+    align-items: center;
+    padding: 18px 18px;
+    width: 77px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(155deg) brightness(102%) contrast(100%)drop-shadow(0 0 12px #000000);
+    cursor: pointer;
+}
+    
+i:hover{
+    transform: scale(1.2);
+    filter: invert(77%) sepia(67%) saturate(1475%) hue-rotate(103deg) brightness(102%) contrast(100%)drop-shadow(0 0 12px var(--blue));
+}
 
+
+
+   
 
 
 @media(min-width:800px){
