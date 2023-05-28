@@ -12,19 +12,12 @@
     --ligth-purple: #610094;
 }
 
-/* Menu hamburguesa Movil view */
-
-.panel-btn{
-    filter: invert(100%);
-    display: flex;
-    align-items: center;
-    width: 500px;
-}
 
 
 
 
-a{
+
+.menu-desktop a{
     text-decoration: none;
     color: var(--seccond-color);
     font-Weight: bold;
@@ -32,7 +25,7 @@ a{
     text-shadow: -0.3rem -0.2rem 0.4rem var(--main-color);
 }
 
-a:hover{
+.menu-desktop a:hover{
     transform: scale(1.2);
     color: var(--blue);
 
@@ -43,6 +36,10 @@ a:hover{
     width: 100%;
     background-color: #00000086;
     position: fixed;
+    z-index: 996;
+    top: 0;
+    padding: 0;
+    justify-content: center;
 }
 
 
@@ -51,9 +48,9 @@ a:hover{
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 0 15px;
+    padding: 0 10px;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 149px;
     flex-direction: row;
     align-items: stretch;
 }
@@ -86,9 +83,11 @@ a:hover{
     filter: drop-shadow(0 0 12px var(--blue));
 }
 
+a{
+    text-decoration: none;
+}
 
-
-.menu {
+.menu-desktop {
     display: none;
 
 }
@@ -97,8 +96,8 @@ i{
     display: flex;
     font-size: 38px;
     align-items: center;
-    padding: 18px 18px;
-    width: 77px;
+    padding: 20px 1px;
+    width: 52px;
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(155deg) brightness(102%) contrast(100%)drop-shadow(0 0 12px #000000);
     cursor: pointer;
 }
@@ -115,12 +114,13 @@ i:hover{
 
 @media(min-width:800px){
 
-    .panel-btn{
+    .panel-btn {
         display: none;
     }
     .panel{
         display: none;
     }
+
 
     #header {
         display: flex;
@@ -150,7 +150,7 @@ i:hover{
 
 
     }
-    .menu {
+    .menu-desktop {
         display: flex;
         flex-wrap: wrap;
         align-items: center;

@@ -7,12 +7,15 @@
 
 
 body {
+  z-index: 0;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   width: 100%;
-  
-  
+  overflow-x: hidden;
 }
+  
+  
+  
 
 
 
