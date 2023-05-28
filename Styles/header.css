@@ -17,19 +17,28 @@
 .panel-btn{
     padding: 0 13px 0 0;
     margin-right: 10px;
+    filter: invert(100%);
 }
 
 a{
     text-decoration: none;
-    color: var(--main-color);
+    color: var(--seccond-color);
+    font-Weight: bold;
+}
+
+a:hover{
+    transform: scale(1.2);
+    color: var(--blue);
+
 }
 
 #header {
     display: flex;
     width: 100%;
-    background: transparent;
+    background-color: #00000086;
     position: fixed;
 }
+
 
 
 #header
@@ -41,7 +50,7 @@ a{
     width: 100%;
     flex-direction: row;
     align-items: stretch;
-    background-color: transparent;
+   
 }
 
 
@@ -54,6 +63,11 @@ a{
     font-weight: bold;
     font-size: 25px;
     color: var(--pure-black);
+    text-shadow: -0.3rem -0.2rem 0.4rem var(--main-color);
+}
+
+.logo span{
+    color: var(--seccond-color);
 }
 
 .menu {
@@ -73,10 +87,9 @@ a{
     #header {
         display: flex;
         width: 100%;
-        background: transparent;
         padding: 0 20px;
-        position: fixed;
         justify-content: space-between;
+
     }
 
 
