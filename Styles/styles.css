@@ -54,8 +54,12 @@ body {
 
 .social img{
   width: 25px;
-  
 }
+
+.social img:hover{
+  transform: scale(1.5);
+}
+  
 
 #hero h1 {
   color: var(--pure-black);
