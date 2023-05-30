@@ -56,24 +56,47 @@ body {
   width: 25px;
 }
 
-.social img:hover{
+head .social img:hover{
   transform: scale(1.5);
 }
   
 
-#hero h1 {
+
+
+h1 {
+
   color: var(--pure-black);
   font-size: 2em;
   text-align: center;
   font-weight: 600;
 }
 
+h1 span {
+  color: var(--seccond-color);
+}
+
+h1 span:hover {
+  color: var(--blue);
+  filter: drop-shadow(0 0 12px var(--blue));
+}
+
 
 #hero h2 {
-  color: var(--pure-black);
   font-size: 1.5em;
   text-align: center;
   font-weight: 500;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.mexico-bandera{
+  width: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .whatsapp{
