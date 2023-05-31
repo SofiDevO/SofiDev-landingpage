@@ -105,7 +105,7 @@ export  function cambiarModo(){
         botonHamburguesa.style.filter = ' invert(74%) sepia(58%) saturate(4419%) hue-rotate(149deg) brightness(102%) contrast(107%)';
 
         /* Sección Abaout me */
-        cajaCristal.style.background = ' rgba( 0, 0, 0, 0.85 )';
+        cajaCristal.style.background = ' rgba( 0, 0, 0, 0.85 )  ';
         cajaCristal.style.boxShadow= ' 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )';
         
         contenidoTexto.style.color = 'white'
