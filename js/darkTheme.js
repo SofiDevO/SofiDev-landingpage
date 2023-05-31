@@ -12,6 +12,8 @@ const profilePic = d.getElementById('profile-pic');
 const acercaDeHamburguesa = d.getElementById('acercaDe-menuA');
 const portafolioHamburguesa = d.getElementById('portafolio-menuA');
 const contactoHamburguesa = d.getElementById('contacto-menuA');
+const botonHamburguesa = d.getElementById('hamburguesa')
+const fondoAnimado = d.getAnimations('background')
 
 
 
@@ -43,16 +45,17 @@ export  function cambiarModo(){
         span.style.filter = '';
         span.style.color = 'white'
 
+        botonHamburguesa.style.filter = ' invert(0%) sepia(90%) saturate(7500%) hue-rotate(78deg) brightness(93%) contrast(93%)';
         acercaDeHamburguesa.style.color = '';
         portafolioHamburguesa.style.color = '';
         contactoHamburguesa.style.color = '';
-        
         
         /* Estilos en el tema oscuro */
     }else{
         body.style.color = 'white';
         body.style.transition = '1.3s';
         body.style.background = 'rgb(0,0,0)';
+        
         
         toggle.style.filter = ' invert(0%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1)';
         
@@ -77,6 +80,7 @@ export  function cambiarModo(){
         profilePic.style.filter = 'drop-shadow(2px -5px 16px #D608A9)';
         
         /* Elementos del menu hamburguesa */
+        botonHamburguesa.style.filter = ' invert(74%) sepia(58%) saturate(4419%) hue-rotate(149deg) brightness(102%) contrast(107%)';
         acercaDeHamburguesa.style.color = 'rgba(0,212,255,1)';
         portafolioHamburguesa.style.color = 'rgba(0,212,255,1)';
         contactoHamburguesa.style.color = 'rgba(0,212,255,1)';
