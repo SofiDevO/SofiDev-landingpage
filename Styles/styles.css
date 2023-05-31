@@ -182,6 +182,51 @@ h1 span:hover {
 
   }
 }
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
 
 
 
@@ -217,15 +262,17 @@ h1 span:hover {
     width: 95%;
     height: 570px;
     padding: 17px;
-    background: rgb(139 140 195 / 20%);
-    box-shadow: 30px 8px 32px 0 rgba(3, 4, 17, 0.37);
-    backdrop-filter: blur( 11px );
-    -webkit-backdrop-filter: blur( 11px );
+    background: rgba(255, 255, 255, 0.356);
+    box-shadow: 0 8px 32px 0 rgba(31, 37, 129, 0.37);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
     border-radius: 10px;
-    border: 5px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(179, 175, 175, 0.418);
+    animation:  myAnim 2s ease 4s 1 normal forwards;
     align-items: center;
     justify-content: center;
     justify-items: center;
+    font-size: 600;
   }
 
   .perfil-2{
@@ -239,11 +286,11 @@ h1 span:hover {
   .acercaDeTitulo{
     font-size: 2em;
   }
+
   .textos{
     text-align: justify;
     font-size: 17px;
-    font-weight: bold;
-    text-shadow: -0.3rem -0.2rem 0.4rem var(--blue);
+
     
   }
 
@@ -327,9 +374,6 @@ h1 span:hover {
     width: 100%;
     height: 930px;
     align-items: center;
-    background-image: url('../assets/blob.svg');
-    background-repeat: no-repeat;
-    background-size:cover;
     background-size: 1300px;
     border-radius: 20px ;
     background-position: left center;

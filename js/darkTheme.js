@@ -76,7 +76,7 @@ export  function cambiarModo(){
         logo.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
         logo.style.color = 'white'
         contenidoTexto.style.color = 'black'
-        /* contenidoTexto.style.textShadow = '-0.3rem -0.2rem 0.2rem white'; */
+        contenidoTexto.style.textShadow = '-0.3rem -0.2rem 2rem blue'; 
 
         
         span.style.color = 'rgba(0,212,255,1)';
