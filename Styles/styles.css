@@ -197,13 +197,15 @@ h1 span:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 523px;
+    height: 764px;
     align-items: center;
     background-image: url(../assets/blob.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 779px;
-    background-position: right center;
+    background-size: 1105px;
+    background-position: right;
+    justify-content: center;
+
   }
 
 
@@ -212,33 +214,36 @@ h1 span:hover {
   .img-txt{
     display: grid;
     grid-template-columns: 1fr;
-    width: 454px;
-    height: 577px;
-    padding: 59px;
-    
-    background: rgba(131, 211, 194, 0.267);
+    width: 95%;
+    height: 570px;
+    padding: 17px;
+    background: rgb(139 140 195 / 20%);
     box-shadow: 30px 8px 32px 0 rgba(3, 4, 17, 0.37);
     backdrop-filter: blur( 11px );
     -webkit-backdrop-filter: blur( 11px );
     border-radius: 10px;
-    border: 5px solid rgba(255, 255, 255, 0.096);
-    justify-items: center;
+    border: 5px solid rgba( 255, 255, 255, 0.18 );
     align-items: center;
     justify-content: center;
-    align-content: center;
+    justify-items: center;
   }
 
   .perfil-2{
     border-radius: 50% 50% 54% 46% / 54% 30% 70% 46% ;
     padding: 2px;
-    width: 335px;
+    width: 50%;
     border: 2px solid black;
     filter: drop-shadow(20px 5px 10px  rgba(0,0,0));
+  }
+
+  .acercaDeTitulo{
+    font-size: 2em;
   }
   .textos{
     text-align: justify;
     font-size: 17px;
     font-weight: bold;
+    text-shadow: -0.3rem -0.2rem 0.4rem var(--blue);
     
   }
 
@@ -340,19 +345,16 @@ h1 span:hover {
     height: 623px;
     padding: 7px;
     gap: 34px;
-    background: rgb(139 140 195 / 20%);
-    box-shadow: 30px 8px 32px 0 rgba(3, 4, 17, 0.37);
-    backdrop-filter: blur( 11px );
-    -webkit-backdrop-filter: blur( 11px );
-    border-radius: 10px;
-    border: 5px solid rgba( 255, 255, 255, 0.18 );
-    align-items: center;
-    justify-content: center;
+    
   }
-  .contenido{
+  .textos{
     text-align: justify;
-    font-weight: 800px;
+    font-weight: 600;
 
+
+  }
+  .perfil-2{
+    width: 80%;
   }
 
 }
