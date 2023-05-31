@@ -27,7 +27,7 @@ export  function cambiarModo(){
 
         toggle.style.filter = 'invert(100%) sepia(0%) saturate(7500%) hue-rotate(155deg) brightness(102%) contrast(100%)drop-shadow(0 0 12px #000000)';
         
-        fondoHero.style.background = 'linear-gradient(0deg, rgba(65, 6, 138, 0.736) 15%, rgba(160, 5, 126, 0.589) 63%)';
+        fondoHero.style.background = 'linear-gradient(0deg, rgba(65, 6, 138, 0.736) 20%, rgba(160, 5, 126, 0.589) 63%)';
         
         logo.style.filter = 'drop-shadow(0 0 11px  rgba(0,0,0) ';
         logo.style.transition = '1s';
@@ -56,7 +56,7 @@ export  function cambiarModo(){
         
         toggle.style.filter = ' invert(0%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1)';
         
-        fondoHero.style.background = 'linear-gradient(0deg, rgba(18,0,42,1) 1%,  rgba(0,0,0)61%)';
+        fondoHero.style.background = 'linear-gradient(0deg, rgba(18,0,42,1) 20%,  rgba(0,0,0)61%)';
         fondoHero.style.transition = '4s';
         
         titulo.style.color = 'white'; 
