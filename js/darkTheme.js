@@ -16,7 +16,7 @@ const botonHamburguesa = d.getElementById('hamburguesa')
 const divider1 = d.getElementById('divider1');
 const contenidoTexto = d.getElementById('textos');
 const acercadDeSpan = d.getElementById('span-titulo2');
-
+const cajaCristal = d.getElementById('caja-cristal');
 
 
 toggle.addEventListener('click', cambiarModo);
@@ -51,15 +51,22 @@ export  function cambiarModo(){
         acercadDeSpan.style.color = 'white'
         acercadDeSpan.style.filter = '';
 
+        /* Elemntos del menu hamburguesa */
         botonHamburguesa.style.filter = ' invert(0%) sepia(90%) saturate(7500%) hue-rotate(78deg) brightness(93%) contrast(93%)';
         acercaDeHamburguesa.style.color = '';
         portafolioHamburguesa.style.color = '';
         contactoHamburguesa.style.color = '';
+        
+        /* Sección Abaout me */
         profilePic.style.filter = '';
+        cajaCristal.style.background = ' rgba( 122, 122, 122, 0.25 )';
+        cajaCristal.style.boxShadow= '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )';
+        contenidoTexto.style.color = ''
         
-        
-        /* Estilos en el tema oscuro */
+    
+    
     }else{
+        /* Estilos en el tema oscuro */
         body.style.color = 'rgb(199, 199, 199)';
         body.style.transition = '2s';
         body.style.background = 'rgb(7, 7, 7)';
@@ -79,11 +86,9 @@ export  function cambiarModo(){
         
         logo.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
         logo.style.color = 'white'
-        contenidoTexto.style.color = 'black'
-        contenidoTexto.style.textShadow = '-0.3rem -0.2rem 2rem blue'; 
-
+        
         acercadDeSpan.style.color = 'rgba(0,212,255,1)'
-        acercadDeSpan.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
+        acercadDeSpan.style.filter = ' drop-shadow(0 0 12px  rgba(0,212,255,1)';
         
         span.style.color = 'rgba(0,212,255,1)';
         span.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
@@ -99,7 +104,12 @@ export  function cambiarModo(){
         contactoHamburguesa.style.color = 'rgba(0,212,255,1)';
         botonHamburguesa.style.filter = ' invert(74%) sepia(58%) saturate(4419%) hue-rotate(149deg) brightness(102%) contrast(107%)';
 
-
+        /* Sección Abaout me */
+        cajaCristal.style.background = ' rgba( 0, 0, 0, 0.85 )';
+        cajaCristal.style.boxShadow= ' 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )';
+        
+        contenidoTexto.style.color = 'white'
+        contenidoTexto.style.filter = 'drop-shadow(0 0 12px  black'; 
     }
         
 
