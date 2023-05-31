@@ -18,15 +18,15 @@ body {
 
 
 #hero {
-   transition: all 0.9s ease;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    gap: 5px;
-    background: linear-gradient(0deg, rgba(65, 6, 138, 0.736) 15%, rgba(160, 5, 126, 0.589) 63%);
-    height: 811px;
+  transition: all 0.9s ease;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  gap: 22px;
+  background: linear-gradient(0deg, rgba(65, 6, 138, 0.736) 15%, rgba(160, 5, 126, 0.589) 63%);
+  height: 715px;
 }
 
 #hero .container{
@@ -41,10 +41,12 @@ body {
 
 h1 {
   transition: all 0.9s;
-  color: var(--pure-black);
-  font-size: 3em;
-  text-align: center;
-  font-weight: 600;
+    color: var(--pure-black);
+    font-size: 3em;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 0 31px 0;
+  
 }
 
 h1 span {
@@ -61,19 +63,19 @@ h1 span:hover {
 
 #hero h2 {
   font-size: 1.2em;
-  text-align: center;
-  font-weight: 500;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: relative;
-  gap: 13px;
-  top: 13px;
-  transform: translateY(-300px);
-  animation: expand 0.8s ease forwards;
-  transition: all 1.5s;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 13px;
+    top: -14px;
+    transform: translateY(-300px);
+    animation: expand 0.8s ease forwards;
+    transition: all 1.5s;
   }
   
 
@@ -234,9 +236,9 @@ h1 span:hover {
 
 #aboutMe{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 1407px;
+    justify-content: center;
+    align-items: center;
+    height: 1531px;
 }  
 
 .acercaDeTitulo span{
