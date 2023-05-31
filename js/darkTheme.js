@@ -15,8 +15,11 @@ const contactoHamburguesa = d.getElementById('contacto-menuA');
 const botonHamburguesa = d.getElementById('hamburguesa')
 const divider1 = d.getElementById('divider1');
 const contenidoTexto = d.getElementById('textos');
-const acercadDeSpan = d.getElementById('span-titulo2');
 const cajaCristal = d.getElementById('caja-cristal');
+const linkOracle = d.getElementById('link-oracle');
+const linkPlatzi = d.getElementById('link-platzi');
+const acercadDeSpan = d.getElementById('span-titulo2');
+const acercaDeTitulo = d.getElementById('acercaDeTitulo');
 
 
 toggle.addEventListener('click', cambiarModo);
@@ -62,7 +65,10 @@ export  function cambiarModo(){
         cajaCristal.style.background = ' rgba( 122, 122, 122, 0.25 )';
         cajaCristal.style.boxShadow= '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )';
         contenidoTexto.style.color = ''
-        
+        linkOracle.style.color = '';
+        linkPlatzi.style.color = '';
+        acercaDeTitulo.style.color = ''
+        acercaDeTitulo.style.filter = '';
     
     
     }else{
@@ -87,8 +93,6 @@ export  function cambiarModo(){
         logo.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
         logo.style.color = 'white'
         
-        acercadDeSpan.style.color = 'rgba(0,212,255,1)'
-        acercadDeSpan.style.filter = ' drop-shadow(0 0 12px  rgba(0,212,255,1)';
         
         span.style.color = 'rgba(0,212,255,1)';
         span.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
@@ -110,8 +114,16 @@ export  function cambiarModo(){
         
         contenidoTexto.style.color = 'white'
         contenidoTexto.style.filter = 'drop-shadow(0 0 12px  black'; 
-    }
+
+        linkOracle.style.color = 'white';
+        linkPlatzi.style.color = 'white';
         
+        acercadDeSpan.style.color = 'rgba(0,212,255,1)'
+        acercadDeSpan.style.filter = ' drop-shadow(0 0 12px  rgba(0,212,255,1)';
+        acercaDeTitulo.style.color = 'white'
+        acercaDeTitulo.style.filter = ' drop-shadow(0 0 8px  black';
+    }
+    
 
 }
         
