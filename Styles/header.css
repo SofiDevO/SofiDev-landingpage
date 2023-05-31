@@ -28,6 +28,7 @@
 .menu-desktop a:hover{
     transform: scale(1.2);
     color: var(--blue);
+    filter: drop-shadow(0 0 12px var(--blue));
 
 }
 
@@ -43,7 +44,7 @@
     z-index: 996;
     top: 0;
     padding: 0;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
@@ -70,7 +71,8 @@
     font-weight: bold;
     font-size: 25px;
     color: var(--pure-black);
-    text-shadow: -0.3rem -0.2rem 0.4rem var(--main-color);
+    filter: drop-shadow(15px 1px 12px  rgba(0,0,0));
+    
 }
 .logo:hover{
 
@@ -104,6 +106,7 @@ i{
     width: 52px;
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(155deg) brightness(102%) contrast(100%)drop-shadow(0 0 12px #000000);
     cursor: pointer;
+    
 }
     
 i:hover{
@@ -116,7 +119,7 @@ i:hover{
    
 
 
-@media(min-width:800px){
+@media(min-width:840px){
 
     .panel-btn {
         display: none;
