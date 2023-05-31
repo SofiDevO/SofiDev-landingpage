@@ -319,21 +319,12 @@ h1 span:hover {
   }
 
   #hero h2 {
-    font-size: 1.2em;
-    text-align: center;
-    font-weight: 500;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    gap: 13px;
-    top: -22px;
+    font-size: 1.4em;
+    top: -38px;
     transform: translateY(-300px);
-    animation: expand 0.8s ease forwards;
-    transition: all 1.5s;
-  }
+}
+
+
 
   .side-img img{
     width: 268px;
