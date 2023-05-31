@@ -42,19 +42,20 @@
   <link rel="stylesheet" href="./Styles/header.css">
   <!-- styles de los dividers -->
   <link rel="stylesheet" href="./Styles/divider.css">
+
 </head>
 
 
 <body>
   <section id="header">
     <div class="container">
-      <a href="https://itssofi.dev">
-        <p id="logo" class="logo">Sofi<span id="span"> Dev</span> </p>
-      </a> 
+     <a href="/index.html">
+      <p id="logo" class="logo">Sofi<span id="span"> Dev</span> </p>
+     </a> 
     </div>
     <!-- Menu Desktop -->
     <nav class="menu-desktop">
-      <a href="">Acerca de mí</a>
+      <a href="#aboutMe">Acerca de mí</a>
       <a href="">Portafolio</a>
       <a href="">contacto</a>
     </nav>
@@ -66,45 +67,22 @@
   <!-- menu movil (hamburguesa) -->
   <button class="panel-btn hamburger hamburger--emphatic" type="button">
     <span   class="hamburger-box">
-      <span id="hamburguesa"   class="hamburger-inner"></span>
+        <span id="hamburguesa"   class="hamburger-inner"></span>
     </span>
   </button>
     <aside class="panel">
       <nav class="menu" >
-        <a id="acercaDe-menuA" href="">Acerca de mí</a>
+        <a id="acercaDe-menuA" href="#aboutMe">Acerca de mí</a>
         <a id="portafolio-menuA" href="">Portafolio</a>
         <a id="contacto-menuA" href="">contacto</a>
       </nav>
     </aside>
-    
-  
 
-    <main>
-      <!-- seccion hero  -->
-      <section id="hero">
-        <div  id="background" class="background">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        
+  <main>
+    <!-- seccion hero  -->
+    <section id="hero">
+
+      
       <div class="titulo">
         <h1 id="titulo-saludo">Hi!👋🏻 I'm Sofi<span id="span-titulo">Dev</span>  </h1>
         <h2 id="subtitulo">Frontend Developer from Mexico <img class="mexico-bandera" src="./assets/flag-mexico.svg" alt="icono, bandera de mexico"></h2>
@@ -112,7 +90,7 @@
       </div>
       <div class="container">
         <div class="side-img" id="profile-pic">
-          <img src="./img/profile-pic - 2023-01-26T123220.873 - copia.jpg" alt="Sofidev profile photo">
+          <img src="./img/profile-pic.jpg" alt="Sofidev profile photo">
         </div>
         <div class="social">
           
@@ -127,7 +105,7 @@
           <a class="linkedin" href="https://www.linkedin.com/in/ansof89/" target="_blank"  rel="noreferrer noopener">
             <img src="./assets/linkedin.svg">
           </a>
-          
+
           <a class="platzi" href="https://platzi.com/p/SofiDev/" target="_blank" rel="noreferrer noopener">
             <img src="./assets/platzi.svg">
           </a>
@@ -136,17 +114,31 @@
           </a>
         </div>
       </div>
-     
     </section>
-    
+    <div  class="custom-shape-divider-bottom-1685513857">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" id="divider1" class="shape-fill"></path>
+      </svg>
+  </div>
     <!-- Acerca de Mi -->
-    <div id="aboutMe" class="acercaDeMi">
+    <section id="aboutMe" class="acercaDeMi">
       <div class="container">
-        <img src="" alt="" class="perfil-2">
+        
+        <h2 class="acercaDeTitulo">¿Quién es Sofi <span class="span'titulo2" id="span-titulo2">Dev</span> </h2>
+        <div class="img-txt">
+          <img src="./img/selfie3.png" alt="" class="perfil-2">
+         <div id="textos" class="textos">
+          <p class="contenido">Passionate about new technologies. Continuous learning is not an obligation for me, I love what I do!</p>
+          <p class="contenido2">Student at Platzi and Aluta Latam. Always updating my knowledge.</p>
+          </div>
+        </div>
+
       </div>
-    </div>
-  
+    </section>
   </main>
+
+
+  
 
 
 </body>
