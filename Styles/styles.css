@@ -417,11 +417,10 @@ h1 span:hover {
   .acercaDeTitulo{
     display: flex;
     font-size: 3em;
-    padding: 25px;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 173px;
+    height: 67px;
   }
   
 
