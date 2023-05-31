@@ -238,6 +238,12 @@ h1 span:hover {
   align-items: center;
 }  
 
+.acercaDeTitulo span{
+  color: var(--seccond-color);
+  text-shadow: -1px -1px 11px #000000;
+  
+}
+
   #aboutMe .container{
     display: flex;
     flex-direction: column;
@@ -250,8 +256,9 @@ h1 span:hover {
     background-size: 1105px;
     background-position: right;
     justify-content: center;
-
+    z-index: 20;
   }
+
 
 
   
@@ -284,8 +291,17 @@ h1 span:hover {
   }
 
   .acercaDeTitulo{
-    font-size: 2em;
+    display: flex;
+    font-size: 2.3em;
+    padding: 1px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 135px;
+    text-align: center;
+    justify-content: center;
   }
+ 
 
   .textos{
     text-align: center;
@@ -296,7 +312,7 @@ h1 span:hover {
 
 
 
-/* vista Desktop */
+/* VISTA DESKTOP */
 
 @media (min-width:850px){
 #hero {
@@ -372,32 +388,44 @@ h1 span:hover {
 
 
   #aboutMe .container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 1154px;
+      align-items: center;
+      background-size: 1300px;
+      border-radius: 20px;
+      background-position: left center;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+    } 
+    
+
+
+  .acercaDeTitulo{
     display: flex;
-    right: 300px;
-    flex-direction: column;
-    width: 100%;
-    height: 930px;
-    align-items: center;
-    background-size: 1300px;
-    border-radius: 20px ;
-    background-position: left center;
+    font-size: 3em;
+    padding: 25px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 135px;
   }
-
-
   
 
   .img-txt{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    width: 80%;
+    width: 86%;
     height: 623px;
-    padding: 7px;
-    gap: 34px;
-    
+    padding: 12px;
+    gap: 13px;
   }
+    
   .textos{
     text-align: justify;
     font-weight: 600;
+    padding: 20px;
 
 
   }

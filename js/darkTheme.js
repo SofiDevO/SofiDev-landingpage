@@ -13,8 +13,9 @@ const acercaDeHamburguesa = d.getElementById('acercaDe-menuA');
 const portafolioHamburguesa = d.getElementById('portafolio-menuA');
 const contactoHamburguesa = d.getElementById('contacto-menuA');
 const botonHamburguesa = d.getElementById('hamburguesa')
-const divider1 = d.getElementById('divider1')
-const contenidoTexto = d.getElementById('textos')
+const divider1 = d.getElementById('divider1');
+const contenidoTexto = d.getElementById('textos');
+const acercadDeSpan = d.getElementById('span-titulo2');
 
 
 
@@ -47,6 +48,9 @@ export  function cambiarModo(){
         span.style.filter = '';
         span.style.color = 'white'
 
+        acercadDeSpan.style.color = 'white'
+        acercadDeSpan.style.filter = '';
+
         botonHamburguesa.style.filter = ' invert(0%) sepia(90%) saturate(7500%) hue-rotate(78deg) brightness(93%) contrast(93%)';
         acercaDeHamburguesa.style.color = '';
         portafolioHamburguesa.style.color = '';
@@ -78,6 +82,8 @@ export  function cambiarModo(){
         contenidoTexto.style.color = 'black'
         contenidoTexto.style.textShadow = '-0.3rem -0.2rem 2rem blue'; 
 
+        acercadDeSpan.style.color = 'rgba(0,212,255,1)'
+        acercadDeSpan.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
         
         span.style.color = 'rgba(0,212,255,1)';
         span.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
