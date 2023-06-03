@@ -317,19 +317,21 @@ h1 span:hover {
 .textos{
   text-align: justify;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .contenido a{
-  color: #000000;
+  color: var(--dark-purple);
   text-decoration: none;
+  font-weight: bold;
   
 }
 .contenido a:hover{
   color: var(--dark-purple);
   text-decoration: none;
   font-weight: bold;
-  
+  cursor: pointer;
 }
+  
 
 
 
