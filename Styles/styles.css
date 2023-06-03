@@ -34,8 +34,6 @@ body {
     height: 651px;
     grid-template-columns: 1fr;
     align-content: center;
-    justify-content: center;
-    justify-items: center;
 }
 
 #hero .container{
@@ -334,6 +332,8 @@ h1 span:hover {
   cursor: pointer;
 }
   
+/* TERCERA SEXXION */
+
 
 
 
@@ -342,7 +342,7 @@ h1 span:hover {
 
 @media (min-width:850px){
   #hero{
-    height: 1019px;
+    height: 1016px;
   }
 
   .contenedor-hero {
@@ -420,14 +420,14 @@ h1 span:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 771px;
+    height: 996px;
   }
 
   #aboutMe .container{
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 1579px;
+    height: 1443px;
     align-items: center;
     background-size: cover;
     background-position: top;
