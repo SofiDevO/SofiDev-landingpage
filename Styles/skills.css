@@ -1,0 +1,15 @@
+#skills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#skills .container{
+    display:flex;
+}
+
+#skills h2{
+    font-size: 3em;
+}

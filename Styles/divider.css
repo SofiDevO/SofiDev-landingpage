@@ -27,7 +27,7 @@
 
 .custom-shape-divider-bottom-1685781927 {
     position: absolute;
-    bottom: -1427px;
+    bottom: -1607px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -95,5 +95,7 @@
     .custom-shape-divider-bottom-1685781927 .shape-fill {
         fill: #3F0071;
     }
+
+    
 
 }
