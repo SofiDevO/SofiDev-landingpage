@@ -34,6 +34,8 @@ body {
     height: 651px;
     grid-template-columns: 1fr;
     align-content: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 #hero .container{
