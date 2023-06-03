@@ -33,19 +33,8 @@ AddDefaultCharset UTF-8
 </IfModule>
 
 
-<IfModule mod_rewrite.c>
-    RewriteEngine on
-    
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_FILENAME}.php -f
-    RewriteRule ^(.*)$ $1.php
-    #RewriteRule ^([a-z]+)/?$ $1.php [NC]
-    
-    
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_FILENAME}.html -f
-    RewriteRule ^(.*)$ $1.html
-    #RewriteRule ^([a-z]+)/?$ $1.html [NC]
-    
-    </IfModule>
+RewriteEngine on RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ https://itssofi.dev/ [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ https://itssofi.dev/ [R=301,L]
     
