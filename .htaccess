@@ -31,3 +31,21 @@ AddDefaultCharset UTF-8
    RewriteCond %{HTTP_USER_AGENT} ^.*(craftbot|download|extract|stripper|sucker|ninja|clshttp|webspider|leacher|collector|grabber|webpictures).*$ [NC]
    RewriteRule . - [F,L]
 </IfModule>
+
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php
+    #RewriteRule ^([a-z]+)/?$ $1.php [NC]
+    
+    
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^(.*)$ $1.html
+    #RewriteRule ^([a-z]+)/?$ $1.html [NC]
+    
+    </IfModule>
+    
