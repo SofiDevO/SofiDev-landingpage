@@ -34,7 +34,7 @@ AddDefaultCharset UTF-8
 
 
 RewriteEngine on RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
-RewriteRule ^index\.html$ https://itssofi.dev/ [R=301,L]
+RewriteRule ^index\.html$ https://itssofi.dev\ [R=301,L]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
-RewriteRule ^index\.php$ https://itssofi.dev/ [R=301,L]
+RewriteRule ^index\.php$ https://itssofi.dev\ [R=301,L]
     
