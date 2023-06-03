@@ -12,6 +12,7 @@ const profilePic = d.getElementById('profile-pic');
 const acercaDeHamburguesa = d.getElementById('acercaDe-menuA');
 const portafolioHamburguesa = d.getElementById('portafolio-menuA');
 const contactoHamburguesa = d.getElementById('contacto-menuA');
+const blogHamburguesa = d.getElementById('blog-menuA');
 const botonHamburguesa = d.getElementById('hamburguesa')
 const divider1 = d.getElementById('divider1');
 const contenidoTexto = d.getElementById('textos');
@@ -20,6 +21,7 @@ const linkOracle = d.getElementById('link-oracle');
 const linkPlatzi = d.getElementById('link-platzi');
 const acercadDeSpan = d.getElementById('span-titulo2');
 const acercaDeTitulo = d.getElementById('acercaDeTitulo');
+const panelMenu = d.getElementById('panel')
 
 
 toggle.addEventListener('click', cambiarModo);
@@ -59,6 +61,10 @@ export  function cambiarModo(){
         acercaDeHamburguesa.style.color = '';
         portafolioHamburguesa.style.color = '';
         contactoHamburguesa.style.color = '';
+        blogHamburguesa.style.color = '';
+        panelMenu.style.background = '';
+        panelMenu.style.backdropFilter = '';
+
         
         /* Sección Abaout me */
         profilePic.style.filter = '';
@@ -106,7 +112,11 @@ export  function cambiarModo(){
         acercaDeHamburguesa.style.color = 'rgba(0,212,255,1)';
         portafolioHamburguesa.style.color = 'rgba(0,212,255,1)';
         contactoHamburguesa.style.color = 'rgba(0,212,255,1)';
+        blogHamburguesa.style.color = 'rgba(0,212,255,1)';
         botonHamburguesa.style.filter = ' invert(74%) sepia(58%) saturate(4419%) hue-rotate(149deg) brightness(102%) contrast(107%)';
+        panelMenu.style.background = 'rgba( 54, 54, 54, 0.4 )';
+        panelMenu.style.backdropFilter = 'blur( 10px )';
+        
 
         /* Sección Abaout me */
         cajaCristal.style.background = ' rgba( 0, 0, 0, 0.85 )  ';

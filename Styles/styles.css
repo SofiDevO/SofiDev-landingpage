@@ -17,16 +17,23 @@ body {
 }
 
 
+
 #hero {
   transition: all 0.9s ease;
-  display: grid;
-  grid-template-columns: 1fr;
+  
   justify-items: center;
   align-items: center;
   align-content: center;
   gap: 22px;
   background: linear-gradient(0deg, rgba(65, 6, 138, 0.736) 15%, rgba(160, 5, 126, 0.589) 63%);
   height: 715px;
+}
+
+.contenedor-hero{
+  display: grid;
+    height: 651px;
+    grid-template-columns: 1fr;
+    align-content: center;
 }
 
 #hero .container{
@@ -238,7 +245,7 @@ h1 span:hover {
   display: flex;
     justify-content: center;
     align-items: center;
-    height: 1531px;
+    height: 1214px;
 }  
 
 .acercaDeTitulo span{
@@ -251,14 +258,13 @@ h1 span:hover {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 983px;
+  height: 1054px;
   align-items: center;
   background-image: url(../assets/blob.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 1105px;
+  background-repeat: repeat-y;
+  background-size: 394px;
   background-position: right;
-  justify-content: center;
+  justify-content: space-evenly;
   z-index: 20;
 }
 
@@ -278,21 +284,23 @@ h1 span:hover {
 
 .img-txt{
   display: grid;
-  grid-template-columns: 1fr;
-  width: 95%;
-  height: auto;
-  padding: 17px;
-  background: rgba( 122, 122, 122, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 17.5px );
-  -webkit-backdrop-filter: blur( 17.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  animation: myAnim 2s ease 4s 1 normal forwards;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  font-weight: 500;
+    grid-template-columns: 1fr;
+    width: 92%;
+    min-width: 271px;
+    height: auto;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14.5px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    animation: myAnim 2s ease 4s 1 normal forwards;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-weight: 500;
+    align-content: center;
 }
 
 .perfil-2{
@@ -308,8 +316,8 @@ h1 span:hover {
 
 .textos{
   text-align: justify;
-  font-size: 22px;
-  font-weight: lighter;
+  font-size: 18px;
+  font-weight: 300;
 }
 .contenido a{
   color: #000000;
@@ -329,15 +337,20 @@ h1 span:hover {
 /* VISTA DESKTOP */
 
 @media (min-width:850px){
-#hero {
-  grid-template-columns: 1.5fr 1fr;
-  height: 759px;
+  #hero{
+    height: 1019px;
+  }
+
+  .contenedor-hero {
+    grid-template-columns: 1.5fr 1fr;
+    height: 698px;
+    align-items: center;
   }
   #hero .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 1px;
   }
@@ -349,8 +362,8 @@ h1 span:hover {
   }
 
   #hero h2 {
-    font-size: 1.4em;
-    top: -38px;
+    font-size: 1.6em;
+    top: 32px;
     transform: translateY(-300px);
 }
 
@@ -403,14 +416,14 @@ h1 span:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1002px;
+    height: 771px;
   }
 
   #aboutMe .container{
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 1024px;
+    height: 1579px;
     align-items: center;
     background-size: cover;
     background-position: top;
@@ -421,9 +434,10 @@ h1 span:hover {
     .img-txt{
       display: grid;
       grid-template-columns: 1fr 2fr;
-      width: 97%;
+      width: 850px;
       height: auto;
-      padding: 12px;
+      padding: 49px;
+      gap: 37px;
     }
 
 
@@ -441,8 +455,8 @@ h1 span:hover {
   .textos{
     text-align: justify;
     font-weight: lighter;
-    padding: 5px;
-    font-size: 21px;
+
+    font-size: 18px;
   }
 
   .perfil-2{

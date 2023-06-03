@@ -1,6 +1,6 @@
 .custom-shape-divider-bottom-1685513857 {
     position: absolute;
-    bottom: -94px;
+    bottom: 55px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -12,8 +12,8 @@
 .custom-shape-divider-bottom-1685513857 svg {
     position: relative;
     display: block;
-    width: calc(152% + 127.8px);
-    height: 183px;
+    width: calc(152% + 5.799999999999997px);
+    height: 247px;
 }
 
 .custom-shape-divider-bottom-1685513857 .shape-fill {
@@ -21,24 +21,26 @@
     
 }
 
+
+/* VISTA DESKTOP */
+
 @media (min-width:850px){
     .custom-shape-divider-bottom-1685513857 {
         position: absolute;
-        bottom: -157px;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
+    bottom: -227px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
     }
     
     
     
-    .custom-shape-divider-bottom-1685515052 svg {
+    .custom-shape-divider-bottom-1685513857 svg {
         position: relative;
         display: block;
-        width: calc(150% + 3px);
-        height: 271px;
-        transform: rotateY(180deg);
+        width: calc(152% + 79.8px);
+        height: 358px;
     }
     
     .custom-shape-divider-bottom-1685513857 .shape-fill {
