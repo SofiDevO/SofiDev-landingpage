@@ -45,12 +45,14 @@
     cursor: pointer;
     text-shadow: -0.3rem -0.2rem 0.4rem var(--main-color);
     transition: all 0.9s;
+
 }
 
 .menu-desktop a:hover{
     transform: scale(1.2);
     color: var(--blue);
     filter: drop-shadow(0 0 12px var(--blue));
+    gap: 20px;
 }
 
 
@@ -152,7 +154,7 @@ i:hover{
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        width: 381px;
+        width: 526px;
         font-size: 1.2em;
         font-weight: 500;
         

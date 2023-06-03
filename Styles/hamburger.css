@@ -65,24 +65,27 @@
 }
 
 .menu{
-    width: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 30px;
+  margin-top: 36px;
+  
   }
 
   .menu a{
     padding: 1rem;
     width: inherit;
     display: block;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 700;
     text-decoration: none;
     color: var(--seccond-color);
     transition: all 0.5s ease;
     text-shadow: -0.3rem -0.2rem 0.4rem var(--main-color);
+    text-align: center;
   }
 
 
