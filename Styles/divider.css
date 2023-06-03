@@ -7,9 +7,6 @@
     line-height: 0;
 }
 
-
-
-
 .custom-shape-divider-bottom-1685513857 svg {
     position: relative;
     display: block;
@@ -20,6 +17,32 @@
 .custom-shape-divider-bottom-1685513857 .shape-fill {
     fill: rgb(206, 206, 206);
     
+}
+/*FIN DEL  DIVIDER  1*/
+
+
+
+
+/* DIVIDER  2 */
+
+.custom-shape-divider-bottom-1685781927 {
+    position: absolute;
+    bottom: -1427px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1685781927 svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 191px;
+}
+
+.custom-shape-divider-bottom-1685781927 .shape-fill {
+    fill: #3F0071;
 }
 
 
@@ -47,6 +70,30 @@
     .custom-shape-divider-bottom-1685513857 .shape-fill {
         fill:rgb(206, 206, 206);
         
+    }
+    /* FIN DEL DIVIDER 1 */
+
+
+    
+    /* DIVIDER  2 */
+    .custom-shape-divider-bottom-1685781927 {
+        osition: absolute;
+    bottom: -1502px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1685781927 svg {
+        position: relative;
+        display: block;
+        width: calc(144% + 1.3px);
+        height: 168px;
+    }
+    
+    .custom-shape-divider-bottom-1685781927 .shape-fill {
+        fill: #3F0071;
     }
 
 }
