@@ -22,6 +22,7 @@
 
 #skills h2{
     font-size: 3em;
+    color: var(--seccond-color);
 }
 
 
@@ -45,7 +46,7 @@
     }
     
     #skills h2{
-        font-size: 3em;
+        font-size: 4em;
     }
 
 }
