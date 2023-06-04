@@ -1,17 +1,24 @@
+.wrapper{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
 .custom-shape-divider-bottom-1685513857 {
     position: absolute;
-    bottom: 63px;
+    bottom: -133px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+
 }
 
 .custom-shape-divider-bottom-1685513857 svg {
     position: relative;
     display: block;
-    width: calc(152% + 234.8px);
-    height: 324px;
+    width: calc(152% + 21.80000000000001px);
+    height: 215px;
 }
 
 .custom-shape-divider-bottom-1685513857 .shape-fill {
@@ -27,18 +34,19 @@
 
 .custom-shape-divider-bottom-1685781927 {
     position: absolute;
-    bottom: -1310px;
+    bottom: 298px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    z-index: -3;
 }
 
 .custom-shape-divider-bottom-1685781927 svg {
     position: relative;
     display: block;
-    width: calc(144% + 296.29999999999995px);
-    height: 289px;
+    width: calc(110% + 276.29999999999995px);
+    height: 209px;
 }
 
 .custom-shape-divider-bottom-1685781927 .shape-fill {
@@ -51,11 +59,11 @@
 @media (min-width:850px){
     .custom-shape-divider-bottom-1685513857 {
         position: absolute;
-        bottom: -307px;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
+    bottom: -458px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
     }
     
     
@@ -63,9 +71,9 @@
     .custom-shape-divider-bottom-1685513857 svg {
         position: relative;
         display: block;
-        width: calc(152% + 636.8px);
-        height: 585px;
-    }
+        width: calc(152% + 328.79999999999995px);
+        height: 436px;
+        }
     
     .custom-shape-divider-bottom-1685513857 .shape-fill {
         fill:rgb(206, 206, 206);
@@ -78,18 +86,19 @@
     /* DIVIDER  2 DESKTOP */
     .custom-shape-divider-bottom-1685781927 {
         position: absolute;
-    bottom: -1978px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+        bottom: 775px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
     }
+    
     
     .custom-shape-divider-bottom-1685781927 svg {
         position: relative;
-    display: block;
-    width: calc(144% + 541.3px);
-    height: 635px;
+        display: block;
+        width: calc(110% + 408.29999999999995px);
+        height: 316px;
     }
     
     .custom-shape-divider-bottom-1685781927 .shape-fill {
