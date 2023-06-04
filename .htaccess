@@ -1,0 +1,3 @@
+#Redirect to non index, .html version
+RewriteEngine on RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ https://itssofi.dev [R=301,L]
