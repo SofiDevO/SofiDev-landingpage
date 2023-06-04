@@ -419,29 +419,30 @@ h1 span:hover {
   #aboutMe{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 996px;
+    align-items: flex-start;
+    height: 1480px;
   }
 
   #aboutMe .container{
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 1443px;
+    height: 1081px;
     align-items: center;
-    background-size: cover;
+    background-size: 1228PX;
     background-position: top;
     flex-wrap: nowrap;
     justify-content: center;
+    background-repeat: no-repeat;
     } 
     
     .img-txt{
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      width: 850px;
-      height: auto;
-      padding: 49px;
-      gap: 37px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 850px;
+    height: auto;
+    padding: 49px;
+    gap: 37px;
     }
 
 

@@ -51,7 +51,7 @@
 @media (min-width:850px){
     .custom-shape-divider-bottom-1685513857 {
         position: absolute;
-        bottom: -279px;
+        bottom: -307px;
         left: 0;
         width: 100%;
         overflow: hidden;
@@ -63,8 +63,8 @@
     .custom-shape-divider-bottom-1685513857 svg {
         position: relative;
         display: block;
-        width: calc(152% + 183.8px);
-        height: 580px;
+        width: calc(152% + 636.8px);
+        height: 585px;
     }
     
     .custom-shape-divider-bottom-1685513857 .shape-fill {
@@ -78,18 +78,18 @@
     /* DIVIDER  2 DESKTOP */
     .custom-shape-divider-bottom-1685781927 {
         position: absolute;
-        bottom: -1968px;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
+    bottom: -1978px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
     }
     
     .custom-shape-divider-bottom-1685781927 svg {
         position: relative;
-        display: block;
-        width: calc(144% + 835.3px);
-        height: 773px;
+    display: block;
+    width: calc(144% + 541.3px);
+    height: 635px;
     }
     
     .custom-shape-divider-bottom-1685781927 .shape-fill {
