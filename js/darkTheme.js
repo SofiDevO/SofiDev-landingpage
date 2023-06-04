@@ -35,6 +35,11 @@ const contenidoTexto = d.getElementById('textos');
 const cajaCristal = d.getElementById('caja-cristal');
 
 
+/* ELEMENTOS DE LA SECCION SKILLS */
+
+const FondoSkills = d.getElementById('fondo-skills');
+
+
 
 /* addEventListener AL BOTON DE MODO OSCURO */
 toggle.addEventListener('click', cambiarModo);
@@ -82,6 +87,9 @@ export  function cambiarModo(){
         acercaDeTitulo.style.filter = '';
         acercadDeSpan.style.color = ''
         acercadDeSpan.style.filter = '';
+
+        /* ELEMENTOS DE LA SECCION SKILLS */
+        FondoSkills.style.background = '';
     }else{
         /* Estilos en el tema oscuro */
         body.style.color = 'rgb(199, 199, 199)';
@@ -93,9 +101,6 @@ export  function cambiarModo(){
         span.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
         toggle.style.filter = ' invert(0%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1)';
         
-        
-        
-
         /* ELEMENTOS DEL HERO */
         fondoHero.style.background = 'linear-gradient(0deg, rgba(18,0,42,1) 20%,  rgba(7, 7, 7)61%)';
         fondoHero.style.transition = '4s';
@@ -130,5 +135,8 @@ export  function cambiarModo(){
         contenidoTexto.style.filter = 'drop-shadow(0 0 12px  black'; 
         cajaCristal.style.background = ' rgba( 0, 0, 0, 0.85 )  ';
         cajaCristal.style.boxShadow= ' 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )';
+
+        /* ELEMENTOS DE LA SECCION SKILLS */
+        FondoSkills.style.background = ' linear-gradient(0deg, rgba(0,0,0,1) 52%, rgba(63,0,113,1) 100%)';
     }
 }
