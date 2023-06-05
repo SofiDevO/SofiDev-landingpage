@@ -1,44 +1,52 @@
+.wrapper{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
 .custom-shape-divider-bottom-1685513857 {
     position: absolute;
-    bottom: -134px;
+    bottom: -133px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+
 }
 
 .custom-shape-divider-bottom-1685513857 svg {
     position: relative;
     display: block;
-    width: calc(152% + 5.799999999999997px);
-    height: 247px;
+    width: calc(152% + 21.80000000000001px);
+    height: 215px;
 }
 
 .custom-shape-divider-bottom-1685513857 .shape-fill {
     fill: rgb(206, 206, 206);
     
 }
-/*FIN DEL  DIVIDER  1*/
+/*FIN DEL  DIVIDER 1  MOBILE */
 
 
 
 
-/* DIVIDER  2 */
+/* DIVIDER  2  MOBILE*/
 
 .custom-shape-divider-bottom-1685781927 {
     position: absolute;
-    bottom: -1816px;
+    bottom: 298px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    z-index: -3;
 }
 
 .custom-shape-divider-bottom-1685781927 svg {
     position: relative;
     display: block;
-    width: calc(144% + 1.3px);
-    height: 191px;
+    width: calc(110% + 276.29999999999995px);
+    height: 209px;
 }
 
 .custom-shape-divider-bottom-1685781927 .shape-fill {
@@ -51,7 +59,7 @@
 @media (min-width:850px){
     .custom-shape-divider-bottom-1685513857 {
         position: absolute;
-    bottom: -379px;
+    bottom: -458px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -63,33 +71,34 @@
     .custom-shape-divider-bottom-1685513857 svg {
         position: relative;
         display: block;
-        width: calc(152% + 79.8px);
-        height: 358px;
-    }
+        width: calc(152% + 328.79999999999995px);
+        height: 436px;
+        }
     
     .custom-shape-divider-bottom-1685513857 .shape-fill {
         fill:rgb(206, 206, 206);
         
     }
-    /* FIN DEL DIVIDER 1 */
+    /* FIN DEL DIVIDER 1 DESKTOP */
 
 
     
-    /* DIVIDER  2 */
+    /* DIVIDER  2 DESKTOP */
     .custom-shape-divider-bottom-1685781927 {
-     position: absolute;
-    bottom: -1647px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+        position: absolute;
+        bottom: 775px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
     }
+    
     
     .custom-shape-divider-bottom-1685781927 svg {
         position: relative;
         display: block;
-        width: calc(144% + 1.3px);
-        height: 224px;
+        width: calc(110% + 408.29999999999995px);
+        height: 316px;
     }
     
     .custom-shape-divider-bottom-1685781927 .shape-fill {
