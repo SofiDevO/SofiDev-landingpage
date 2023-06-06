@@ -95,6 +95,7 @@ export  function cambiarModo(){
         body.style.color = 'rgb(199, 199, 199)';
         body.style.transition = '2s';
         body.style.background = 'rgb(7, 7, 7)';
+        
         logo.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
         logo.style.color = 'white'
         span.style.color = 'rgba(0,212,255,1)';
