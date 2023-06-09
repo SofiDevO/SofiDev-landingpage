@@ -102,6 +102,20 @@ export  function cambiarModo(){
         span.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
         toggle.style.filter = ' invert(0%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1)';
         
+        
+        /* Elementos del menu hamburguesa */
+        botonHamburguesa.style.filter = ' invert(74%) sepia(58%) saturate(4419%) hue-rotate(149deg) brightness(102%) contrast(107%)';
+        panelMenu.style.background = 'rgba( 54, 54, 54, 0.4 )';
+        panelMenu.style.backdropFilter = 'blur( 10px )';
+        /* LINKS menu hamburguesa */
+       
+        acercaDeHamburguesa.style.color = 'rgba(0,212,255,1)';
+        portafolioHamburguesa.style.color = 'rgba(0,212,255,1)';
+        contactoHamburguesa.style.color = 'rgba(0,212,255,1)';
+        blogHamburguesa.style.color = 'rgba(0,212,255,1)';
+        SkillsHamburguesa.style.color = 'rgba(0,212,255,1)';
+        
+        
         /* ELEMENTOS DEL HERO */
         fondoHero.style.background = 'linear-gradient(0deg, rgba(18,0,42,1) 20%,  rgba(7, 7, 7)61%)';
         fondoHero.style.transition = '4s';
@@ -111,31 +125,26 @@ export  function cambiarModo(){
         spanTitulo.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
         subtitulo.style.color = 'white';
         profilePic.style.filter = 'drop-shadow(2px -5px 16px #D608A9)';
-       
-        /* Elementos del menu hamburguesa */
-        acercaDeHamburguesa.style.color = 'rgba(0,212,255,1)';
-        portafolioHamburguesa.style.color = 'rgba(0,212,255,1)';
-        contactoHamburguesa.style.color = 'rgba(0,212,255,1)';
-        blogHamburguesa.style.color = 'rgba(0,212,255,1)';
-        SkillsHamburguesa.style.color = 'rgba(0,212,255,1)';
-        botonHamburguesa.style.filter = ' invert(74%) sepia(58%) saturate(4419%) hue-rotate(149deg) brightness(102%) contrast(107%)';
-        panelMenu.style.background = 'rgba( 54, 54, 54, 0.4 )';
-        panelMenu.style.backdropFilter = 'blur( 10px )';
+        
+        
         
         /* DIVIDERS */
         divider1.style.fill = 'rgb(7, 7, 7)';
         divider1.style.transition = '2s';
         /* Sección Abaout me */
-        acercadDeSpan.style.color = 'rgba(0,212,255,1)'
-        acercadDeSpan.style.filter = ' drop-shadow(0 0 12px  rgba(0,212,255,1)';
+        
+        
         acercaDeTitulo.style.color = 'white'
         acercaDeTitulo.style.filter = ' drop-shadow(0 0 8px  black';
-        linkOracle.style.color = '#8758FF';
-        linkPlatzi.style.color = '#8758FF';
+        acercadDeSpan.style.color = 'rgba(0,212,255,1)'
+        acercadDeSpan.style.filter = ' drop-shadow(0 0 12px  rgba(0,212,255,1)';
+        /* creado en el archivo css hasta aqui */
+        cajaCristal.style.boxShadow= ' 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )';
+        cajaCristal.style.background = ' rgba( 0, 0, 0, 0.85 )  ';
         contenidoTexto.style.color = 'white'
         contenidoTexto.style.filter = 'drop-shadow(0 0 12px  black'; 
-        cajaCristal.style.background = ' rgba( 0, 0, 0, 0.85 )  ';
-        cajaCristal.style.boxShadow= ' 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )';
+        linkOracle.style.color = '#8758FF';
+        linkPlatzi.style.color = '#8758FF';
 
         /* ELEMENTOS DE LA SECCION SKILLS */
         FondoSkills.style.background = ' linear-gradient(0deg, rgba(0,0,0,1) 52%, rgba(63,0,113,1) 100%)';
