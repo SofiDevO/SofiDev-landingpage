@@ -13,8 +13,7 @@ const titulo= d.getElementById ('titulo-saludo');
 const spanTitulo = d.getElementById('span-titulo')
 const subtitulo= d.getElementById ('subtitulo');
 const profilePic = d.getElementById('profile-pic');
-const linkOracle = d.getElementById('link-oracle');
-const linkPlatzi = d.getElementById('link-platzi');
+const iconGithub = d.querySelector('.github');
 
 /* ELEMNTOS DEL MENU HAMBURGUESA */
 const botonHamburguesa = d.getElementById('hamburguesa')
@@ -31,6 +30,8 @@ const divider1 = d.getElementById('divider1');
 /* SECCION ACERCA DE */
 const acercaDeTitulo = d.getElementById('acercaDeTitulo');
 const acercadDeSpan = d.getElementById('span-titulo2');
+const linkPlatzi = d.getElementById('link-platzi');
+const linkOracle = d.getElementById('link-oracle');
 const contenidoTexto = d.getElementById('textos');
 const cajaCristal = d.getElementById('caja-cristal');
 
@@ -58,13 +59,14 @@ export  function cambiarModo(){
 
         
         /* ELEMNTOS DE HERO */
-        fondoHero.style.background = 'linear-gradient(0deg, rgba(65, 6, 138, 0.736) 20%, rgba(160, 5, 126, 0.589) 63%)';
+        fondoHero.style.background = 'linear-gradient(180deg, #FF8FDC 31%, #64EFAA 100%)';
         titulo.style.color = 'black';
         spanTitulo.style.filter = '';
         spanTitulo.style.color = 'white';
         span.style.filter = '';
         span.style.color = ''
         subtitulo.style.color = '';
+        iconGithub.style.filter= '';
         
 
         /* Elemntos del menu hamburguesa */
@@ -125,7 +127,7 @@ export  function cambiarModo(){
         spanTitulo.style.filter = ' drop-shadow(0 0 11px  rgba(0,212,255,1)';
         subtitulo.style.color = 'white';
         profilePic.style.filter = 'drop-shadow(2px -5px 16px #D608A9)';
-        
+        iconGithub.style.filter= 'invert(100%) drop-shadow(5px 5px 10px #76FFC3)'
         
         
         /* DIVIDERS */

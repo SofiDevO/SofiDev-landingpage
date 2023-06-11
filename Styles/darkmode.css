@@ -74,6 +74,9 @@ nav .menu-aside{
     filter: drop-shadow(2px -5px 16px #D608A9);
 }
 
+.github{
+    filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
+}
  /* DIVIDERS */
 
  #divider1{

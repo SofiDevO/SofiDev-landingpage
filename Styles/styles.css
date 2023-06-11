@@ -25,7 +25,8 @@ body {
   align-items: center;
   align-content: center;
   gap: 22px;
-  background: linear-gradient(0deg, rgba(65, 6, 138, 0.736) 15%, rgba(160, 5, 126, 0.589) 63%);
+  background: linear-gradient(180deg, #FF8FDC 31%, #64EFAA 100%);
+
   height: 766px;
 }
 
@@ -96,6 +97,7 @@ h1 span:hover {
 .side-img img{
   width: 200px;
   animation:  slideup 0.8s ease forwards;
+  position: relative;
 }
 
 /* Iconos de redes sociales  */
@@ -106,58 +108,59 @@ h1 span:hover {
 }
 /* tamaño de los iconos */
 .social img{
-  width: 32px;
-  filter: drop-shadow(0 0 12px var(--seccond-color));
+  width: 50px;
+    filter: drop-shadow(0 0 12px var(--seccond-color));
 }
 .social img:hover{
   transform: scale(1.5);
 }
 
 /* Iconos individuales, color y posición */
-.whatsapp{
-  filter: invert(47%) sepia(89%) saturate(2229%) hue-rotate(90deg) brightness(97%) contrast(109%);
-  position: relative;
-  bottom: 180px;
-  right: -5px;
-  transform: translateY(-200px);
-  animation: expand 0.8s ease forwards;
-  z-index: 20;
-}
+
 .github{
-  filter: invert(100%);
   position: relative;
-  bottom: 95px;
-  right: 45px;
-  transform: translateY(-200px);
-  animation: slideIn 1.5s ease-in-out forwards;
-  z-index: 20;
+    bottom: 191px;
+    right: -3px;
+    transform: translateY(-200px);
+    animation: slideIn 1s ease-in-out forwards;
+    z-index: 20;
+}
+
+.github img{
+  
+  width: 65px;
 }
 .linkedin{
   filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%);
-  position: relative;
-  bottom: 20px;
-  right: 30px;
-  transform: translateY(-200px);
-  animation: slideUp 0.8s ease forwards;
-  z-index: 20;
+    position: relative;
+    bottom: 49px;
+    right: 37px;
+    transform: translateY(-200px);
+    animation: slideUp 0.8s ease forwards;
+    z-index: 20;
+}
+.linkedin img{
+  width:55px;
 }
 .platzi{
   filter: invert(53%) sepia(39%) saturate(3085%) hue-rotate(64deg) brightness(100%) contrast(101%);
   position: relative;
-  bottom: 160px;
-  right: -45px;
+  bottom: 201px;
+  right: -19px;
   transform: translateY(-300px);
   animation: expand 1.5s ease-in-out forwards;
   z-index: 20;
 }
+
+.platzi img{
+  width: 35px;
+}
 .youtube{
-
-
   filter: invert(28%) sepia(90%) saturate(6257%) hue-rotate(354deg) brightness(96%) contrast(106%);
   position: relative;
-  bottom: 65px;
-  right: -2px;
-  transform: translateY(50px);
+  bottom: 82px;
+  right: 19px;
+  transform: translateY(500px);
   animation: expand 0.8s ease-in-out forwards 0.8s;
   z-index: 20;
 }
@@ -334,7 +337,7 @@ h1 span:hover {
   cursor: pointer;
 }
   
-/* TERCERA SEXXION */
+
 
 
 
@@ -344,13 +347,17 @@ h1 span:hover {
 
 @media (min-width:850px){
   #hero{
-    height: 1016px;
+    height: 720px;
   }
 
   .contenedor-hero {
-    grid-template-columns: 1.5fr 1fr;
-    height: 698px;
+    display: flex;
+    height: 631px;
     align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 95%;
   }
   #hero .container{
     display: flex;
@@ -376,7 +383,7 @@ h1 span:hover {
 
 
   .side-img img{
-    width: 268px;
+    width: 300px;
   }
   .social{
     display: flex;
@@ -386,32 +393,35 @@ h1 span:hover {
   }
 
   .social img{
-    width: 38px;
+    width: 65px;
   }
-  .whatsapp{
-    position: relative;
-    top: 0;
-    right: 250px;
-  }
+
   .github{
     position: relative;
-    top: 70px;
-    right: 280px;
+    top: 34px;
+    right: 311px;
+  }
+
+  .github img{
+    width: 85px;
   }
   .linkedin{
     position: relative;
-    top: 85px;
-    right: 260px;
+    top: 109px;
+    right: 285px;
   }
   .platzi{
     position: relative;
-    top: -100px;
-    right: 30px;
+    top: -140px;
+    right: 63px;
+  }
+  .platzi img{
+    width: 53px;
   }
   .youtube{
     position: relative;
-    top: -35px;
-    right: 45px;
+    top: -26px;
+    right: 84px;
   }
   
   
@@ -419,7 +429,7 @@ h1 span:hover {
   /* SEGUNDA SECCION ACERCA DE MI */
 
   #aboutMe{
-    isplay: flex;
+    display: flex;
     justify-content: center;
     align-items: flex-start;
     height: 1243px;
