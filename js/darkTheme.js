@@ -59,4 +59,4 @@ function handleDarkModeToggle() {
     }
 }
 
-/* window.matchMedia("(prefers-color-scheme: dark)").addEventListener(handleSystemColorSchemeChange); */
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener(handleSystemColorSchemeChange);
