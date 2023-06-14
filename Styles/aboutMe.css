@@ -1,8 +1,8 @@
 #aboutMe{
-    display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 1308px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1158px;
   }  
   
   .acercaDeTitulo span{
@@ -96,17 +96,17 @@
 /*DESKTOP */
 @media (min-width:850px){
     #aboutMe{
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        height: 1243px;
+      display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1345px;
       }
     
       #aboutMe .container{
         display: flex;
         flex-direction: column;
         width: 90%;
-        height: 1081px;
+        height: 1058px;
         align-items: center;
         background-size: 1228PX;
         background-position: top;

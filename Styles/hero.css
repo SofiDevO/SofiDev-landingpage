@@ -24,13 +24,13 @@ body {
   align-items: center;
   align-content: center;
   gap: 22px;
-  background: linear-gradient(180deg, #fe71d1 37%, #64baef);
+  background: linear-gradient(180deg, #fe71d1 -11%, #64baef);
 }
 
 
 .contenedor-hero{
   display: grid;
-  height: 696px;
+  height: 802px;
   grid-template-columns: 1fr;
   align-content: center;
 }
@@ -251,26 +251,16 @@ h1 span:hover {
 	}
 }
 
-
-
-
-  
-
-
-
-
-
-
 /* VISTA DESKTOP */
 
 @media (min-width:850px){
   #hero{
-    height: 720px;
+    height:1136px;
   }
 
   .contenedor-hero {
     display: flex;
-    height: 631px;
+    height: 798px;
     align-items: center;
     justify-content: space-around;
     align-content: center;

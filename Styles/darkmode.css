@@ -1,129 +1,133 @@
-body{
-    background: rgb(7, 7, 7);
-    color: rgb(199, 199, 199);
-    transition: 2s;
-}
-/* elemntos del header */
-#header{
-    background: rgba( 0, 0, 0, 0.35 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12.5px );
-    -webkit-backdrop-filter: blur( 12.5px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    body{
+        background: rgb(7, 7, 7);
+        color: rgb(199, 199, 199);
+        transition: 2s;
+    }
+    /* elemntos del header */
+    #header{
+        background: rgba( 0, 0, 0, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        
+    }
     
-}
-
-.logo{
-    filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
-    color: white;
-}
-
-.logo span{
-    color: rgba(0,212,255,1);
-    filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
-} 
-
-.menu-desktop a{
-    color: rgba(0,212,255,1);
-}
-
-#toggleDark{
-    filter: invert(0%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1));
-}
-
-/* ELEMENTOS DEL MENU HAMBURGUESA */
-.hamburger-inner{
-    filter:  invert(74%) sepia(58%) saturate(4419%) hue-rotate(149deg) brightness(102%) contrast(107%);
-}
-
-.panel{
-    background: rgba( 0, 0, 0, 0.35 );
+    .logo{
+        filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
+        color: white;
+    }
+    
+    .logo span{
+        color: rgba(0,212,255,1);
+        filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
+    } 
+    
+    .menu-desktop a{
+        color: rgba(0,212,255,1);
+    }
+    
+    #toggleDark{
+        filter: invert(0%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1));
+    }
+    
+    /* ELEMENTOS DEL MENU HAMBURGUESA */
+    .hamburger-inner{
+        filter:  invert(74%) sepia(58%) saturate(4419%) hue-rotate(149deg) brightness(102%) contrast(107%);
+    }
+    
+    .panel{
+        background: rgba( 0, 0, 0, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        color: rgba(0,212,255,1);
+    }
+    
+    nav .menu-aside{
+        color: rgba(0,212,255,1);
+    }
+    
+    /* ELEMNTOS DEL HERO */
+    
+    #hero{
+        background: linear-gradient(0deg, rgba(18,0,42,1) 20%,  rgba(7, 7, 7)61%);
+        transition: 4s;
+    }
+    
+    .saludo{
+        transition: 4s;
+        color: white;
+    }
+    .saludo span{
+        color: rgba(0,212,255,1);
+        filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
+    }
+    
+    .subtitulo{
+        color:white;
+    }
+    
+    .side-img{
+        filter: drop-shadow(2px -5px 16px #D608A9);
+    }
+    
+    .github{
+        filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
+    }
+     /* DIVIDERS */
+    
+     #divider1{
+        transition: 2s;
+        fill:rgb(7, 7, 7) ;
+     }
+    
+    
+     /* SECCION ACERCA DE */
+    
+     #acercaDeTitulo{
+        color: white;
+    }
+    
+    #acercaDeTitulo span{
+        color: rgba(0,212,255,1);
+        filter: drop-shadow(0 0 5px rgba(0,212,255,1));
+     }
+    
+    .img-txt{
+        background: rgba( 0, 0, 0, 0.85 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12.5px );
-    -webkit-backdrop-filter: blur( 12.5px );
+    backdrop-filter: blur( 17.5px );
+    -webkit-backdrop-filter: blur( 17.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    color: rgba(0,212,255,1);
-}
-
-nav .menu-aside{
-    color: rgba(0,212,255,1);
-}
-
-/* ELEMNTOS DEL HERO */
-
-#hero{
-    background: linear-gradient(0deg, rgba(18,0,42,1) 20%,  rgba(7, 7, 7)61%);
-    transition: 4s;
-}
-
-.saludo{
-    transition: 4s;
-    color: white;
-}
-.saludo span{
-    color: rgba(0,212,255,1);
-    filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
-}
-
-.subtitulo{
-    color:white;
-}
-
-.side-img{
-    filter: drop-shadow(2px -5px 16px #D608A9);
-}
-
-.github{
-    filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
-}
- /* DIVIDERS */
-
- #divider1{
-    transition: 2s;
-    fill:rgb(7, 7, 7) ;
- }
+    }
+    
+    .perfil-2{
+        filter: drop-shadow(0 0 5px rgba(0,212,255,1));
+        border: 2px solid white;
+    }
+    
+    .contenido{
+        color: white;
+    }
+    
+    .contenido a{
+        color: #8758FF;
+    }
+    
+    .contenido a:hover{
+        color: #58ecff;
+    }
+    
+    /* SECCION SKILLS */
+    
+    #skills #fondo-skills{
+        background: linear-gradient(0deg, rgba(0,0,0,1) 52%, rgba(63,0,113,1) 100%);
+    }
 
 
- /* SECCION ACERCA DE */
 
- #acercaDeTitulo{
-    color: white;
-}
-
-#acercaDeTitulo span{
-    color: rgba(0,212,255,1);
-    filter: drop-shadow(0 0 5px rgba(0,212,255,1));
- }
-
-.img-txt{
-    background: rgba( 0, 0, 0, 0.85 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 17.5px );
--webkit-backdrop-filter: blur( 17.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-.perfil-2{
-    filter: drop-shadow(0 0 5px rgba(0,212,255,1));
-    border: 2px solid white;
-}
-
-.contenido{
-    color: white;
-}
-
-.contenido a{
-    color: #8758FF;
-}
-
-.contenido a:hover{
-    color: #58ecff;
-}
-
-/* SECCION SKILLS */
-
-#skills #fondo-skills{
-    background: linear-gradient(0deg, rgba(0,0,0,1) 52%, rgba(63,0,113,1) 100%);
-}

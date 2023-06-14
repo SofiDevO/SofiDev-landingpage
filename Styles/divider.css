@@ -6,7 +6,7 @@
 
 .custom-shape-divider-bottom-1685513857 {
     position: absolute;
-    bottom: -133px;
+    bottom: -43px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -18,7 +18,7 @@
     position: relative;
     display: block;
     width: calc(152% + 21.80000000000001px);
-    height: 215px;
+    height: 244px;
 }
 
 .custom-shape-divider-bottom-1685513857 .shape-fill {
@@ -59,11 +59,11 @@
 @media (min-width:850px){
     .custom-shape-divider-bottom-1685513857 {
         position: absolute;
-    bottom: -191px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+        bottom: -352px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
     }
     
     .custom-shape-divider-bottom-1685513857 svg {
@@ -87,7 +87,7 @@
     /* DIVIDER  2 DESKTOP */
     .custom-shape-divider-bottom-1685781927 {
         position: absolute;
-        bottom: 283px;
+        bottom: 583px;
         left: 0;
         width: 100%;
         overflow: hidden;
@@ -98,14 +98,8 @@
     .custom-shape-divider-bottom-1685781927 svg {
         position: relative;
         display: block;
-        width: calc(110% + 408.29999999999995px);
-        height: 316px;
+        width: calc(110% + 580.3px);
+        height: 362px;
     }
     
-    .custom-shape-divider-bottom-1685781927 .shape-fill {
-        fill: #3F0071;
-    }
-
-    
-
 }
