@@ -1,0 +1,151 @@
+#aboutMe{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 1308px;
+  }  
+  
+  .acercaDeTitulo span{
+    color: var(--seccond-color);
+    text-shadow: -1px -1px 11px #000000;
+    
+  }
+  
+  #aboutMe .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1054px;
+    align-items: center;
+    background-image: url(../assets/blob.svg) ;
+  
+    background-repeat: no-repeat;
+    background-size: 1086px;
+    background-position: center;
+    justify-content: space-evenly;
+    z-index: 20;
+  }
+  
+  .acercaDeTitulo{
+    display: flex;
+    font-size: 2.3em;
+    padding: 1px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 85px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  .img-txt{
+    display: grid;
+      grid-template-columns: 1fr;
+      width: 92%;
+      min-width: 271px;
+      height: auto;
+      padding: 20px;
+      background: rgba( 255, 255, 255, 0.25 );
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      backdrop-filter: blur( 14.5px );
+      -webkit-backdrop-filter: blur( 14.5px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+      animation: myAnim 2s ease 4s 1 normal forwards;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      font-weight: 500;
+      align-content: center;
+  }
+  
+  .perfil-2{
+    border-radius: 50% 50% 54% 46% / 54% 30% 70% 46% ;
+    padding: 2px;
+    width: 50%;
+    border: 2px solid black;
+    filter: drop-shadow(20px 5px 10px  rgba(0,0,0));
+  }
+  
+  
+  
+  
+  .textos{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .contenido a{
+    color: var(--dark-purple);
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  .contenido a:hover{
+    color: var(--dark-purple);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+
+
+/*DESKTOP */
+@media (min-width:850px){
+    #aboutMe{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 1243px;
+      }
+    
+      #aboutMe .container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 1081px;
+        align-items: center;
+        background-size: 1228PX;
+        background-position: top;
+        flex-wrap: nowrap;
+        justify-content: center;
+        background-repeat: no-repeat;
+        } 
+        
+        .img-txt{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 850px;
+        height: auto;
+        padding: 49px;
+        gap: 37px;
+        }
+    
+    
+      .acercaDeTitulo{
+        display: flex;
+        font-size: 3em;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 67px;
+      }
+      
+    
+        
+      .textos{
+        text-align: justify;
+        font-weight: lighter;
+    
+        font-size: 18px;
+      }
+    
+      .perfil-2{
+        width: 315px;
+      }
+    
+}
+    

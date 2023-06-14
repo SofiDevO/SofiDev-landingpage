@@ -59,14 +59,15 @@ export  function cambiarModo(){
 
         
         /* ELEMNTOS DE HERO */
-        fondoHero.style.background = 'linear-gradient(180deg, #FF8FDC 31%, #64EFAA 100%)';
+        fondoHero.style.background = '';
         titulo.style.color = 'black';
         spanTitulo.style.filter = '';
-        spanTitulo.style.color = 'white';
+        spanTitulo.style.color = '';
         span.style.filter = '';
         span.style.color = ''
         subtitulo.style.color = '';
         iconGithub.style.filter= '';
+
         
 
         /* Elemntos del menu hamburguesa */

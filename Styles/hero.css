@@ -20,15 +20,13 @@ body {
 
 #hero {
   transition: all 0.9s ease;
-  
   justify-items: center;
   align-items: center;
   align-content: center;
   gap: 22px;
-  background: linear-gradient(180deg, #FF8FDC 31%, #64EFAA 100%);
-
-  height: 766px;
+  background: linear-gradient(180deg, #fe71d1 37%, #64baef);
 }
+
 
 .contenedor-hero{
   display: grid;
@@ -119,8 +117,8 @@ h1 span:hover {
 
 .github{
   position: relative;
-    bottom: 191px;
-    right: -3px;
+    bottom: 145px;
+    right: -12px;
     transform: translateY(-200px);
     animation: slideIn 1s ease-in-out forwards;
     z-index: 20;
@@ -132,12 +130,12 @@ h1 span:hover {
 }
 .linkedin{
   filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%);
-    position: relative;
-    bottom: 49px;
-    right: 37px;
-    transform: translateY(-200px);
-    animation: slideUp 0.8s ease forwards;
-    z-index: 20;
+  position: relative;
+  bottom: 143px;
+  right: -92px;
+  transform: translateY(-300px);
+  animation: expand 0.8s ease forwards;
+  z-index: 20;
 }
 .linkedin img{
   width:55px;
@@ -158,18 +156,30 @@ h1 span:hover {
 .youtube{
   filter: invert(28%) sepia(90%) saturate(6257%) hue-rotate(354deg) brightness(96%) contrast(106%);
   position: relative;
-  bottom: 82px;
-  right: 19px;
+  bottom: 30px;
+  right: 139px;
   transform: translateY(500px);
   animation: expand 0.8s ease-in-out forwards 0.8s;
   z-index: 20;
 }
 
+.alura{
+  filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%);
+  position: relative;
+  bottom: 230px;
+  right: 23px;
+  transform: translateY(-600px);
+  animation: expand 0.8s ease forwards;
+  z-index: 19;
+}
+.alura img{
+  width: 30px;
+}
 
 /* Animaciones  de entrada */
 @keyframes slideIn{ 
   0%{
-    transform: translateY(500px) scale(6.2);
+    transform: translateY(600px) scale(6.2);
   }
   100%{
     transform:translateY(0px) scale(1);
@@ -243,99 +253,7 @@ h1 span:hover {
 
 
 
-/* SEGUNDA SECCION ACERCA DE MI */
 
-#aboutMe{
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 1308px;
-}  
-
-.acercaDeTitulo span{
-  color: var(--seccond-color);
-  text-shadow: -1px -1px 11px #000000;
-  
-}
-
-#aboutMe .container{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 1054px;
-  align-items: center;
-  background-image: url(../assets/blob.svg) ;
-
-  background-repeat: no-repeat;
-  background-size: 1086px;
-  background-position: center;
-  justify-content: space-evenly;
-  z-index: 20;
-}
-
-.acercaDeTitulo{
-  display: flex;
-  font-size: 2.3em;
-  padding: 1px;
-  align-items: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 85px;
-  text-align: center;
-}
-
-
-
-
-.img-txt{
-  display: grid;
-    grid-template-columns: 1fr;
-    width: 92%;
-    min-width: 271px;
-    height: auto;
-    padding: 20px;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 14.5px );
-    -webkit-backdrop-filter: blur( 14.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    animation: myAnim 2s ease 4s 1 normal forwards;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    font-weight: 500;
-    align-content: center;
-}
-
-.perfil-2{
-  border-radius: 50% 50% 54% 46% / 54% 30% 70% 46% ;
-  padding: 2px;
-  width: 50%;
-  border: 2px solid black;
-  filter: drop-shadow(20px 5px 10px  rgba(0,0,0));
-}
-
-
-
-
-.textos{
-  text-align: justify;
-  font-size: 18px;
-  font-weight: 400;
-}
-.contenido a{
-  color: var(--dark-purple);
-  text-decoration: none;
-  font-weight: bold;
-  
-}
-.contenido a:hover{
-  color: var(--dark-purple);
-  text-decoration: none;
-  font-weight: bold;
-  cursor: pointer;
-}
   
 
 
@@ -388,7 +306,7 @@ h1 span:hover {
   .social{
     display: flex;
     flex-direction: column;
-    width: 43px;
+    width: 52px;
     gap: 16px;
   }
 
@@ -398,8 +316,8 @@ h1 span:hover {
 
   .github{
     position: relative;
-    top: 34px;
-    right: 311px;
+    top: 175px;
+    right: 331px;
   }
 
   .github img{
@@ -407,13 +325,13 @@ h1 span:hover {
   }
   .linkedin{
     position: relative;
-    top: 109px;
-    right: 285px;
+    top: 5px;
+    right: 45px;
   }
   .platzi{
     position: relative;
-    top: -140px;
-    right: 63px;
+    top: -201px;
+    right: 91px
   }
   .platzi img{
     width: 53px;
@@ -421,63 +339,17 @@ h1 span:hover {
   .youtube{
     position: relative;
     top: -26px;
-    right: 84px;
+    right: 187px;
+  }
+  .alura{
+    position: relative;
+    top: -54px;
+    right: 262px;
+  }
+  .alura img{
+    width: 39px;
   }
   
   
   
-  /* SEGUNDA SECCION ACERCA DE MI */
-
-  #aboutMe{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 1243px;
-  }
-
-  #aboutMe .container{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 1081px;
-    align-items: center;
-    background-size: 1228PX;
-    background-position: top;
-    flex-wrap: nowrap;
-    justify-content: center;
-    background-repeat: no-repeat;
-    } 
-    
-    .img-txt{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    width: 850px;
-    height: auto;
-    padding: 49px;
-    gap: 37px;
-    }
-
-
-  .acercaDeTitulo{
-    display: flex;
-    font-size: 3em;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 67px;
-  }
-  
-
-    
-  .textos{
-    text-align: justify;
-    font-weight: lighter;
-
-    font-size: 18px;
-  }
-
-  .perfil-2{
-    width: 315px;
-  }
-
 }
