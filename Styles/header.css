@@ -21,7 +21,7 @@
     position: fixed;
     z-index: 50;
     top: 0;
-    padding: 0;
+    padding: 0 5px;
     justify-content: space-between;
     transition: all 0.9s;
     align-items: center;
@@ -97,7 +97,7 @@ a{
     font-size: 38px;
     align-items: center;
     padding: 20px 1px;
-    width: 52px;
+    width: 45px;
     filter: invert(74%) sepia(50%) saturate(3042%) hue-rotate(148deg) brightness(104%) contrast(113%)drop-shadow(rgb(0, 0, 0) 0px 0px 9px);
     cursor: pointer;
 }
@@ -162,6 +162,16 @@ a{
         font-size: 1.2em;
         font-weight: 500;
         
+    }
+
+    .rayo-vacio{
+        display: flex;
+        font-size: 38px;
+        align-items: center;
+        padding: 20px 1px;
+        width: 35px;
+        filter: invert(74%) sepia(50%) saturate(3042%) hue-rotate(148deg) brightness(104%) contrast(113%)drop-shadow(rgb(0, 0, 0) 0px 0px 9px);
+        cursor: pointer;
     }
 
 }

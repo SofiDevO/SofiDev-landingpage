@@ -21,19 +21,20 @@ body {
 #hero {
   transition: all 0.9s ease;
   display: flex;
-  height: 784px;
+  height: 798px;
   background: linear-gradient(180deg, #fe71d1 -11%, #64baef);
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
 }
 
 
 .contenedor-hero{
   display: grid;
-  height: 802px;
+  height: 614px;
+  margin-top: 48px;
   grid-template-columns: 1fr;
-  align-content: space-evenly;
   justify-content: center;
+  align-content: space-evenly;  
 }
 
 #hero .container{
@@ -53,12 +54,14 @@ h1 {
     text-align: center;
     font-weight: 600;
     margin: 0 0 31px 0;
+    filter: drop-shadow(0 0 6px var(--pure-black));
 } 
   
 
 h1 span {
   transition: all 0.9s;
   color: var(--seccond-color);
+  
 }
 
 h1 span:hover {
@@ -133,7 +136,7 @@ h1 span:hover {
 }
   
 .linkedin{
-  filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%) drop-shadow(0 0 10px var(--pure-black));
+  filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%) drop-shadow(0 0 3px var(--pure-black));
     position: relative;
     bottom: 120px;
     right: -79px;
@@ -168,7 +171,7 @@ h1 span:hover {
 }
 
 .alura{
-  filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%) drop-shadow(0 0 10px var(--pure-black));
+  filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%) drop-shadow(0 0 3px var(--pure-black));
   position: relative;
   bottom: 230px;
   right: 23px;
@@ -264,13 +267,15 @@ h1 span:hover {
 
   .contenedor-hero {
     display: flex;
-    height: 798px;
+    height: 596px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     align-content: space-around;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     padding: 0 34px;
+    gap: 60px;
+    margin-top: 49px;
   }
   #hero .container{
     display: flex;
@@ -282,7 +287,7 @@ h1 span:hover {
   }
 
   #hero h1 {
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
     font-weight: 700;
   }
@@ -305,13 +310,11 @@ h1 span:hover {
   .social{
     display: flex;
     flex-direction: column;
-    width: 52px;
+    width: 50px;
     gap: 16px;
   }
 
-  .social img{
-    width: 65px;
-  }
+  
 
   .github{
     position: relative;
@@ -320,7 +323,7 @@ h1 span:hover {
   }
 
   .github img{
-    width: 85px;
+    width: 88px;
   }
   .linkedin{
     position: relative;
@@ -333,12 +336,16 @@ h1 span:hover {
     right: 91px
   }
   .platzi img{
-    width: 53px;
+    width: 60px;
   }
   .youtube{
     position: relative;
     top: -26px;
     right: 187px;
+  }
+
+  .youtube img{
+    width: 50px;
   }
   .alura{
     position: relative;
@@ -346,7 +353,7 @@ h1 span:hover {
     right: 262px;
   }
   .alura img{
-    width: 39px;
+    width: 41px;
   }
   
   

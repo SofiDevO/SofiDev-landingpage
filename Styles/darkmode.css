@@ -31,11 +31,9 @@
     }
     
     .dark-mode  .rayo-lleno{
-        
-        font-size: 38px;
         align-items: center;
         padding: 20px 1px;
-        width: 52px;
+        width: 45px;
         cursor: pointer;
         display: block;
         filter: invert(100%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1));
@@ -62,9 +60,7 @@
     .dark-mode  nav .menu-aside{
         color: rgba(0,212,255,1);
     }
-    .dark-mode i{
-        filter: invert(67%) sepia(62%) saturate(3839%) hue-rotate(132deg) brightness(97%) contrast(101%);
-    }
+    
     /* ELEMNTOS DEL HERO */
     
     .dark-mode  #hero{
@@ -162,12 +158,18 @@
     
     /* SECCION SKILLS */
     
-    .dark-mode #skills #fondo-skills{
-        background: linear-gradient(0deg, rgba(0,0,0,1) 52%, rgba(63,0,113,1) 100%);
-    }
 @media (min-width:850px){
    .dark-mode .side-img .img-dark{
         width: 285px;
       }
+
+      .dark-mode  .rayo-lleno{
+        align-items: center;
+        padding: 20px 1px;
+        width: 35px;
+        cursor: pointer;
+        display: block;
+        filter: invert(100%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1));
+    }
 }
 

@@ -1,0 +1,43 @@
+.custom-shape-divider-bottom-1685781927 {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -5;
+}
+
+.custom-shape-divider-bottom-1685781927 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 135.3px);
+    height: 94px;
+}
+
+.custom-shape-divider-bottom-1685781927 .shape-fill {
+    fill: #3F0071;
+}
+
+
+/* VISTA DESKTOP */
+
+@media (min-width:850px){
+    .custom-shape-divider-bottom-1685781927 {
+        position: absolute;
+        bottom: -22px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    
+    .custom-shape-divider-bottom-1685781927 svg {
+        position: relative;
+        display: block;
+        width: calc(110% + 623.3px);
+        height: 250px;
+    }
+    
+}

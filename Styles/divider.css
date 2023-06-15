@@ -6,51 +6,24 @@
 
 .custom-shape-divider-bottom-1685513857 {
     position: absolute;
-    bottom: -43px;
+    bottom: -83px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-
 }
+
 
 .custom-shape-divider-bottom-1685513857 svg {
     position: relative;
     display: block;
     width: calc(152% + 21.80000000000001px);
-    height: 244px;
+    height: 167px;
 }
 
 .custom-shape-divider-bottom-1685513857 .shape-fill {
     fill: rgb(206, 206, 206);
     
-}
-/*FIN DEL  DIVIDER 1  MOBILE */
-
-
-
-
-/* DIVIDER  2  MOBILE*/
-
-.custom-shape-divider-bottom-1685781927 {
-    position: absolute;
-    bottom: 581px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    z-index: -3;
-}
-
-.custom-shape-divider-bottom-1685781927 svg {
-    position: relative;
-    display: block;
-    width: calc(110% + 276.29999999999995px);
-    height: 209px;
-}
-
-.custom-shape-divider-bottom-1685781927 .shape-fill {
-    fill: #3F0071;
 }
 
 
@@ -59,7 +32,7 @@
 @media (min-width:850px){
     .custom-shape-divider-bottom-1685513857 {
         position: absolute;
-        bottom: -55px;
+        bottom: -163px;
         left: 0;
         width: 100%;
         overflow: hidden;
@@ -80,26 +53,4 @@
         fill:rgb(206, 206, 206);
         
     }
-    /* FIN DEL DIVIDER 1 DESKTOP */
-
-
-    
-    /* DIVIDER  2 DESKTOP */
-    .custom-shape-divider-bottom-1685781927 {
-        position: absolute;
-        bottom: 583px;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-    }
-    
-    
-    .custom-shape-divider-bottom-1685781927 svg {
-        position: relative;
-        display: block;
-        width: calc(110% + 580.3px);
-        height: 362px;
-    }
-    
 }
