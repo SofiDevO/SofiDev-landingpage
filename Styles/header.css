@@ -96,7 +96,7 @@ i{
     align-items: center;
     padding: 20px 1px;
     width: 52px;
-    filter:drop-shadow(rgb(0, 0, 0) 0px 0px 9px);
+    filter:invert(100%)drop-shadow(rgb(0, 0, 0) 0px 0px 9px);
     cursor: pointer;
     
 }

@@ -1,62 +1,29 @@
 const d = document;
 
+export default function load() {
+  const button = d.getElementById("toggle-darkmode");
 
-const toggleDark = d.getElementById ('toggleDark');
+  // MediaQueryList object
+  const useDark = window.matchMedia("(prefers-color-scheme: dark)");
 
-
-
-
-export default  function getSystemColorScheme() {
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-}
-
-function saveUserPreference(preference) {
-    localStorage.setItem('color-scheme', preference);
+  // Toggles the "dark-mode" class based on if the media query matches
+  function toggleDarkMode(state) {
+    // Older browser don't support the second parameter in the
+    // classList.toggle method so you'd need to handle this manually
+    // if you need to support older browsers.
+    document.documentElement.classList.toggle("dark-mode", state);
   }
 
-function loadUserPreference() {
- return localStorage.getItem('color-scheme');
+  // Initial setting
+  toggleDarkMode(useDark.matches);
+
+  // Listen for changes in the OS settings
+  useDark.addListener((evt) => toggleDarkMode(evt.matches));
+
+  // Toggles the "dark-mode" class on click
+  button.addEventListener("click", () => {
+    document.documentElement.classList.toggle("dark-mode");
+  });
 }
 
-
-function toggleDarkMode(enableDarkMode) {
-    if (enableDarkMode) {
-        document.body.classList.add('dark');
-    } else {
-        document.body.classList.remove('dark');
-    }
-}
-
-function initializeDarkMode() {
-    const userPreference = loadUserPreference();    
-    if (userPreference) {
-        toggleDarkMode(userPreference === 'dark');       
-    } else {
-        const systemColorScheme = getSystemColorScheme();
-        toggleDarkMode(systemColorScheme === 'dark');
-        
-    }
-  }
-  document.addEventListener('DOMContentLoaded', initializeDarkMode);
-
-
-
-function handleDarkModeToggle() {
-    const currentPreference = loadUserPreference() || getSystemColorScheme();
-    const newPreference = currentPreference === 'dark' ? 'light' : 'dark';
-
-    toggleDarkMode(newPreference === 'dark');
-    saveUserPreference(newPreference);
-    console.log("escucho")
-    }
-    toggleDark.addEventListener('click', handleDarkModeToggle);
-    
-
-
-  function handleSystemColorSchemeChange(event) {
-    if (!loadUserPreference()) {
-      toggleDarkMode(event.matches);
-    }
-}
-
-window.matchMedia("(prefers-color-scheme: dark)").addEventListener(handleSystemColorSchemeChange);
+window.addEventListener("DOMContentLoaded", load);
