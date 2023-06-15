@@ -5,6 +5,7 @@ const d = document;
 let darkModeState = false;
 
 const button = d.getElementById("toggle-darkmode");
+const buttonligth = d.getElementById("toggle-ligthkmode");
 
 // MediaQueryList object
 const useDark = window.matchMedia("(prefers-color-scheme: dark)");
@@ -30,6 +31,12 @@ useDark.addListener((evt) => toggleDarkMode(evt.matches));
 
 // Toggles the "dark-mode" class on click and sets localStorage state
 button.addEventListener("click", () => {
+  darkModeState = !darkModeState;
+
+  toggleDarkMode(darkModeState);
+  setDarkModeLocalStorage(darkModeState);
+});
+buttonligth.addEventListener("click", () => {
   darkModeState = !darkModeState;
 
   toggleDarkMode(darkModeState);

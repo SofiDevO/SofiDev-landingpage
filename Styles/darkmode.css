@@ -30,10 +30,20 @@
         color: rgba(0,212,255,1);
     }
     
-    .dark-mode  #toggleDark{
-        filter: invert(0%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1));
+    .dark-mode  .rayo-lleno{
+        
+        font-size: 38px;
+        align-items: center;
+        padding: 20px 1px;
+        width: 52px;
+        cursor: pointer;
+        display: block;
+        filter: invert(100%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1));
     }
     
+    .dark-mode .rayo-vacio{
+        display: none;
+    }
     /* ELEMENTOS DEL MENU HAMBURGUESA */
     .dark-mode .hamburger-inner{
         filter:  invert(74%) sepia(58%) saturate(4419%) hue-rotate(149deg) brightness(102%) contrast(107%);
@@ -75,9 +85,17 @@
         color:white;
     }
     
-    .dark-mode .side-img{
+    .dark-mode .side-img .img-dark{
+        display: block;
+        width: 200px;
+        animation:  slideup 0.8s ease forwards;
+        position: relative;
         filter: drop-shadow(2px -5px 16px #D608A9);
     }
+
+        .dark-mode .side-img .img-ligth{
+            display: none;
+        }
     
     .dark-mode .github{
         filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
@@ -132,3 +150,9 @@
     .dark-mode #skills #fondo-skills{
         background: linear-gradient(0deg, rgba(0,0,0,1) 52%, rgba(63,0,113,1) 100%);
     }
+@media (min-width:850px){
+   .dark-mode .side-img .img-dark{
+        width: 285px;
+      }
+}
+

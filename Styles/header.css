@@ -19,11 +19,12 @@
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 5px 6px -2px rgba(0, 0, 0, 0.37);
     position: fixed;
-    z-index: 996;
+    z-index: 50;
     top: 0;
     padding: 0;
     justify-content: space-between;
     transition: all 0.9s;
+    align-items: center;
 }
 
 #header
@@ -90,7 +91,8 @@ a{
 
 }
 
-i{
+
+.rayo-vacio{
     display: flex;
     font-size: 38px;
     align-items: center;
@@ -98,15 +100,17 @@ i{
     width: 52px;
     filter: invert(74%) sepia(50%) saturate(3042%) hue-rotate(148deg) brightness(104%) contrast(113%)drop-shadow(rgb(0, 0, 0) 0px 0px 9px);
     cursor: pointer;
-    
 }
     
-i:hover{
+    
+.rayo-vacio:hover{
     transform: scale(1.2);
     filter: invert(67%) sepia(62%) saturate(3839%) hue-rotate(132deg) brightness(97%) contrast(101%);
 }
 
-
+.rayo-lleno{
+    display: none;
+}
 
    
 

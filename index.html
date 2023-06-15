@@ -67,8 +67,11 @@
         <a href="https://blog.itssofi.dev/" >blog</a>
         </nav>
         <div id="dark-mode_container" class="dark-mode_container">
-            <i class="bi bi-lightning-charge-fill" id="toggle-darkmode"></i>
-        </div>
+            <img class="rayo-vacio" src="./assets/lightning-charge.svg" alt="lightning icon"
+            id="toggle-darkmode">
+            <img class="rayo-lleno" src="./assets/lightning-charge-fill.svg" alt="lightning icon"
+            id="toggle-ligthkmode">
+            </div>
                 
         
     </section>
@@ -96,12 +99,14 @@
         <div class="contenedor-hero">
             <div class="titulo">
             <h1  class="saludo" id="titulo-saludo">Hi! 👋🏻 I'm Sofi<span id="span-titulo">Dev</span>  </h1>
+           
             <h2 class="subtitulo" id="subtitulo">Frontend Developer in Mexico <img class="mexico-bandera" src="./assets/flag-mexico.svg" alt="icono, bandera de mexico"></h2>
             
             </div>
             <div class="container">
             <div class="side-img" id="profile-pic">
-                <img src="./img/profile-pic.jpg" alt="Sofidev profile photo">
+                <img class="img-ligth" src="./img/profile-pic - 2023-06-14T200524.495.png" alt="Sofidev profile photo">
+                <img class="img-dark" src="./img/profile-pic - 2023-06-14T195756.661.png" alt="Sofidev profile photo">
             </div>
             <div class="social">
                 
@@ -143,8 +148,11 @@
             
             <h2 class="acercaDeTitulo" id="acercaDeTitulo">Who is Sofi <span class="span'titulo2" id="span-titulo2">Dev</span> ? </h2>
             <div class="img-txt" id="caja-cristal">
-            <img src="./img/selfie3.png" alt="Sofi profile photo" class="perfil-2">
+            <img src="./img/selfie2-sin-fondo.png" alt="Sofi profile photo" class="perfil-2">
             <div id="textos" class="textos">
+                <h3 class="contenido">
+                    Angela Sofía Osorio
+                </h3>
                 <p class="contenido">
                 I'm a dedicated junior front-end developer based in Mexico, passionate about technology and constantly expanding my skills. 
                 </p>
@@ -194,5 +202,5 @@
     </main>
 </body>
 
-    <script src="./js/modules.js" type="module"></script>
+    <script src="./js/modules.js" type="module" defer></script>
 </html>

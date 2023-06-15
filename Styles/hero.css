@@ -20,11 +20,11 @@ body {
 
 #hero {
   transition: all 0.9s ease;
-  justify-items: center;
-  align-items: center;
-  align-content: center;
-  gap: 22px;
+  display: flex;
+  height: 784px;
   background: linear-gradient(180deg, #fe71d1 -11%, #64baef);
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 
@@ -32,7 +32,8 @@ body {
   display: grid;
   height: 802px;
   grid-template-columns: 1fr;
-  align-content: center;
+  align-content: space-evenly;
+  justify-content: center;
 }
 
 #hero .container{
@@ -72,17 +73,17 @@ h1 span:hover {
   text-align: center;
   font-weight: 500;
   display: flex;
-  align-content: center;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   position: relative;
-  gap: 13px;
-  top: -14px;
+  top: -1px;
   transform: translateY(-300px);
+  gap: 14px;
   animation: expand 0.8s ease forwards;
   transition: all 1.5s;
-  width: 100%;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
 }
   
 
@@ -92,10 +93,13 @@ h1 span:hover {
   
 }
 /* Foto de perfil */
-.side-img img{
+.side-img  .img-ligth{
   width: 200px;
   animation:  slideup 0.8s ease forwards;
   position: relative;
+}
+.side-img .img-dark {
+ display: none;
 }
 
 /* Iconos de redes sociales  */
@@ -130,12 +134,12 @@ h1 span:hover {
 }
 .linkedin{
   filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%);
-  position: relative;
-  bottom: 143px;
-  right: -92px;
-  transform: translateY(-300px);
-  animation: expand 0.8s ease forwards;
-  z-index: 20;
+    position: relative;
+    bottom: 120px;
+    right: -79px;
+    transform: translateY(-300px);
+    animation: expand 0.8s ease forwards;
+    z-index: 20;
 }
 .linkedin img{
   width:55px;
@@ -262,10 +266,11 @@ h1 span:hover {
     display: flex;
     height: 798px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
-    width: 95%;
+    width: 100%;
+    padding: 0 34px;
   }
   #hero .container{
     display: flex;
@@ -290,9 +295,13 @@ h1 span:hover {
 
 
 
-  .side-img img{
-    width: 300px;
+  .side-img .img-ligth{
+    width: 285px;
   }
+ 
+
+
+
   .social{
     display: flex;
     flex-direction: column;
