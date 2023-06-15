@@ -3,7 +3,7 @@
     
     .dark-mode body{
         background: rgb(7, 7, 7);
-        color: rgb(199, 199, 199);
+        color: rgb(238, 235, 235);
         transition: 2s;
     }
     /* elemntos del header */
@@ -98,6 +98,21 @@
         }
     
     .dark-mode .github{
+        filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
+    }
+
+    .dark-mode .alura{
+        filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
+    }
+    .dark-mode .linkedin{
+        filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
+    }
+
+    .dark-mode .youtube{
+        filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
+    }
+
+    .dark-mode .platzi{
         filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
     }
      /* DIVIDERS */

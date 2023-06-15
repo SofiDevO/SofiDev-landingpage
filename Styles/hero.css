@@ -129,11 +129,11 @@ h1 span:hover {
 }
 
 .github img{
-  
-  width: 65px;
+  width: 67px;
 }
+  
 .linkedin{
-  filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%);
+  filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%) drop-shadow(0 0 10px var(--pure-black));
     position: relative;
     bottom: 120px;
     right: -79px;
@@ -142,7 +142,7 @@ h1 span:hover {
     z-index: 20;
 }
 .linkedin img{
-  width:55px;
+  width:50px;
 }
 .platzi{
   filter: invert(53%) sepia(39%) saturate(3085%) hue-rotate(64deg) brightness(100%) contrast(101%);
@@ -155,7 +155,7 @@ h1 span:hover {
 }
 
 .platzi img{
-  width: 35px;
+  width: 45px;
 }
 .youtube{
   filter: invert(28%) sepia(90%) saturate(6257%) hue-rotate(354deg) brightness(96%) contrast(106%);
@@ -168,7 +168,7 @@ h1 span:hover {
 }
 
 .alura{
-  filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%);
+  filter: invert(30%) sepia(100%) saturate(1072%) hue-rotate(180deg) brightness(96%) contrast(97%) drop-shadow(0 0 10px var(--pure-black));
   position: relative;
   bottom: 230px;
   right: 23px;
