@@ -267,9 +267,9 @@ h1 span:hover {
     height: 798px;
     align-items: center;
     justify-content: space-between;
-    align-content: center;
+    align-content: space-around;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     padding: 0 34px;
   }
   #hero .container{
