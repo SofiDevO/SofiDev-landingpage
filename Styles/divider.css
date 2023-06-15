@@ -29,10 +29,10 @@
 
 /* VISTA DESKTOP */
 
-@media (min-width:850px){
+@media (min-width:700px){
     .custom-shape-divider-bottom-1685513857 {
         position: absolute;
-        bottom: -163px;
+        bottom: -175px;
         left: 0;
         width: 100%;
         overflow: hidden;

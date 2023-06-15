@@ -11,32 +11,39 @@
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    max-width: 225px;
-   
+}
+
+.icon-skills .javascripticon{
+    filter: invert(83%) sepia(25%) saturate(3508%) hue-rotate(348deg) brightness(103%) contrast(104%);
 }
 
 
-@media screen and (min-width:850px){
+
+
+
+@media screen and (min-width:700px){
 
 
     
     .icon-skills{
         display: flex;
         flex-direction: row;
+        height: 232px;
         width: 100%;
-        max-width: 650px;
+        max-width: 964px;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
     
-    .iconimg{
-        width: 322px;
+    .icon-skills img{
+        width: 150px;
     }
-  .javascripticon {
-    width: 268px;
-    }   
-    .wordpressicons{
-        width: 310px;
+    .icon-skills .javascripticon{
+        width:170px;
     }
+        
+    
+  
 
 }

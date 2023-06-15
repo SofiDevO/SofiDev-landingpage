@@ -260,14 +260,14 @@ h1 span:hover {
 
 /* VISTA DESKTOP */
 
-@media (min-width:850px){
+@media (min-width:700px){
   #hero{
-    height:1136px;
+    height:818px;
   }
 
   .contenedor-hero {
     display: flex;
-    height: 596px;
+    height: auto;
     align-items: center;
     justify-content: center;
     align-content: space-around;
@@ -276,7 +276,8 @@ h1 span:hover {
     padding: 0 34px;
     gap: 60px;
     margin-top: 49px;
-  }
+}
+  
   #hero .container{
     display: flex;
     flex-direction: row;

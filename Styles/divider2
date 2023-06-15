@@ -22,7 +22,7 @@
 
 /* VISTA DESKTOP */
 
-@media (min-width:850px){
+@media (min-width:700px){
     .custom-shape-divider-bottom-1685781927 {
         position: absolute;
         bottom: -22px;

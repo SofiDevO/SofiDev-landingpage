@@ -93,7 +93,7 @@
 
 
 /*DESKTOP */
-@media (min-width:850px){
+@media (min-width:700px){
     #aboutMe{
       display: flex;
       justify-content: center;
@@ -104,7 +104,7 @@
       #aboutMe .container{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 95%;
         height: 1058px;
         align-items: center;
         background-size: 1228PX;
@@ -115,12 +115,12 @@
         } 
         
         .img-txt{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        width: 850px;
-        height: auto;
-        padding: 49px;
-        gap: 37px;
+          display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 99%;
+    height: auto;
+    padding: 18px;
+    gap: 7px;
         }
     
     
