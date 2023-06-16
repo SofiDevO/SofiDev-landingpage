@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+
 :root{
     --main-color: #181818;
     --seccond-color: #F2F2F2;
@@ -11,6 +20,16 @@
     --purple: #3F0071;
     --ligth-purple: #610094;
 }
+
+body {
+  overflow-x: hidden;
+  z-index: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  width: 100%;
+  background:rgb(206, 206, 206);
+}
+
 #header {
     display: flex;
     width: 100%;
