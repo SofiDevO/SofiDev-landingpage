@@ -124,6 +124,12 @@
      .dark-mode  #acercaDeTitulo{
         color: white;
     }
+     .dark-mode  #aboutMe .container{
+        background-image: url(../assets/blob.svg);
+        background-repeat: no-repeat;
+        background-size: 1086px;
+        background-position: center;
+    }
     
     .dark-mode #acercaDeTitulo span{
         color: rgba(0,212,255,1);
@@ -131,7 +137,7 @@
      }
     
      .dark-mode .img-txt{
-        background: rgba( 0, 0, 0, 0.85 );
+    background: rgba( 0, 0, 0, 0.85 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 17.5px );
     -webkit-backdrop-filter: blur( 17.5px );

@@ -6,6 +6,8 @@ let darkModeState = false;
 
 const button = d.getElementById("toggle-darkmode");
 const buttonligth = d.getElementById("toggle-ligthmode");
+const buttonHamburger = d.getElementById("toggle-darkmodeHamburger");
+const buttonligthHamburger = d.getElementById("toggle-ligthmodeHamburger");
 
 // MediaQueryList object
 const useDark = window.matchMedia("(prefers-color-scheme: dark)");
@@ -38,6 +40,19 @@ button.addEventListener("click", () => {
 });
 
 buttonligth.addEventListener("click", () => {
+  darkModeState = !darkModeState;
+
+  toggleDarkMode(darkModeState);
+  setDarkModeLocalStorage(darkModeState);
+});
+buttonHamburger.addEventListener("click", () => {
+  darkModeState = !darkModeState;
+
+  toggleDarkMode(darkModeState);
+  setDarkModeLocalStorage(darkModeState);
+});
+
+buttonligthHamburger.addEventListener("click", () => {
   darkModeState = !darkModeState;
 
   toggleDarkMode(darkModeState);

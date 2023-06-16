@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1418px;
+  height: 1172px;
   }  
   
   .acercaDeTitulo span{
@@ -15,12 +15,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 673px;
+    height: 922px;
     align-items: center;
-    background-image: url(../assets/blob.svg);
-    background-repeat: no-repeat;
-    background-size: 1086px;
-    background-position: center;
     justify-content: space-evenly;
     z-index: 2;
   }
@@ -46,9 +42,9 @@
       min-width: 271px;
       height: auto;
       padding: 20px;
-      background: rgba( 255, 255, 255, 0.25 );
+      background: rgba(255, 255, 255, 0.116);
       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-      backdrop-filter: blur( 14.5px );
+      backdrop-filter: blur( 15px );
       -webkit-backdrop-filter: blur( 14.5px );
       border-radius: 10px;
       border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -98,29 +94,29 @@
       display: flex;
       justify-content: center;
       align-items: flex-start;
-      height: 1093px; 
+      height: 797px;
       }
     
-      #aboutMe .container{
+    #aboutMe .container{
         display: flex;
         flex-direction: column;
-        width: 95%;
-        height: 1058px;
+        width: 90%;
+        height: 857px;
         align-items: center;
-        background-size: 1228PX;
-        background-position: top;
+        background-size: 840PX;
+        background-position: center;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: right;
         background-repeat: no-repeat;
-        } 
+      } 
         
-        .img-txt{
-          display: grid;
-    grid-template-columns: 1fr 2fr;
-    width: 99%;
-    height: auto;
-    padding: 18px;
-    gap: 7px;
+    .img-txt{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      width: 72%;
+      height: auto;
+      padding: 0 24px;
+      gap: 22px; 
         }
     
     
@@ -130,7 +126,7 @@
         align-items: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 67px;
+        
       }
       
     
