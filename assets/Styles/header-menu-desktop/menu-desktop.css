@@ -5,12 +5,12 @@
 @media(min-width:668px){
     .menu-desktop {
         display: flex;
-        width: 64%;
+        width: 100%;
         align-items: center;
         position: relative;
         transform: translateY(-200px);
         animation: appear 0.8s ease forwards;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .menu-desktop:hover .tooltooltiptip{

@@ -1,11 +1,11 @@
 @media(min-width:668px){
     .menu__contenido{
-        display: flex;
         min-width: 471px;
-        max-width: 706px;
-        margin-left: -27px;
-        display: flex;
-        justify-content: space-around;
+    max-width: 733px;
+    margin-left: -27px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
     }
 }
 
