@@ -1,12 +1,17 @@
 .acerca__foto-perfil{
     border-radius: 50% 50% 54% 46% / 54% 30% 70% 46% ;
     padding: 2px;
-    width: 40%;
+    width: 173px;
     border: 2px solid black;
     filter: drop-shadow(20px 5px 10px  rgba(0,0,0));
 }
 @media (min-width:768px){
     .acerca__foto-perfil{
-        width: 315px;
+        width: 185px;
+    }
+}
+@media (min-width:1200px){
+    .acerca__foto-perfil{
+        display: none;
     }
 }

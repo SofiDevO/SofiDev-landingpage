@@ -19,27 +19,26 @@
 }
 @media (min-width:768px){
     .acerca__caja-cristal{
-        display: flex;
-    flex-direction: row;
-    width: 132%;
-    height: auto;
-    padding: 0 47px;
-    gap: 35px;
-    justify-content: center;
-    min-width: 631px;
-    flex-wrap: wrap;
+        display: grid;
+        flex-direction: row;
+        width: 132%;
+        height: auto;
+        /* padding: 0 47px; */
+        /* gap: 35px; */
+        justify-content: center;
+        min-width: 695px;
+        /* flex-wrap: wrap; */
+        grid-template-columns: 1fr 2fr;
     }
 }
 @media (min-width:1200px){
     .acerca__caja-cristal{
-        display: grid;
-        width: 68%;
+        display: flex;
+        width: 61%;
         height: auto;
-        padding: 0 47px;
-        gap: 35px;
-        justify-content: center;
-        min-width: 882px;
-        grid-template-columns: 1fr 2fr;
+        padding: 0 100px;
+        /* gap: 35px; */
+        min-width: 815px;
     }
 
 }

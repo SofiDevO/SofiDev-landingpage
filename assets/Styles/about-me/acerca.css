@@ -4,12 +4,27 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    }  
+}  
 
 @media (min-width:768px){
     .acerca{
         display: flex;
         justify-content: center;
         align-items: center;
+        background: none;
+        background-position: left;
+        background-size: 433px;
+        background-repeat: no-repeat;
+        }
+}
+@media (min-width:1200px){
+    .acerca{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('../../img/IAselfie2.png');
+        background-position: left;
+        background-size: 433px;
+        background-repeat: no-repeat;
         }
 }
