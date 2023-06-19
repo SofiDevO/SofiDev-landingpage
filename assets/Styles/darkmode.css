@@ -176,7 +176,7 @@
     
     /* SECCION SKILLS */
     
-@media (min-width:668px){
+@media (min-width:768px){
    .dark-mode .img__dark{
         width: 285px;
     }
@@ -220,12 +220,9 @@
        
     }
     
-}
-
-@media (min-width:668px){
     .dark-mode .img__dark{
          width: 285px;
-     }
+}
 }
 
 @media (min-width:1200px){

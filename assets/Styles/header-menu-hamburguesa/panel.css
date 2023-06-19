@@ -31,7 +31,7 @@
     transform:translate(0, 0);
 }
 
-@media(min-width:668px){
+@media(min-width:768px){
     .panel{
         display: none;
     }

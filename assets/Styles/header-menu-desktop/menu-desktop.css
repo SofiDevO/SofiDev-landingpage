@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media(min-width:668px){
+@media(min-width:768px){
     .menu-desktop {
         display: flex;
         width: 100%;

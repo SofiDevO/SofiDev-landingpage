@@ -5,7 +5,7 @@
     border: 2px solid black;
     filter: drop-shadow(20px 5px 10px  rgba(0,0,0));
 }
-@media (min-width:668px){
+@media (min-width:768px){
     .acerca__foto-perfil{
         width: 315px;
     }

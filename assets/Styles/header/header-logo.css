@@ -24,7 +24,7 @@
     filter: drop-shadow(0 0 12px var(--blue));
 }
 
-@media(min-width:668px){
+@media(min-width:768px){
     .header__logo {
         display: flex;
         justify-content: flex-start;

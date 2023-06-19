@@ -17,7 +17,7 @@
     justify-items: center;
     font-weight: 500;
 }
-@media (min-width:668px){
+@media (min-width:768px){
     .acerca__caja-cristal{
         display: flex;
     flex-direction: row;

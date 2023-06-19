@@ -9,7 +9,7 @@
     text-align: center;
   }
 
-  @media (min-width: 668px){
+  @media (min-width: 768px){
     .acerca__titulo{
         display: flex;
         font-size: 3em;

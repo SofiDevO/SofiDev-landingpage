@@ -1,14 +1,14 @@
 .acerca__container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 922px;
-    align-items: center;
-    justify-content: space-evenly;
-    z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1120px;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 2;
   }
 
-@media (min-width:668px){
+@media (min-width:768px){
     .acerca__container{
       display: flex;
     flex-direction: column;
