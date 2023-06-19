@@ -1,7 +1,7 @@
 .dark-mode body{
         background: rgb(7, 7, 7);
         color: rgb(238, 235, 235);
-        transition: 4s ease-in-out;
+        transition: all 0.1s ease-out;
 }
 /* elemntos del header */
 .dark-mode .header{
@@ -131,7 +131,7 @@
      /* DIVIDERS */
     
      .dark-mode  #divider1{
-        transition: 2s;
+        transition: .1s ease-out;
         fill:rgb(7, 7, 7) ;
      }
     
