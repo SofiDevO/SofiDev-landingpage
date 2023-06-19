@@ -93,8 +93,8 @@
     <!-- Menu Desktop -->
     <nav class="menu-desktop">
         <ul class="menu__contenido">
-            <li class="menu__list"><a class="menu__link" href="#aboutMe">About me</a></li>
             <li class="menu__list"><a class="menu__link" href="#skills">Skills</a></li>
+            <li class="menu__list"><a class="menu__link" href="#aboutMe">About me</a></li>
             <li class="menu__list"><a class="menu__link" href="#">Portfolio</a></li>
             <li class="menu__list"><a class="menu__link" href="#">Contact</a></li>
             <li class="menu__list"><a class="menu__link" href="https://blog.itssofi.dev/" >Blog</a></li>
@@ -102,7 +102,7 @@
     </nav>
     <div class="iconos__cabecera">
         <div class="idioma-desktop">
-            <img class="idioma__icon" src="./assets/svg/esri.svg" alt="">
+            <img class="idioma__icon-desktop" src="./assets/svg/esri.svg" alt="">
             <span class="tooltip__box">Change language</span>
         </div>
         <div class="dark-mode__toogle" id="dark-mode_container" >
@@ -123,8 +123,8 @@
     <!-- panel que se depliega lateralmente -->
         <aside id="panel" class="panel">
         <nav class="menu-hamburger" >
-            <a class = "menu-hamburger__link" id="acercaDe-menuA" href="#aboutMe">About me</a>
             <a class = "menu-hamburger__link" id="skills-menuA" href="#skills">Skills</a>
+            <a class = "menu-hamburger__link" id="acercaDe-menuA" href="#aboutMe">About me</a>
             <a class = "menu-hamburger__link" id="portafolio-menuA" href="#">Portfolio</a>
             <a class = "menu-hamburger__link" id="contacto-menuA" href="#">Contact</a>
             <a class = "menu-hamburger__link" id="blog-menuA" href="https://blog.itssofi.dev"> Blog  </a>      
@@ -191,8 +191,27 @@
         </section>
         
         
-        <!-- Acerca de Mi -->
-        <section class="acerca" id="aboutMe" >
+      
+  
+
+    <section  class="skills" id="skills">
+
+        <section class="skills__cajas">
+           <div class="caja"><img class="iconimg" src="./assets/svg/file-type-html.svg" alt=""></div>
+           <div class="caja"><img class="iconimg" src="./assets/svg/css-color.svg" alt=""></div>
+           <div class="caja"><img class="iconimg javascripticon" src="./assets/svg/javascript-fill.svg" alt=""></div>
+           <div class="caja"><img class="iconimg wordpressicon" src="./assets/svg/wordpress-icon.svg" alt=""></div>
+        </section>
+    </section>
+            
+            
+            
+            
+
+
+
+      <!-- Acerca de Mi -->
+      <section class="acerca" id="aboutMe" >
         <div class="acerca__container" >
         <h2 class="acerca__titulo" id="acercaDeTitulo">Who is Sofi <span class="acerca__span" id="span-titulo2">Dev</span> ? </h2>
         <div class="acerca__caja-cristal" id="caja-cristal">
@@ -220,25 +239,13 @@
         </div>
         </div>
     </section>
-    <!-- Divider 2 -->
+      <!-- Divider 2 -->
     <!-- <div class="wrapper">
         <div class="custom-shape-divider-bottom-1685781927">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
         </svg>
     </div> -->
-
-
-
-    <section id="skills" class="skills">
-
-        <div class="icon-skills">
-            <img class="iconimg" src="./assets/file-type-html.svg" alt="">
-            <img class="iconimg" src="./assets/css-color.svg" alt="">
-            <img class="iconimg javascripticon" src="./assets/javascript-fill.svg   " alt="">
-            <img class="iconimg wordpressicon" src="./assets/wordpress-icon.svg" alt="">
-        </div>
-    </section>
     </main>
 </body>
 
