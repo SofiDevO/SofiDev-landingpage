@@ -1,0 +1,12 @@
+.acerca__link{
+    color: var(--dark-purple);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.acerca__link:hover{
+    color: var(--dark-purple);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}

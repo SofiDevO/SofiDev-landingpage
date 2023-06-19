@@ -1,0 +1,21 @@
+.acerca__titulo{
+    display: flex;
+    font-size: 2.3em;
+    padding: 1px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 85px;
+    text-align: center;
+  }
+
+  @media (min-width: 668px){
+    .acerca__titulo{
+        display: flex;
+        font-size: 3em;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+      }
+  }

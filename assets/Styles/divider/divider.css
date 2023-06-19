@@ -27,9 +27,33 @@
 }
 
 
-/* VISTA DESKTOP */
 
-@media (min-width:700px){
+@media (min-width:668px){
+    .custom-shape-divider-bottom-1685513857 {
+        position: absolute;
+        bottom: -142px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1685513857 svg {
+        position: relative;
+        display: block;
+        width: calc(152% + 299.79999999999995px);
+        height: 310px;
+    }
+    
+    
+    
+    
+    .custom-shape-divider-bottom-1685513857 .shape-fill {
+        fill:rgb(206, 206, 206);
+        
+    }
+}
+@media (min-width:1200px){
     .custom-shape-divider-bottom-1685513857 {
         position: absolute;
         bottom: -255px;

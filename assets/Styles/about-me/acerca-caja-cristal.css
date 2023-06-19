@@ -1,0 +1,45 @@
+.acerca__caja-cristal{
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    min-width: 271px;
+    height: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.116);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    animation: myAnim 1s ease 4s 1 normal forwards;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-weight: 500;
+}
+@media (min-width:668px){
+    .acerca__caja-cristal{
+        display: flex;
+    flex-direction: row;
+    width: 132%;
+    height: auto;
+    padding: 0 47px;
+    gap: 35px;
+    justify-content: center;
+    min-width: 631px;
+    flex-wrap: wrap;
+    }
+}
+@media (min-width:1200px){
+    .acerca__caja-cristal{
+        display: grid;
+        width: 68%;
+        height: auto;
+        padding: 0 47px;
+        gap: 35px;
+        justify-content: center;
+        min-width: 882px;
+        grid-template-columns: 1fr 2fr;
+    }
+
+}

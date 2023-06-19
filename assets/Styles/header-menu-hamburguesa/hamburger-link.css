@@ -1,0 +1,25 @@
+.menu-hamburger__link{
+  padding: 10px;
+  width: inherit;
+  display: block;
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--seccond-color);
+  transition: all 0.5s ease;
+  text-shadow: -0.3rem -0.2rem 0.4rem var(--main-color);
+  text-align: center;
+  background: rgba( 157, 155, 155, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 11px );
+  -webkit-backdrop-filter: blur( 11px );
+  height: auto;
+  }
+
+
+.menu-hamburger__link:hover{
+    font-weight: bold;
+    color: var(--second-color);
+    background-color: gray;
+    color: var(--link-color);
+    }

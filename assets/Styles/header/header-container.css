@@ -1,0 +1,7 @@
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    transition: all 0.9s;
+}
+

@@ -1,0 +1,14 @@
+.idioma{
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (min-width:668px){
+    .idioma{
+        display: none;
+    }
+
+}

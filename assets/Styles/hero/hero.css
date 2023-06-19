@@ -1,0 +1,22 @@
+.hero {
+    transition: all 0.9s ease;
+    display: flex;
+    height: 798px;
+    background: linear-gradient(180deg, #fe71d1 -11%, #64baef);
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+
+  @media (min-width:768px){
+    .hero{
+      height: 939px;
+
+    }
+}  
+  @media (min-width:1200px){
+    .hero{
+      height: 1000px;
+
+    }
+}  

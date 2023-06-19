@@ -1,0 +1,13 @@
+.menu__link{
+    text-decoration: none;
+    font-size: 1.3rem;   
+    font-weight: 500;
+    color: var(--seccond-color);
+    font-Weight: bold;
+}
+    
+.menu__link:hover{
+    color: var(--blue);
+    filter: drop-shadow(0 0 12px var(--blue));
+}
+

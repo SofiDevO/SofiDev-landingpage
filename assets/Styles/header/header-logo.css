@@ -1,0 +1,35 @@
+.header__logo {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--pure-black);
+    filter: drop-shadow(15px 1px 12px  rgba(0,0,0));
+    transition: all 0.7s;
+}
+.header__logo:hover{
+    filter: drop-shadow(0 0 12px var(--blue));
+    transform: scale(1.2);
+    cursor: default;
+}
+
+
+.header__logo span{
+    color: var(--seccond-color);
+    
+}
+
+.header__logo span:hover{
+    color: var(--blue);
+    filter: drop-shadow(0 0 12px var(--blue));
+}
+
+@media(min-width:668px){
+    .header__logo {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 25px;
+    }
+}
+
+

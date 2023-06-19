@@ -1,0 +1,15 @@
+.acerca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    }  
+
+@media (min-width:668px){
+    .acerca{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+}

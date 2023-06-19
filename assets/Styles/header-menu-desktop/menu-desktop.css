@@ -1,0 +1,31 @@
+.menu-desktop {
+    display: none;
+}
+
+@media(min-width:668px){
+    .menu-desktop {
+        display: flex;
+        width: 64%;
+        align-items: center;
+        position: relative;
+        transform: translateY(-200px);
+        animation: appear 0.8s ease forwards;
+        justify-content: center;
+    }
+
+    .menu-desktop:hover .tooltooltiptip{
+        display: inline-block;
+
+    }
+}
+
+@keyframes appear{ 
+    0%{
+        transform: translateY(-1400px);
+        
+    }
+    100%{
+        transform: translateY(0px);
+    
+    }
+}

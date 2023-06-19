@@ -1,0 +1,14 @@
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  @media (min-width:768px){
+    .social{
+      display: flex;
+      flex-direction: column;
+      width: 50px;
+      gap: 16px;
+    }
+}

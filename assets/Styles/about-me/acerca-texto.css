@@ -1,0 +1,15 @@
+.acerca__textos{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Open sans, sans-serif;
+}
+
+@media (min-width:668px){
+    .acerca__textos{
+        text-align: justify;
+        font-weight: lighter;
+    
+        font-size: 18px;
+    }
+}
