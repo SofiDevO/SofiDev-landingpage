@@ -1,18 +1,26 @@
 .textos{
-    position: relative; */
     display: flex;
     width: 100%;
-
-    height: 47px;
 }
 
 
 @media (min-width:768px){
     .textos{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 51%;
+        bottom: -148px;
+        left: 50px;
+        line-height: 1.5;
+    }
+}
+@media (min-width:1200px){
+    .textos{
         position: relative;
         display: flex;
         width: 80%;
     }
-
 }
+
     

@@ -1,9 +1,10 @@
 .skills__cajas{
     display: flex;
-    justify-content: center;
     width: 100%;
-    flex-wrap: wrap;
     gap: 6px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -13,26 +14,27 @@
         justify-content: flex-start;
         width: 100%;
         flex-wrap: wrap;
-        max-width: 1358px;
+        max-width: 1182px;
         align-content: flex-start;
         flex-direction: row;
-        height: 113vh;
+        height: 128vh;
         background: url(../../img/IAselfie.png) no-repeat right;
-        background-size: 495px;
+        background-size: 408px;
+        padding-left: 20px;
     }
 }
 @media (min-width:1200px){
     .skills__cajas{
         display: flex;
-        justify-content: flex-start;
         width: 100%;
         flex-wrap: wrap;
-        max-width: 1358px;
+        max-width: 1837px;
         align-content: flex-start;
         flex-direction: row;
         height: 135vh;
         background: url(../../img/IAselfie.png) no-repeat right;
-        background-size: 549px;
+        background-size: 594px;
+        padding-left: 54px;
     }
 
 }

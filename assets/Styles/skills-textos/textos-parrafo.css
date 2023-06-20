@@ -10,5 +10,11 @@
         font-size: 1.3rem;
         text-align: justify;
     }
-    
 }
+@media (min-width:1200px){
+    .textos__parrafo{
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+}
+    

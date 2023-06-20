@@ -1,12 +1,12 @@
 .skills{
     display: flex;
     height: auto;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
-    gap: 18px;
+    gap: 20px;
 }
 @media (min-width:768px){
     .skills{
