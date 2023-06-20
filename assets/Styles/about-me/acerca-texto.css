@@ -2,14 +2,14 @@
     text-align: justify;
     font-size: 18px;
     font-weight: 400;
-    font-family: Open sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
 }
 
 @media (min-width:768px){
     .acerca__textos{
         text-align: justify;
         font-weight: lighter;
-    
         font-size: 18px;
     }
 }

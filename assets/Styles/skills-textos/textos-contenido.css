@@ -11,9 +11,10 @@
         display: flex;
         flex-direction: column;
         width: 88%;
-        bottom: -590px;
+        bottom: -624px;
         left: -29px;
     }
+    
 }
 @media (min-width:1200px){
     .textos__contenido{

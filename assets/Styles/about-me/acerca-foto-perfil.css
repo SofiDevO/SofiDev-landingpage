@@ -7,7 +7,8 @@
 }
 @media (min-width:768px){
     .acerca__foto-perfil{
-        width: 185px;
+        display: none;
+        
     }
 }
 @media (min-width:1200px){

@@ -9,13 +9,21 @@
     text-align: center;
   }
 
-  @media (min-width: 768px){
-    .acerca__titulo{
-        display: flex;
-        font-size: 3em;
-        align-items: flex-start;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
-      }
+@media (min-width: 768px){
+  .acerca__titulo{
+    display: flex;
+    font-size: 3em;
+    margin-top: -337px;
   }
+}
+@media (min-width: 1200px){
+  .acerca__titulo{
+    display: flex;
+    font-size: 3em;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: -384px;
+    flex-wrap: wrap;
+    }
+}
+        

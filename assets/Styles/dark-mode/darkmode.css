@@ -5,14 +5,13 @@
 }
 /* elemntos del header */
 .dark-mode .header{
-
     background: rgba( 0, 0, 0, 0.35 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 12.5px );
     -webkit-backdrop-filter: blur( 12.5px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    
 }
+
     
 .dark-mode .header__logo{
     filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
@@ -133,10 +132,11 @@
 
      /* DIVIDERS */
     
-     .dark-mode  #divider1{
-        transition: .1s ease-out;
-        fill:rgb(7, 7, 7) ;
-     }
+.dark-mode  #divider1{
+transition: .1s ease-out;
+fill:rgb(7, 7, 7) ;
+}
+
     
     
      /* SECCION ACERCA DE */
@@ -151,13 +151,13 @@
         filter: drop-shadow(0 0 5px rgba(0,212,255,1));
      }
     
-     .dark-mode acerca__caja-cristal{
-    background: rgba( 0, 0, 0, 0.85 );
-    box-shadow: 0 10px 0px 6px rgba(0,212,255,1);
-    backdrop-filter: blur( 17.5px );
-    -webkit-backdrop-filter: blur( 17.5px );
-    border-radius: 10px;
-    border: 1px solid #76FFC3;
+     .dark-mode .acerca__caja-cristal{
+        background: rgba( 0, 0, 0, 0.8 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 19px );
+        -webkit-backdrop-filter: blur( 19px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
     
     .dark-mode .acerca__foto-perfil{
@@ -179,11 +179,11 @@
     
     /* SECCION SKILLS */
 
-    .skill__caja{
-        background: rgba( 0, 0, 0, 0.35 );
+.dark-mode .skills__caja{
+        background: rgba( 0, 0, 0, 0.8 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 12.5px );
-        -webkit-backdrop-filter: blur( 12.5px );
+        backdrop-filter: blur( 19px );
+        -webkit-backdrop-filter: blur( 19px );
         border-radius: 10px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
