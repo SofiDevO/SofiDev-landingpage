@@ -6,7 +6,7 @@
     height: 132vh;
     max-width: 982px;
     gap: 16px;
-    align-content: center;
+    align-content: flex-start;
     flex-direction: row;
 }
 
