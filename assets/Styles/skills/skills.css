@@ -1,6 +1,9 @@
 .skills{
-        flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
 }
 @media (min-width:768px){
     .skills{

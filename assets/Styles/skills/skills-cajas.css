@@ -1,13 +1,9 @@
 .skills__cajas{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
-    height: auto;
-    max-width: 982px;
-    gap: 16px;
-    align-content: flex-start;
-    flex-direction: row;
+    gap: 6px;
 }
 
 
