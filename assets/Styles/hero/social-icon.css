@@ -48,7 +48,7 @@
     width: 53px;
   }
   .youtube{
-    filter: invert(28%) sepia(90%) saturate(6257%) hue-rotate(354deg) brightness(96%) contrast(106%);
+    /* filter: invert(28%) sepia(90%) saturate(6257%) hue-rotate(354deg) brightness(96%) contrast(106%); */
     position: relative;
     bottom: 30px;
     right: 139px;

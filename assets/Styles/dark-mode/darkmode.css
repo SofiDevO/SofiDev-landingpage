@@ -120,9 +120,12 @@
 }
 
 .dark-mode .youtube{
-    filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
-
+    filter: invert(92%) sepia(0%) saturate(7106%) hue-rotate(431deg) brightness(118%) contrast(70%) drop-shadow(5px 5px 10px #76FFC3);
 }
+
+
+    
+
 
 .dark-mode .platzi{
     filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
