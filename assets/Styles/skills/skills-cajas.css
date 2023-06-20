@@ -1,36 +1,40 @@
 .skills__cajas{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 100%;
     flex-wrap: wrap;
-    height: 50%;
-    max-width: 265px;
-    align-content: space-around;
+    height: 132vh;
+    max-width: 982px;
+    gap: 16px;
+    align-content: center;
+    flex-direction: row;
 }
+
 
 @media (min-width:768px){
     .skills__cajas{
         display: flex;
-        justify-content: space-evenly;
-        width: 80%;
-        max-width: 600px;
-        align-content: stretch;
-        align-items: center;
-        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
         flex-wrap: wrap;
-
+        height: 80vh;
+        align-content: flex-start;
+        max-width: 861px;
+        flex-direction: row;
+        gap: 24px;
     }
 }
 @media (min-width:1200px){
     .skills__cajas{
         display: flex;
-        justify-content: space-around;
-        width: 50%;
-        flex-wrap: wrap;
-        /* height: 50%; */
-        max-width: 689px;
-        align-content: space-around;
-        flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 949px;
+    align-content: space-around;
+    flex-direction: row;
+    height: 50vh;
     }
+
 }
 
