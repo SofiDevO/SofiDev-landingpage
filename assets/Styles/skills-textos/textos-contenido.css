@@ -1,0 +1,31 @@
+.textos__contenido{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    bottom: 176px;
+    left: -4px;
+}
+
+
+@media (min-width:768px){
+    .textos__contenido{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        bottom: 176px;
+    }
+}
+@media (min-width:1200px){
+    .textos__contenido{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 51%;
+        bottom: 453px;
+        left: -110px;
+        line-height: 1.5;
+    }
+
+}

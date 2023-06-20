@@ -3,7 +3,7 @@
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
-    height: 132vh;
+    height: auto;
     max-width: 982px;
     gap: 16px;
     align-content: flex-start;
@@ -27,13 +27,15 @@
 @media (min-width:1200px){
     .skills__cajas{
         display: flex;
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: wrap;
-    max-width: 949px;
-    align-content: space-around;
-    flex-direction: row;
-    height: 50vh;
+        justify-content: flex-start;
+        width: 100%;
+        flex-wrap: wrap;
+        max-width: 1358px;
+        align-content: flex-start;
+        flex-direction: row;
+        height: 113vh;
+        background: url(../../img/IAselfie.png) no-repeat right;
+        background-size: 640px;
     }
 
 }

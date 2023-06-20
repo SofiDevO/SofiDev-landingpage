@@ -1,11 +1,11 @@
-.acerca__link{
-    color: var(--dark-purple);
+.textos__link{
+    color: var(--ligth-purple);
     text-decoration: none;
     font-weight: bold;
     
 }
-.acerca__link:hover{
-    color: var(--dark-purple);
+.textos__link:hover{
+    color: var(--blue);
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;

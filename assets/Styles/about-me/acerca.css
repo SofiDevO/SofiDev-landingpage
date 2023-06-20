@@ -20,11 +20,9 @@
 @media (min-width:1200px){
     .acerca{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        background: url(../../img/IAselfie2.png);
-        background-position: left;
-        background-size: 388px;
-        background-repeat: no-repeat;
-        }
+        background: url(../../img/IAselfie2.png) left no-repeat;
+        background-size: 481px;
+        align-items: flex-end;
+    }
+
 }

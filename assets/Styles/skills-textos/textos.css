@@ -1,0 +1,17 @@
+.textos{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0 32px;
+}
+
+
+@media (min-width:768px){
+    .textos{
+        position: relative;
+        display: flex;
+        width: 80%;
+    }
+
+}
+    

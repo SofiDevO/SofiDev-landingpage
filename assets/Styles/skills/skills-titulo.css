@@ -1,5 +1,7 @@
 .skills__titulo{
     display: flex;
-    justify-content: center;
     font-size: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

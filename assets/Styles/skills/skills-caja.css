@@ -1,29 +1,31 @@
 .skills__caja{
-    height: 252px;
-    width: 203px;
+    height: 162px;
+    width: 133px;
     display: flex;
     background: rgba( 255, 255, 255, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5px );
-    -webkit-backdrop-filter: blur( 5px );
-    border-radius: 10px;
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 15px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     justify-content: center;
     align-items: center;
 }
 
+@media (min-width:768px){
+    .skills__caja{
+        height: 178px;
+        width: 161px;
+        display: flex;
+        justify-content: center;   
+    }
+}
 @media (min-width:1200px){
     .skills__caja{
         height: 271px;
         width: 209px;
         display: flex;
-        background: rgba( 255, 255, 255, 0.2 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 5px );
-        -webkit-backdrop-filter: blur( 5px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        justify-content: center;
+       justify-content: center;
         align-items: center;
     }
 }

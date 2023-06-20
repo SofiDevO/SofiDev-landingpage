@@ -34,7 +34,7 @@
 @media (min-width:1200px){
     .acerca__caja-cristal{
         display: flex;
-        width: 61%;
+        width: 51%;
         height: auto;
         padding: 0 100px;
         min-width: auto;
