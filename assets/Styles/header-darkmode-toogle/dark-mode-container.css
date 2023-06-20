@@ -25,7 +25,7 @@
         display: flex;
         margin-left: -67px;
         width: 35px;
-        filter: invert(0%) sepia(50%) saturate(3042%) hue-rotate(148deg) brightness(104%) contrast(113%)drop-shadow(rgb(0, 0, 0) 0px 0px 9px);
+        filter: invert(100%) sepia(50%) saturate(3042%) hue-rotate(148deg) brightness(104%) contrast(113%)drop-shadow(rgb(0, 0, 0) 0px 0px 9px);
     }
 
     .rayo-vacio:hover{

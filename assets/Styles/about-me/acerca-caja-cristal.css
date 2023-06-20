@@ -37,8 +37,7 @@
         width: 61%;
         height: auto;
         padding: 0 100px;
-        /* gap: 35px; */
-        min-width: 815px;
+        min-width: auto;
     }
 
 }

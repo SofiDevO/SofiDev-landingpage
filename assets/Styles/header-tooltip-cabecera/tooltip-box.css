@@ -12,8 +12,17 @@
         text-align: center;
         position: absolute;
         font-size: 11px;
-        left: -41px;
-        top: 59px;
+        left: -38px;
+        top: 67px;
+        display: none;
+    }
+}
+@media (min-width:1200px){
+    .tooltip__box{
+        padding: 3px 7px;
+        text-align: center;
+        left: -50px;
+        top: 63px;
         display: none;
     }
 }

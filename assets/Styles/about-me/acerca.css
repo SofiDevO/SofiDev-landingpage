@@ -22,9 +22,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url('../../img/IAselfie2.png');
+        background: url(../../img/IAselfie2.png);
         background-position: left;
-        background-size: 433px;
+        background-size: 388px;
         background-repeat: no-repeat;
         }
 }
