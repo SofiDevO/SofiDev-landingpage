@@ -153,11 +153,11 @@
     
      .dark-mode acerca__caja-cristal{
     background: rgba( 0, 0, 0, 0.85 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 10px 0px 6px rgba(0,212,255,1);
     backdrop-filter: blur( 17.5px );
     -webkit-backdrop-filter: blur( 17.5px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid #76FFC3;
     }
     
     .dark-mode .acerca__foto-perfil{
@@ -180,12 +180,10 @@
     /* SECCION SKILLS */
     
 @media (min-width:768px){
-   .dark-mode .img__dark{
+    .dark-mode .img__dark{
         width: 285px;
     }
-
-
-      .dark-mode  .rayo-lleno{
+    .dark-mode  .rayo-lleno{
         display: flex;
         font-size: 38px;
         align-items: center;
@@ -196,12 +194,14 @@
         transition: .3s ease-in-out;
     }
 
+
+
     .dark-mode .dark-mode__icon:hover{
         transform: scale(1.3);
         cursor: default;
     }
 
-     
+
 
     .dark-mode .idioma__icon-desktop{
         filter: invert(100%) sepia(22%) saturate(7443%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1));

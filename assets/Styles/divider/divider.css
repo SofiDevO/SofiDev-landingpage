@@ -56,7 +56,7 @@
 @media (min-width:1200px){
     .custom-shape-divider-bottom-1685513857 {
         position: absolute;
-        bottom: -255px;
+        bottom: -167px;
         left: 0;
         width: 100%;
         overflow: hidden;
@@ -66,8 +66,9 @@
     .custom-shape-divider-bottom-1685513857 svg {
         position: relative;
         display: block;
-        width: calc(152% + 299.79999999999995px);
-        height: 310px;
+        width: calc(93% + 626.8px);
+        height: 262px;
+        z-index: 0;
     }
     
     
