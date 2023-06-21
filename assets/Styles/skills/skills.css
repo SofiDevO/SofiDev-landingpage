@@ -1,9 +1,12 @@
 .skills{
-    flex-direction: column;
-    width: 100%;
-    height: auto;
     display: flex;
+    height: auto;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
     align-items: center;
+    flex-direction: row;
+    gap: 18px;
 }
 @media (min-width:768px){
     .skills{
@@ -13,7 +16,7 @@
         align-items: center;
         z-index: 10;
         position: relative;
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
@@ -21,10 +24,12 @@
     .skills{
         display: flex;
         height: auto;
-        justify-content: center;
+        justify-content: flex-start;
         width: 100%;
         flex-wrap: wrap;
         align-items: center;
+        flex-direction: row;
+        gap: 18px;
     }
 
 }

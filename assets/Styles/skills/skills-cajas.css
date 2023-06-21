@@ -10,14 +10,15 @@
 @media (min-width:768px){
     .skills__cajas{
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
         width: 100%;
         flex-wrap: wrap;
-        height: 80vh;
+        max-width: 1358px;
         align-content: flex-start;
-        max-width: 861px;
         flex-direction: row;
-        gap: 24px;
+        height: 113vh;
+        background: url(../../img/IAselfie.png) no-repeat right;
+        background-size: 495px;
     }
 }
 @media (min-width:1200px){
@@ -29,9 +30,9 @@
         max-width: 1358px;
         align-content: flex-start;
         flex-direction: row;
-        height: 113vh;
+        height: 135vh;
         background: url(../../img/IAselfie.png) no-repeat right;
-        background-size: 640px;
+        background-size: 549px;
     }
 
 }
