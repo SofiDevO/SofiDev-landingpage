@@ -24,7 +24,6 @@
         height: auto;
         padding: 0 57px;
         min-width: auto;
-        margin-top: 14px;
     }
 }
 @media (min-width:1200px){
@@ -34,9 +33,7 @@
         height: auto;
         padding: 0 100px;
         min-width: auto;
-        margin-top: -300px;
         max-width: 884px;
         margin-right: -495px;
     }
-
 }

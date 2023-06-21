@@ -22,11 +22,11 @@
 }
 @media (min-width:1200px){
     .skills__caja{
-        height: 321px;
-        width: 234px;
+        height: 250px;
+        width: 203px;
         display: flex;
         justify-content: center;
-        align-items: center;;
+        align-items: center;
     }
 }
 

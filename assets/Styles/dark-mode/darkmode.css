@@ -181,6 +181,11 @@ fill:rgb(7, 7, 7) ;
     }
     
     /* SECCION SKILLS */
+    
+.dark-mode .skills__titulo{
+    color: rgba(0,212,255,1);
+    filter: drop-shadow(0 0 5px rgba(0,212,255,1));
+}
 
 .dark-mode .skills__caja{
         background: rgba( 0, 0, 0, 0.8 );

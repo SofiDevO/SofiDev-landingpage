@@ -5,3 +5,25 @@
     align-items: center;
     width: 100%;
 }
+
+/* @media (min-width:768px){
+    .skills__titulo{
+        display: flex;
+        font-size: 3.5rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+} */
+/* @media (min-width:1200px){
+    .skills__titulo{
+        display: flex;
+        font-size: 3em;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 377px;
+    }
+
+} */

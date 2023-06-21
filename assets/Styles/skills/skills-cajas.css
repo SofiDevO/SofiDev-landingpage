@@ -5,6 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 10px;
 }
 
 
@@ -20,8 +22,9 @@
         height: 104vh;
         background: url(../../img/IAselfie.png) no-repeat right;
         background-size: 408px;
-        padding-left: 20px;
+        min-height: 904px;
     }
+
 }
 @media (min-width:1200px){
     .skills__cajas{
@@ -31,10 +34,10 @@
         max-width: 1837px;
         align-content: flex-start;
         flex-direction: row;
-        height: 135vh;
+        height: 100vh;
         background: url(../../img/IAselfie.png) no-repeat right;
-        background-size: 594px;
-        padding-left: 54px;
+        background-size: 575px;
+        min-height: 884px;
     }
 
 }
