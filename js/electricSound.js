@@ -8,7 +8,7 @@ function playSound(){
    
     let audio = new Audio();
     audio.src = "../assets/sounds/franks-electricity.mp3";
-    audio.volume -=0.3,8;
+    audio.volume -=0.7;
     audio.play()
 }
 
