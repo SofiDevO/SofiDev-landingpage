@@ -11,10 +11,10 @@
 @media (min-width:768px){
     .textos__contenido{
         position: absolute;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        bottom: 176px;
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    bottom: -190px;
     }
 }
 @media (min-width:1200px){
@@ -23,7 +23,7 @@
         display: flex;
         flex-direction: column;
         width: 51%;
-        bottom: -116px;
+        bottom: -148px;
         left: 50px;
         line-height: 1.5;
     }
