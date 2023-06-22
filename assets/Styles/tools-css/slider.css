@@ -1,0 +1,37 @@
+.slider{
+    display: inline-block;
+    animation: 8s slide infinite linear;
+    height: 19vh;
+    min-height: 252px;
+}
+
+@keyframes slide{
+    from{
+        transform: translateX(0);
+        .slider{
+            display: inline-block;
+            animation: 11s slide infinite linear;
+            height: 19vh;
+            min-height: 252px;
+        }
+        
+    }
+    to{
+        transform: translateX(-100%);
+    }
+
+}
+
+
+@media (min-width:768px){
+    .slider{
+    height: 28vh;
+        min-height: 262px;
+    }
+}
+@media (min-width:1200px){
+    .slider{
+        height: 42vh;
+        min-height: 237px;
+    }
+}

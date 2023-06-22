@@ -105,35 +105,20 @@
         display: none;
     }
     
-.dark-mode .github{
+.dark-mode .icono__dark{
     filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
-
 }
-
-.dark-mode .alura{
-    filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
-
-}
-.dark-mode .linkedin{
-    filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
-
-}
-
 .dark-mode .youtube{
-    filter: invert(92%) sepia(0%) saturate(7106%) hue-rotate(431deg) brightness(118%) contrast(70%) drop-shadow(5px 5px 10px #76FFC3);
+    filter:invert(94%) sepia(97%) saturate(0%) hue-rotate(348deg) brightness(102%) contrast(102%) drop-shadow(5px 5px 10px #76FFC3);
+}
+.dark-mode .terminal {
+    filter: invert(100%) drop-shadow(-1px 2px 4px #76FFC3);
+}
+.dark-mode .tool__dark{
+    filter:  drop-shadow(-1px 2px 4px #76FFC3);
 }
 
-
-    
-
-
-.dark-mode .platzi{
-    filter: invert(100%) drop-shadow(5px 5px 10px #76FFC3);
-    transition: 4s ease-in-out;
-}
-
-
-     /* DIVIDERS */
+/* DIVIDERS */
     
 .dark-mode  #divider1{
 transition: .1s ease-out;

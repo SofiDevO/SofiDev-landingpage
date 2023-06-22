@@ -1,6 +1,7 @@
 .tools__caja{
     height: 60px;
     width: 60px;
+    min-width: 60px;
     display: flex;
     background: rgba(188, 188, 188, 0.5);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -12,10 +13,14 @@
     align-items: center;
 }
 
+
+
+
 @media (min-width:768px){
     .tools__caja{
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
+        min-width: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -24,12 +29,14 @@
 }
 @media (min-width:1200px){
     .tools__caja{
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
+        min-width: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
+        
     }
 }
 
