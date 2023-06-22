@@ -1,6 +1,6 @@
 .slider{
     display: inline-block;
-    animation: 8s slide infinite linear;
+    animation: 6s slide infinite linear;
     height: 19vh;
     min-height: 252px;
 }
@@ -27,11 +27,13 @@
     .slider{
     height: 28vh;
         min-height: 262px;
+        animation: 8s slide infinite linear;
     }
 }
 @media (min-width:1200px){
     .slider{
         height: 42vh;
         min-height: 237px;
+        
     }
 }
