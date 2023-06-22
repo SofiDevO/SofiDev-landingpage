@@ -8,13 +8,6 @@
 @keyframes slide{
     from{
         transform: translateX(0);
-        .slider{
-            display: inline-block;
-            animation: 11s slide infinite linear;
-            height: 19vh;
-            min-height: 252px;
-        }
-        
     }
     to{
         transform: translateX(-100%);
@@ -27,7 +20,7 @@
     .slider{
     height: 28vh;
         min-height: 262px;
-        animation: 8s slide infinite linear;
+        animation: 15s slide infinite linear;
     }
 }
 @media (min-width:1200px){

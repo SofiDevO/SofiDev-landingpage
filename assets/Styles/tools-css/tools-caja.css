@@ -12,6 +12,11 @@
     justify-content: center;
     align-items: center;
 }
+.tools__caja:hover{
+    transform: scale(1.2);
+}
+
+
 
 
 

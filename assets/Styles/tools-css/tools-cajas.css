@@ -4,7 +4,10 @@
     gap: 16px;
     align-items: center;
     white-space: nowrap;
-    
+}
+
+.tools__caja:hover .slider{
+    animation-play-state: paused;
 }
 
 
