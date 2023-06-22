@@ -1,0 +1,10 @@
+.tools__caja__slider{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.tools__caja__slider:hover .slider{
+    animation-play-state: paused;
+}

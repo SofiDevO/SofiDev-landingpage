@@ -4,9 +4,7 @@
     width: 100%;
     overflow: hidden;
 }
-.tools:hover .slider{
-    animation-play-state: paused;
-}
+
 
 
 @media (min-width:768px){
