@@ -7,4 +7,5 @@
 
 .tools__caja__slider:hover .slider{
     animation-play-state: paused;
+    white-space: nowrap;
 }
