@@ -4,8 +4,8 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 9px;
-    padding: 0 16px;
+    gap: 16px;
+    padding: 0 11px;
 }
 @media (min-width:678px){
     .tools__cajas{
