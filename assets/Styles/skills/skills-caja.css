@@ -1,6 +1,6 @@
 .skills__caja{
-    height: 162px;
-    width: 133px;
+    height: 142px;
+    width: 106px;
     display: flex;
     background: rgba(188, 188, 188, 0.5);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -14,10 +14,11 @@
 
 @media (min-width:768px){
     .skills__caja{
-        height: 178px;
-        width: 161px;
+        height: 191px;
+        width: 141px;
         display: flex;
-        justify-content: center;   
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (min-width:1200px){

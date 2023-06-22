@@ -17,7 +17,7 @@
         position: relative;
         flex-direction: row;
         justify-content: flex-start;
-        height: 70vh;
+        height: fit-content;
     }
 }
 
