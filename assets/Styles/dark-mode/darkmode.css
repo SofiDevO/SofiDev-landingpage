@@ -19,7 +19,7 @@
 }
 
     
-.dark-mode .header__logo span{
+.dark-mode .span__dark{
     transition: 3s ease-in;
     color: rgba(0,212,255,1);
     filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
@@ -149,19 +149,12 @@ fill:rgb(7, 7, 7) ;
     }
    
     
-    .dark-mode .acerca__span{
+    .dark-mode .titulo__dark{
         color: rgba(0,212,255,1);
         filter: drop-shadow(0 0 5px rgba(0,212,255,1));
      }
     
-     .dark-mode .acerca__caja-cristal{
-        background: rgba( 0, 0, 0, 0.8 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 19px );
-        -webkit-backdrop-filter: blur( 19px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-    }
+
     
     .dark-mode .acerca__foto-perfil{
         filter: drop-shadow(0 0 5px rgba(0,212,255,1));
@@ -187,7 +180,7 @@ fill:rgb(7, 7, 7) ;
     filter: drop-shadow(0 0 5px rgba(0,212,255,1));
 }
 
-.dark-mode .skills__caja{
+.dark-mode .caja__dark{
         background: rgba( 0, 0, 0, 0.8 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 19px );
@@ -195,6 +188,14 @@ fill:rgb(7, 7, 7) ;
         border-radius: 10px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
+.dark-mode .tools__caja{
+        border-radius: 50%;
+    }
+        
+
+        
+
+    
     
 @media (min-width:768px){
     .dark-mode .img__dark{

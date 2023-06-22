@@ -1,0 +1,34 @@
+.tools{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width:768px){
+    .tools{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1158px;
+        padding: 0 25px;
+        height: auto;
+    }
+}
+
+@media (min-width:1200px){
+    .tools{
+        display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1859px;
+    padding: 0 25px;
+    height: auto;
+    }
+}

@@ -1,0 +1,12 @@
+.tools__titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width:1200px){
+    .tools__titulo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.5rem;
+    }
+}

@@ -1,0 +1,40 @@
+.tools__caja{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    background: rgba(188, 188, 188, 0.5);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 19px );
+    -webkit-backdrop-filter: blur( 19px );
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:768px){
+    .tools__caja{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;  
+    }
+}
+@media (min-width:1200px){
+    .tools__caja{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+
+
+
+
+
+

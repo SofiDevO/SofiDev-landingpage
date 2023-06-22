@@ -1,0 +1,41 @@
+.tools__icono{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40px;
+}
+
+
+ .javascript{
+    filter: invert(76%) sepia(15%) saturate(7243%) hue-rotate(355deg) brightness(103%) contrast(104%);
+}
+
+.wordpress{
+    filter: invert(30%) sepia(92%) saturate(836%) hue-rotate(169deg) brightness(98%) contrast(101%);
+}
+
+
+
+
+@media (min-width:768px){
+
+    .tools__icono{
+        width: 60px;
+    }
+    .tools__icono .javascript{
+        width:170px;
+    }
+
+}
+@media (min-width:1200px){
+
+    .tools__icono{
+        width: 60px;
+
+    }
+    .tools__icono .javascript{
+        width:60px;
+    }
+
+}
+    

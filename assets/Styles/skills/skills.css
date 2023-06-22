@@ -11,27 +11,26 @@
 @media (min-width:768px){
     .skills{
         display: flex;
-    height: auto;
-    width: 100%;
-    align-items: center;
-    z-index: 10;
-    position: relative;
-    flex-direction: row;
-    justify-content: flex-start;
+        width: 100%;
+        align-items: center;
+        z-index: 10;
+        position: relative;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: 70vh;
     }
 }
 
 @media (min-width:1200px){
     .skills{
         display: flex;
-        height: auto;
+        height: 79vh;
         justify-content: flex-start;
         width: 100%;
         flex-wrap: wrap;
         align-items: center;
         flex-direction: row;
-        gap: 18px;
-        margin-left: 10px;
+        margin-left: 35px;
     }
 
 }

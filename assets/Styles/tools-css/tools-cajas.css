@@ -1,0 +1,24 @@
+.tools__cajas{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 9px;
+    padding: 0 16px;
+}
+@media (min-width:678px){
+    .tools__cajas{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 9px;
+    }
+}
+@media (min-width:1200px){
+    .tools__cajas{
+        display: flex;
+        background-size: 575px;
+        justify-content: center;
+    }
+}
