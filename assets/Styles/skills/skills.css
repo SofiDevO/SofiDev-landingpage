@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
-    gap: 20px;
+    gap: 29px;
 }
 @media (min-width:768px){
     .skills{
