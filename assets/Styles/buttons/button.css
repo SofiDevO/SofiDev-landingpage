@@ -1,9 +1,9 @@
 .boton{
     display: flex;
-    font-size: 1rem;
-    width: 147%;
+    font-size: 1.1rem;
+    width: 87%;
     margin-top: 20px;
-    padding: 15px 6px;
+    padding: 18px 24px;
     align-items: center;
     background: rgba( 255, 255, 255, 0.3 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -13,6 +13,7 @@
     border: 3px solid rgba(18, 18, 18, 0.743);
     justify-content: space-evenly;
     font-weight: 700;
+    min-width: 233px;
 }
 
 .boton:hover{
@@ -22,9 +23,12 @@
 
 .link__boton{
     text-decoration: none;
+    display: flex;
+    width: 41%;
+    justify-content: center;
 }
 
-@media (min-width:1200px){
+@media (min-width:768px){
     .boton{
         display: flex;
         font-size: 1rem;
@@ -34,11 +38,41 @@
         border-radius: 40px;
         justify-content: space-evenly;
         font-weight: 800;
+        min-width: 218px;
     }
     
     .boton:hover{
         transform: scale(1.1);
-
-
     }
+    .link__boton{
+        text-decoration: none;
+        display: flex;
+        width: 21%;
+        min-width: 300px;
+    }
+
+}
+@media (min-width:1200px){
+    .boton{
+        display: flex;
+    font-size: 1rem;
+    width: 143%;
+    padding: 14px 6px;
+    align-items: center;
+    border-radius: 40px;
+    justify-content: space-evenly;
+    font-weight: 800;
+    }
+    
+    .boton:hover{
+        transform: scale(1.1);
+    }
+
+    .link__boton{
+        display: flex;
+        width: 18%;
+        min-width: 247px;
+    }
+
+
 }
