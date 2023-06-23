@@ -1,6 +1,6 @@
 .slider{
     display: inline-block;
-    animation: 6s slide infinite linear;
+    animation: 22s slide infinite linear;
     height: 19vh;
     min-height: 252px;
 }
@@ -10,7 +10,7 @@
         transform: translateX(0);
     }
     to{
-        transform: translateX(-100%);
+        transform: translateX(-626%);
     }
 
 }
@@ -20,11 +20,12 @@
     .slider{
     height: 28vh;
         min-height: 262px;
-        animation: 15s slide infinite linear;
+        animation: 80s slide infinite linear;
     }
 }
 @media (min-width:1200px){
     .slider{
+        animation: 90s slide infinite linear;
         height: 42vh;
         min-height: 237px;
         

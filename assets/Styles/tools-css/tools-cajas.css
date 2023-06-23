@@ -3,10 +3,10 @@
     gap: 40px;
     align-items: center;
     white-space: nowrap;
-    height: 137px;
-    width: 1252px;
-    justify-content: space-around;
+    height: 164px;
+    width: -23px;
 }
+
 
 @media (min-width:678px){
     .tools__cajas{

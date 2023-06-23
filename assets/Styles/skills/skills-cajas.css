@@ -3,11 +3,11 @@
     width: 100%;
     gap: 6px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: relative;
+    height: -61vh;
     z-index: 10px;
-}
+    min-height: 663px;
 
 
 @media (min-width:768px){
