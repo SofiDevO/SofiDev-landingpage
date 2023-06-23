@@ -1,0 +1,12 @@
+.skills__descargar{
+    display: flex;
+}
+
+@media (min-width:1200px){
+    .skills__descargar{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 15px;
+        width: 69%;
+    }
+}
