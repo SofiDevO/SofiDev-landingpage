@@ -1,19 +1,23 @@
 .acerca{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 108vh;
+    height: 198vh;
+    background: url(../../img/IAselfie2.png) top no-repeat;
+    background-size: 360px;
+    max-height: 1057px;
 }  
 
 @media (min-width:768px){
     .acerca{
         background: url(../../img/IAselfie2.png) left no-repeat;
+        height: 108vh;
         background-size: 481px;
         align-items: flex-end;
         
-        }
+    }
 }
 @media (min-width:1200px){
     .acerca{

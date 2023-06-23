@@ -170,7 +170,7 @@ fill:rgb(7, 7, 7) ;
 }
 
 .dark-mode .caja__dark{
-        background: rgba( 0, 0, 0, 0.8 );
+        background: rgba(0, 0, 0, 0.8);
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 19px );
         -webkit-backdrop-filter: blur( 19px );
@@ -227,13 +227,13 @@ fill:rgb(7, 7, 7) ;
     }
     .dark-mode  .tooltip__box{
         
-        color: var(--pure-black);
-        background: rgba(255, 253, 253, 0.435);
+        color: var(--seccond-color);
+        background: rgba(9, 9, 9, 0.435);
         box-shadow: 0 8px 32px 0 rgba(13, 19, 100, 0.277);
         backdrop-filter: blur( 17px );
         -webkit-backdrop-filter: blur( 19px );
         border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.518);
+        border: 1px solid rgba(0, 255, 234, 0.626);
        
     }
     

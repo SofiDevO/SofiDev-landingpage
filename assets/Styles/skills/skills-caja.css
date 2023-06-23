@@ -1,4 +1,4 @@
-.card {
+.skills__caja {
     height: 142px;
     width: 106px;
     display: flex;
@@ -42,11 +42,11 @@
     
   
   
-  .card:hover > .skills__texto {
+  .skills__caja:hover > .skills__texto {
     opacity: 1;
   }
   
-  .card:hover > .img {
+  .skills__caja:hover > .img {
     height: 65%;
     filter: blur(8px);
     animation: anim 3s infinite;
@@ -66,24 +66,19 @@
     }
   }
   
-  .card:hover {
+  .skills__caja:hover {
     transform: scale(1.04) rotate(-1deg);
   }
   
   
 
 @media (min-width:768px){
-    .card{
-     height: 204px;
-    width: 147px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    .skills__texto > .head {
-      font-size: 20px;
-      font-weight: 700;
-      text-align: center;
+    .skills__caja{
+      height: 191px;
+      width: 135px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
   
         
@@ -94,7 +89,7 @@
     
 }
 @media (min-width:1200px){
-    .card{
+    .skills__caja{
       height: 260px;
       width: 179px;
       display: flex;

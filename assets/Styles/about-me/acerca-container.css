@@ -1,11 +1,10 @@
 .acerca__container{
-     display: flex;
-    flex-direction: column;
-    width: 100%;
-    /* height: 1362px; */
-    align-items: center;
-    justify-content: space-evenly;
-    z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 707px;
+  z-index: 2;
+  align-items: center;
   }
 
 @media (min-width:768px){
