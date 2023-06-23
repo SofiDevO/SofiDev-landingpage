@@ -4,6 +4,7 @@
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
+    padding: 0 5px;
 }
 .acerca__texto span{
     color: var( --purple);
@@ -15,5 +16,6 @@
         text-align: justify;
         font-weight: lighter;
         font-size: 18px;
+        padding: 0 30px;
     }
 }
