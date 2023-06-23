@@ -1,0 +1,25 @@
+.link__boton{
+    text-decoration: none;
+    display: flex;
+    width: 41%;
+    justify-content: center;
+}
+
+@media (min-width:768px){
+    .link__boton{
+        text-decoration: none;
+        display: flex;
+        width: 21%;
+        min-width: 300px;
+    }
+
+}
+@media (min-width:1200px){
+    .link__boton{
+        display: flex;
+        width: 18%;
+        min-width: 247px;
+    }
+
+
+}
