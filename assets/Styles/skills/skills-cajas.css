@@ -8,7 +8,7 @@
     height: -61vh;
     z-index: 10px;
     min-height: 663px;
-
+}
 
 @media (min-width:768px){
     .skills__cajas{

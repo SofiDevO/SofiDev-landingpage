@@ -18,16 +18,34 @@
 
 @media (min-width:768px){
     .slider{
-    height: 28vh;
+    height: 30vh;
         min-height: 262px;
-        animation: 80s slide infinite linear;
+        animation: 30s slide infinite linear;
+    }
+    @keyframes slide{
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-383%);
+        }
+    
     }
 }
 @media (min-width:1200px){
     .slider{
-        animation: 90s slide infinite linear;
+        animation: 40s slide infinite linear;
         height: 42vh;
         min-height: 237px;
         
+    }
+    @keyframes slide{
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-250%);
+        }
+    
     }
 }

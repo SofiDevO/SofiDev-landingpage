@@ -14,7 +14,7 @@
   }
   
   .img {
-    height: 30%;
+        /* height: 30%; */
     position: absolute;
     transition: 0.2s ease-in-out;
     z-index: 1;
@@ -32,23 +32,15 @@
     padding: 18px;
   }
   
-  .skills__texto > .text {
-    font-weight: 500;
-  }
-  
-  .skills__texto > .head {
-    font-size: 17px;
-    font-weight: 600;
-    text-align: center;
-    }
-    
-  
-  .skills__texto > .parrafo {
-    display: none;
-    }
 
   
- 
+.skills__texto > .head {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  }
+    
+  
   
   .card:hover > .skills__texto {
     opacity: 1;
@@ -82,22 +74,23 @@
 
 @media (min-width:768px){
     .card{
-      height: 234px;
-      width: 141px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+     height: 204px;
+    width: 147px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
+    .skills__texto > .head {
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+  }
+  
         
 
     .skills__texto{
         gap: 0;
     }
-    .skills__texto > .parrafo {
-        display: block;
-        font-size: 13.2px;
-        text-align: center;
-        }
     
 }
 @media (min-width:1200px){
@@ -108,14 +101,11 @@
       justify-content: center;
       align-items: center;
     }
-    
-.skills__texto > .parrafo {
-        display: block;
-        font-size: 15px;
-
-
-        
-    }
+      .skills__texto > .head {
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+  }
 }
 
 

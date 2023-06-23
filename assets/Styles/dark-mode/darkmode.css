@@ -178,7 +178,7 @@ fill:rgb(7, 7, 7) ;
     }
 
 .skills__caja:hover .skills__icono__dark{
-    filter: invert(58%) sepia(0%) saturate(250%) hue-rotate(166deg) brightness(99%) contrast(91%);
+    filter: invert(24%) sepia(1%) saturate(40%) hue-rotate(42deg) brightness(96%) contrast(80%);
 }        
 
 

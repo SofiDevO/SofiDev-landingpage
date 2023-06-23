@@ -17,11 +17,12 @@
 @media (min-width: 1200px){
   .acerca__titulo{
     display: flex;
-        font-size: 3em;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-left: 377px;
+    font-size: 3em;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 459px;
+}
     }
 }
         

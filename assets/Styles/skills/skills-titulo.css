@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-/* @media (min-width:768px){
+@media (min-width:768px){
     .skills__titulo{
         display: flex;
         font-size: 3.5rem;
@@ -14,16 +14,17 @@
         align-items: center;
         width: 100%;
     }
+        
 
-} */
+}
 @media (min-width:1200px){
     .skills__titulo{
         display: flex;
         font-size: 3.5rem;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 100%;
-        
+        margin-left: 471px;   
     }
     }
 
