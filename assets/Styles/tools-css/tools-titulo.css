@@ -3,6 +3,7 @@
     font-size: 3rem;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 @media (min-width:678px){
     .tools__titulo{

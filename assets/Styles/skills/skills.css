@@ -18,6 +18,8 @@
         flex-direction: row;
         justify-content: flex-start;
         height: fit-content;
+        gap: 10px;
+        margin-left: 20px;
     }
 }
 

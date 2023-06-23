@@ -176,7 +176,12 @@ fill:rgb(7, 7, 7) ;
 .dark-mode .tools__caja{
         border-radius: 50%;
     }
-        
+
+.skills__caja:hover .skills__icono__dark{
+    filter: invert(58%) sepia(0%) saturate(250%) hue-rotate(166deg) brightness(99%) contrast(91%);
+}        
+
+
 
         
 

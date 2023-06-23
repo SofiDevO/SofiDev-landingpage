@@ -1,6 +1,6 @@
 .tools__cajas{
     display: flex;
-    gap: 16px;
+    gap: 40px;
     align-items: center;
     white-space: nowrap;
     height: 137px;
