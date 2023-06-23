@@ -24,14 +24,14 @@
 @media (min-width:1200px){
     .skills{
         display: flex;
-        height: 120vh;
+        height: 77vh;
         justify-content: flex-start;
         width: 100%;
         flex-wrap: wrap;
         align-items: center;
         flex-direction: row;
-        min-height: 400px;
-        margin-left: 35px;
+        min-height: 523px;
+        margin-left: 80px;
     }
 
 }

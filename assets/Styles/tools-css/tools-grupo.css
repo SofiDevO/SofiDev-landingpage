@@ -1,0 +1,22 @@
+.tools__grupo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 103px;
+    padding: 2px;
+    justify-content: space-around;
+}
+
+
+@media (min-width:768px){
+    .tools__grupo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 186px;
+        padding: 2px;
+        justify-content: space-around;
+    }
+}

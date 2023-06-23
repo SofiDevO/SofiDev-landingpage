@@ -10,16 +10,13 @@
 @media (min-width:768px){
 
     .tools__icono{
-        width: 35px;
+        width: 53px;
     }
 }
 @media (min-width:1200px){
 
     .tools__icono{
-        width: 40px;
-
+        width: 65px;
     }
-   
-
 }
     

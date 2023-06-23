@@ -1,20 +1,18 @@
 .tools__cajas{
     display: flex;
-    width: 100%;
     gap: 16px;
     align-items: center;
     white-space: nowrap;
-    height: 121px;
+    height: 137px;
+    width: 1252px;
+    justify-content: space-around;
 }
-
-
-
-
 
 @media (min-width:678px){
     .tools__cajas{
         display: flex;
         height: 22vh;
+        gap: 144px;
         
     }
 }
@@ -22,5 +20,6 @@
     .tools__cajas{
         display: flex;
         height: 23vh;
-    }
+    }   
+        
 }

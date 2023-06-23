@@ -1,0 +1,21 @@
+.tools__descripcion{
+    display: flex;
+    text-align: center;
+    align-items:13px;
+}
+
+@media (min-width:768px){
+    .tools__descripcion{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size: 19px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        display: none;
+    }
+
+    .tools__grupo:hover .tools__descripcion{
+        display:inline-block;
+    }
+}

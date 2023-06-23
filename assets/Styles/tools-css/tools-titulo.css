@@ -4,6 +4,12 @@
     display: flex;
     justify-content: center;
 }
+@media (min-width:678px){
+    .tools__titulo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.3rem;
+    }
+}
 @media (min-width:1200px){
     .tools__titulo{
         font-family: 'Montserrat', sans-serif;
