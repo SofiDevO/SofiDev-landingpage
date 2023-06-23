@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
 }
+.acerca__texto span{
+    color: var( --purple);
+    font-weight: 700;
+}
 
 @media (min-width:768px){
     .acerca__textos{

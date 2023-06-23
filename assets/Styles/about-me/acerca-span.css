@@ -1,4 +1,8 @@
 .acerca__span{
     color: var(--seccond-color);
-    text-shadow: -1px -1px 11px #000000;
+    text-shadow: 0px -1px 5px #000000;
+}
+
+.acerca__corazon{
+    display: none;
 }
