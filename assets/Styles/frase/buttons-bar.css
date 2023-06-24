@@ -1,0 +1,43 @@
+button {
+  width: 40px;
+  height: 35px;
+  margin-left: -5px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  transition: 0.2s;
+}
+
+button {
+  width: 40px;
+  height: 35px;
+  margin-left: -5px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  transition: 0.2s;
+}
+
+button svg path, 
+button svg rect, 
+button svg polygon {
+  fill: #ffffff;
+}
+
+button svg {
+  width: 10px;
+  height: 10px;
+}
+
+
+.close:hover {
+  background-color: #e81123;
+}
+
+.maximize:hover {
+  background-color: #c042ff2e;
+}
+
+.minimize:hover {
+  background-color: #c042ff2e;
+}

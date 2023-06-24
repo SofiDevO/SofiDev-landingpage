@@ -11,7 +11,7 @@
 @media (min-width:678px){
     .tools__cajas{
         display: flex;
-        height: 34vh;
+        height: 45vh;
         gap: 144px;
         
     }

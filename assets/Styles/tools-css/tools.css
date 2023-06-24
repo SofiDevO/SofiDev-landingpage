@@ -23,7 +23,8 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 407px;
-        min-height: 330px;
+        overflow: hidden;
+        height: 364px;
+        justify-content: flex-end;
     }
 }

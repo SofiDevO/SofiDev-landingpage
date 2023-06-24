@@ -3,8 +3,7 @@
     font-size: 1.1rem;
     width: 88%;
     margin-top: 20px;
-    padding: 8px 0px;
-    align-items: center;
+    padding: 22px 6px;    align-items: center;
     background: rgba( 255, 255, 255, 0.3 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10px );
@@ -27,12 +26,11 @@
         display: flex;
         font-size: 1rem;
         width: 143%;
-        padding: 14px 6px;
+        padding: 28px 8px;
         align-items: center;
         border-radius: 40px;
         justify-content: space-evenly;
         font-weight: 800;
-        min-width: 218px;
     }
     
     .boton:hover{
@@ -44,13 +42,13 @@
 @media (min-width:1200px){
     .boton{
         display: flex;
-    font-size: 1rem;
-    width: 143%;
-    padding: 14px 6px;
-    align-items: center;
-    border-radius: 40px;
-    justify-content: space-evenly;
-    font-weight: 800;
+        font-size: 1rem;
+        width: 143%;
+        padding: 28px 8px;
+        align-items: center;
+        border-radius: 40px;
+        justify-content: space-evenly;
+        font-weight: 800;
     }
     
     .boton:hover{

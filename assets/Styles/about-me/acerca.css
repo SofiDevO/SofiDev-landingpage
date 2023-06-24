@@ -4,9 +4,9 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 198vh;
+    height: 193vh;
     background: url(../../img/IAselfie2.png) top no-repeat;
-    background-size: 360px;
+    background-size: 339px;
     max-height: 1057px;
 }  
 
@@ -21,10 +21,11 @@
 }
 @media (min-width:1200px){
     .acerca{
-        background: url(../../img/IAselfie2.png) left no-repeat;
-        background-size: 587px;
-        align-items: flex-end;
+        display: flex;
         width: 100%;
+        height: 100vh;
+        min-height: 750px;
+        justify-content: flex-start;
     }
 
 }

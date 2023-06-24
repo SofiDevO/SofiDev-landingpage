@@ -1,0 +1,65 @@
+.cppcode{
+    text-align: left;
+    display: flex;
+}
+
+
+#pre {
+    overflow: auto;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    color: #bafff8;
+  }
+
+  #pre code{
+    text-align: left;
+    display: flex;
+    width: 67%;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .curlies {
+    color: #ff0000;
+  }
+  
+  .sc {
+    color: #e600ff;
+  }
+  
+  .rounds {
+    color: #ffffff;
+  }
+  
+  .operator {
+    color: #ffff00;
+  }
+  
+  .s1 {
+    color: #22ff00;
+    width: 100%;
+  }
+  
+  .s2 {
+    color: #4281ff;
+  }
+  
+  .s3 {
+    color: #ff4284;
+    width: 100%;
+  }
+  
+  .s4 {
+    color: #ffae00;
+  }
+  
+  .s5 {
+    color: #ffffff;
+  }
+  
+  .s6 {
+    color: #ffff00;
+  }

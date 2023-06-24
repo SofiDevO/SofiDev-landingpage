@@ -1,0 +1,23 @@
+.frase__imagen{
+    width: 100%;
+}
+
+.sofi__pixel{
+    width: 220px;
+    border-radius: 28px;
+}
+
+
+
+
+@media (min-width:768px){
+    .sofi__pixel{
+        width: 265px;
+        border-radius: 28px;
+    }
+
+    .sofi__pixel{
+        width: 362px;
+        border-radius: 28px;
+    }
+}
