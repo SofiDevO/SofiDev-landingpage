@@ -11,7 +11,7 @@
 @media (min-width:678px){
     .tools__cajas{
         display: flex;
-        height: 22vh;
+        height: 34vh;
         gap: 144px;
         
     }
@@ -19,7 +19,7 @@
 @media (min-width:1200px){
     .tools__cajas{
         display: flex;
-        height: 23vh;
+        height: 34vh;
     }   
         
 }

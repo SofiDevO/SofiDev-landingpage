@@ -1,7 +1,7 @@
 .link__boton{
     text-decoration: none;
     display: flex;
-    width: 41%;
+    width: 67%;
     justify-content: center;
 }
 
@@ -17,8 +17,8 @@
 @media (min-width:1200px){
     .link__boton{
         display: flex;
-        width: 18%;
-        min-width: 247px;
+        width: 12%;
+        min-width: 203px;
     }
 
 

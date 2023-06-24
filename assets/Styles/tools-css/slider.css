@@ -1,6 +1,6 @@
 .slider{
     display: inline-block;
-    animation: 22s slide infinite linear;
+    animation: 33s slide infinite linear;
     height: 19vh;
     min-height: 252px;
 }
