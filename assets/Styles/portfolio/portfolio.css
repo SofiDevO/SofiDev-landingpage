@@ -3,17 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
-/* 
-@media (min-widrh:768px){
-    .portafolio{
-        flex-direction: row;
-    }    
-}
 
-@media (min-widrh:1200px){
+
+
+@media (min-width:1200px){
     .portafolio{
-    
+        background: url(../../img/Calligraphy-1-removebg-preview.webp) left no-repeat;
+        background-size: 700px;
+        height: 113vh;
+        justify-content: flex-end;
     }
-} */
+}

@@ -13,10 +13,11 @@
     .portafolio__contenedor{
         display: flex;
         position: relative;
-        align-items: center;
         justify-content: space-evenly;
-        height: 830px;
+        height: 582px;
         flex-direction: row;
+        gap: 43px;
+        align-content: flex-start;
     }    
 }
 

@@ -17,7 +17,9 @@
     --purple: #3F0071;
     --ligth-purple: #610094;
 }
-
+a{
+ text-decoration: none;   
+}
 body {
   overflow-x: hidden;
   z-index: 0;
@@ -25,4 +27,10 @@ body {
   margin: 0;
   width: 100%;
   background:rgb(206, 206, 206);
+}
+
+button{
+  border: solid 1px var(--main-color);
+  border-radius: 15px;
+  margin: 0;
 }

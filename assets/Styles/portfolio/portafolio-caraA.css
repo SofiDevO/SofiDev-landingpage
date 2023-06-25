@@ -8,7 +8,7 @@
 }
 
 .portafolio__trajeta .faceA{
-    transform: perspective(600px) ratateY(180deg);
+    transform: perspective(600px) ratateY(0deg);
     box-shadow: 0 5px 10px var(--pure-black);
 }
 

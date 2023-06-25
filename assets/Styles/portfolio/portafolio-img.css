@@ -1,15 +1,11 @@
 .portafolio__img{
     position: absolute;
-    object-fit: cover;
-    width: 411px;
-    top: -172px;
-    border-top-left-radius: 13px;
-    border-top-right-radius: 13px;
+    width: 581px;
+    top: -169px;
 }
 
 .vsc__img{
-    height: 199.13px;
-}
+    height: 279.13px;}
 
 .dark__img{
     display: none;
@@ -19,7 +15,7 @@
     .portafolio__img{
         position: absolute;
         width: 581px;
-        top: -151px;
+        top: -177px;
     }
     .vsc__img{
         height: 289.23px;
@@ -30,8 +26,11 @@
         position: absolute;
         object-fit: cover;
         width: 535px;
-        top: -196px;
-       
+        top: -204px;
+        
+    }
+    .vsc__img{
+        height: 266.92px;
     }
 
 }
