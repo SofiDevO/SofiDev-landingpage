@@ -4,6 +4,7 @@
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+    align-content: stretch;
 }
 
 
@@ -11,6 +12,7 @@
     .portafolio__contenedor{
         flex-direction: row;
         justify-content: space-evenly;
+        height: 61vh;
     }    
 }
 
