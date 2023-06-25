@@ -196,6 +196,13 @@ fill:rgb(7, 7, 7) ;
     filter: invert(24%) sepia(1%) saturate(40%) hue-rotate(42deg) brightness(96%) contrast(80%);
 }        
 
+.dark-mode .dark__img{
+    display: block;
+}
+
+.dark-mode .ligth__img{
+    display: none;
+}
 
 
         

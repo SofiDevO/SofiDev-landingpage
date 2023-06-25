@@ -1,0 +1,15 @@
+.portafolio__img{
+    width: 330px;
+}
+
+.dark__img{
+    display: none;
+}
+
+@media (min-width:768px){
+}
+@media (min-width:1200px){
+    .portafolio__img{
+        width: 750px;
+    }
+}

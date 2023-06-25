@@ -1,0 +1,15 @@
+.portafolio__trajeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media (min-width:768px){
+    .portafolio__trajeta{
+        
+    }
+}
+@media (min-width:1200px){
+    
+}

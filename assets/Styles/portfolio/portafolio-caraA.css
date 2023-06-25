@@ -1,0 +1,5 @@
+.portafolio__caraA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

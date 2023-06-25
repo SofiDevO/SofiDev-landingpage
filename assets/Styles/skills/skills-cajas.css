@@ -20,7 +20,7 @@
         align-content: flex-start;
         flex-direction: row;
         height: 104vh;
-        background: url('../../img/IAselfie.png') no-repeat right;
+        background: url('../../img/IAselfie.webp') no-repeat right;
         background-size: 408px;
         min-height: 904px;
     }
@@ -35,7 +35,7 @@
         align-content: flex-start;
         flex-direction: row;
         height: 105vh;
-        background: url(../../img/IAselfie.png) no-repeat right;
+        background: url(../../img/IAselfie.webp) no-repeat right;
         background-size: 575px;
         min-height: 1053px;
     }

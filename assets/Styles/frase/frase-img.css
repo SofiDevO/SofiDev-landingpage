@@ -12,20 +12,13 @@
 
 @media (min-width:768px){
     .sofi__pixel{
-        width: 265px;
-    }
-
-    .sofi__pixel{
-        width: 366px;
+        width: 307px;
     }
 }
 
 @media (min-width:1200px){
     .sofi__pixel{
-        width: 265px;
+        width: 325px;
     }
 
-    .sofi__pixel{
-        width: 554px;
-    }
 }
