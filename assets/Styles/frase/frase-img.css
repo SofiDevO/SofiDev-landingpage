@@ -13,11 +13,19 @@
 @media (min-width:768px){
     .sofi__pixel{
         width: 265px;
-        border-radius: 28px;
     }
 
     .sofi__pixel{
-        width: 362px;
-        border-radius: 28px;
+        width: 366px;
+    }
+}
+
+@media (min-width:1200px){
+    .sofi__pixel{
+        width: 265px;
+    }
+
+    .sofi__pixel{
+        width: 554px;
     }
 }

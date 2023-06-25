@@ -5,7 +5,7 @@
     z-index: 2;
     position: relative;
     flex-direction: column-reverse;
-    margin-top: 51px;
+    margin-top: -3px;
     align-items: center;
 }
 
@@ -18,13 +18,13 @@
         z-index: 2;
         position: relative;
         justify-content: center;
+        margin-top: -165px;
     }
 }
 @media (min-width:1200px){
     .frase{
         flex-direction: row;
         justify-items: center;
-        /* justify-content: right; */
         align-items: center;
         margin-right: 289px;
         z-index: 2;

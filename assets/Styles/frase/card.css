@@ -1,11 +1,12 @@
 .card{
-    width: 292px;
+    width: 306px;
     height: 263px;
     background: #15001f;
     border: 1px solid #c042ff;
     font-size: 20px;
     font-family: monospace;
 }
+
 
 
 @media (min-width:768px){

@@ -9,8 +9,6 @@
     .link__boton{
         text-decoration: none;
         display: flex;
-        width: 21%;
-        min-width: 300px;
     }
 
 }
