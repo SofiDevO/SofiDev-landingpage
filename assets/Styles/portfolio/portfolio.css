@@ -13,7 +13,8 @@
     .portafolio{
         background: url(../../img/Calligraphy-1-removebg-preview.webp) left no-repeat;
         background-size: 700px;
-        height: 113vh;
+        margin-top: -156px;
+        height: 138vh;
         justify-content: flex-end;
     }
 }

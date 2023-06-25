@@ -24,14 +24,14 @@
 @media (min-width:1200px){
     .portafolio__contenedor{
         display: flex;
-    position: relative;
-    flex-direction: row;
-    align-items: center;
-    height: 62vh;
-    width: 90%;
-    align-content: stretch;
-    justify-content: space-around;
-    max-width: 1278px;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        height: 62vh;
+        width: 90%;
+        align-content: stretch;
+        justify-content: space-around;
+        max-width: 1278px;
     }
     
 }
