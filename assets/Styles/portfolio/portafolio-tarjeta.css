@@ -17,8 +17,13 @@
 
 @media (min-width:768px){
     .portafolio__trajeta{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
         width: 581px;
-        height: 404px;
+       height: 404px;
     }
 }
 @media (min-width:1200px){

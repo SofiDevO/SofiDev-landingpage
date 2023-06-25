@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    max-width: 439px;
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-evenly;
@@ -15,7 +16,8 @@
     .portafolio__contenedor{
         flex-direction: row;
         justify-content: space-evenly;
-        height: 61vh;
+        height: 74vh;
+        max-width: 1711px;
     }    
 }
 

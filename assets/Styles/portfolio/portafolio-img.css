@@ -13,6 +13,12 @@
 }
 
 @media (min-width:768px){
+    .portafolio__img{
+        position: absolute;
+        object-fit: cover;
+        width: 581px;
+        top: -151px;
+    }
     .vsc__img{
         height: 289.23px;
     }
