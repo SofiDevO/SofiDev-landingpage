@@ -5,7 +5,7 @@
 }
 
 .vsc__img{
-    height: 289.23px;
+    height: 199.13px;
 }
 
 .dark__img{
@@ -13,6 +13,9 @@
 }
 
 @media (min-width:768px){
+    .vsc__img{
+        height: 289.23px;
+    }
 }
 @media (min-width:1200px){
     .portafolio__img{
@@ -20,6 +23,6 @@
         object-fit: cover;
         width: 581px;
         top: -151px;
-
     }
+
 }
