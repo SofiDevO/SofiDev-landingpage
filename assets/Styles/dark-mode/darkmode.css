@@ -192,6 +192,16 @@ fill:rgb(7, 7, 7) ;
         border-radius: 50%;
     }
 
+
+    .dark-mode .caja__dark__portafolio{
+        background: rgba(0, 0, 0, 0.214);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 19px );
+        -webkit-backdrop-filter: blur( 19px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }    
+
 .skills__caja:hover .skills__icono__dark{
     filter: invert(24%) sepia(1%) saturate(40%) hue-rotate(42deg) brightness(96%) contrast(80%);
 }        
