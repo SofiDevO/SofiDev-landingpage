@@ -2,6 +2,6 @@
     text-align: center;
     font-family: 'Open snas', sans-serif;
     line-height: 1.5;
-    color: #912cff;
+    color: var(--pure-black);
     font-weight: 600;
 }
