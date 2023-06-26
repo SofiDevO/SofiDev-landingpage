@@ -118,6 +118,10 @@
     <link rel="stylesheet" href="./assets/Styles/portfolio/portafolio-botones.css">
     <link rel="stylesheet" href="./assets/Styles/portfolio/portafolio-descripcion.css">
     <link rel="stylesheet" href="./assets/Styles/portfolio/portafolio-boton.css">
+    <link rel="stylesheet" href="./assets/Styles/formulario/formulario.css">
+    <link rel="stylesheet" href="./assets/Styles/formulario/formulario-caja.css">
+    <link rel="stylesheet" href="./assets/Styles/formulario/formulario-contacto.css">
+    <link rel="stylesheet" href="./assets/Styles/formulario/formulario-inputs.css">
     
     <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode.css">
     
@@ -653,9 +657,52 @@
                             
             </div>
         </div>
-
-
     </section>
+
+    <section class="formulario" id="formulario">
+        <div class="formulario__titulo">
+            <h2>Contact</h2>
+        </div>
+        <div class="formulario__caja">
+            <form class="formulario__contacto">
+                    
+                <div class="formulario__inputs">
+                    <label for="name">Name</label>
+                    <input class="text__boxes" type="text" name="name" placeholder="Your name" title="Only letters and blank spaces are accepted" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                </div>
+                
+                <div class="formulario__inputs">
+                    <label for="email">E-mail</label>
+                    <input class="text__boxes" type="email" name="email" placeholder=" Your e-mail" title="Invalid Email " required>
+                </div>
+               
+                <div class="formulario__inputs">
+                    <label for="mensaje">Message</label>
+                    <textarea class="text__boxes" name="mensaje" cols="30" rows="4" placeholder="Your message" data-pattern=" ^.{1,255}$" required ></textarea>
+                </div>
+       
+            <!-- Boton, enviar  -->
+                <div class="submit">
+                    <input  type="submit" value="Send">
+                </div>
+                    
+            <!-- Loader -->
+              <!--   <div class="contact-form-loader none">
+                    <img src="./assets/three-dots.svg" alt="Cargando">
+                </div> -->
+
+               <!--  <div class="contact-form-response none">
+                    <p>Your</p>
+                </div> -->
+            </form>
+
+
+            
+          
+        </div>
+    </section>
+
+
 
 
     </main>

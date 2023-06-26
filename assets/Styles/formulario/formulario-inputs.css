@@ -1,0 +1,14 @@
+.formulario__inputs{
+    display: flex;
+    align-items: center;
+    
+}
+
+.formulario__inputs .text__boxes{
+    padding: 8px;
+    width: 300px;
+}
+
+.formulario__inputs label {
+    font-size: 1rem;
+}

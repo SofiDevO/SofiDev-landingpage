@@ -1,0 +1,17 @@
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 498px;
+    flex-direction: column;
+}
+
+@media (min-width:768px){
+    .formulario{
+        display: flex;
+        justify-content: center;
+        height: 51vh;
+        min-height: 394px;
+    }
+}

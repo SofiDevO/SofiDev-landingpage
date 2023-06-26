@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: space-around;
-    height: 134vh;
+    gap: 32px;
 }
 
 
@@ -14,7 +14,6 @@
         display: flex;
         position: relative;
         justify-content: space-evenly;
-        height: 582px;
         flex-direction: row;
         gap: 43px;
         align-content: flex-start;
@@ -25,13 +24,11 @@
     .portafolio__contenedor{
         display: flex;
         position: relative;
+        justify-content: space-evenly;
+        height: 477px;
         flex-direction: row;
-        align-items: center;
-        height: 62vh;
-        width: 90%;
-        align-content: stretch;
-        justify-content: space-around;
-        max-width: 1278px;
+        gap: 43px;
+        align-content: flex-start;
     }
     
 }
