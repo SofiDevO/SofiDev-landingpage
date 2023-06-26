@@ -1,12 +1,12 @@
 
 .portafolio__btn{
     display: flex;
-    font-size: 15px;
-    width: 157px;
+    font-size: 12px;
+    width: 127px;
     margin-top: 20px;
-    padding: 25px 13px;
+    padding: 19px 8px;
     align-items: center;
-    background: rgba(213, 224, 253, 0.789);
+    
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 10px );
@@ -16,11 +16,10 @@
     font-weight: 700;
 }
 
+
 .portafolio__btn:hover{
-    transform: scale(1.2);
     border: 3px solid var(--blue);
 }
-
 
 
 @media (min-width:768px){
