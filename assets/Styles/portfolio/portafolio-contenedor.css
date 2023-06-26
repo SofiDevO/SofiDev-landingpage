@@ -23,13 +23,13 @@
 @media (min-width:1200px){
     .portafolio__contenedor{
         display: flex;
-        position: relative;
-        justify-content: flex-end;
-        height: 495px;
-        flex-direction: row;
-        gap: 115px;
-        padding-right: 111px;
-        align-content: flex-start;
+    position: relative;
+    justify-content: center;
+    height: 495px;
+    flex-direction: row;
+    gap: 115px;
+    /* padding-right: 111px; */
+    align-content: flex-end;
     }
     
     
