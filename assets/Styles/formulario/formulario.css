@@ -31,7 +31,8 @@
         height: 92vh;
         min-height: 394px;
         align-items: flex-start;
-        margin: 0 0 0 117px;
+        margin: 0 0 0 116px;
         background: url(../../img/vice-vehicle.webp) no-repeat right;
+        background-size: 761px;
     }
 }
