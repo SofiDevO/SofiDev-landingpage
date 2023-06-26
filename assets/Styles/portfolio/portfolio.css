@@ -20,9 +20,10 @@
 @media (min-width:1200px){
     .portafolio{
         background: url(../../img/Calligraphy-1-removebg-preview.webp) left no-repeat;
-        background-size: 632px;
-        margin-top: -127px;
-        height: 111vh;
+        background-size: 626px;
+        margin-top: -334px;
+        height: 138vh;
         justify-content: flex-end;
+    }
     }
 }
