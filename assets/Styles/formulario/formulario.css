@@ -1,7 +1,7 @@
 .formulario{
     display: flex;
     height: auto;
-    min-height: 652px;
+    min-height: 815px;
     flex-direction: column;
     background: url(../../img/vice-vehicle.webp) no-repeat top;
     background-size: 197px;

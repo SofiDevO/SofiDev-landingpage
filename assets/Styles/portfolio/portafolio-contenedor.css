@@ -13,7 +13,7 @@
     .portafolio__contenedor{
         display: flex;
         position: relative;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-direction: row;
         gap: 43px;
         align-content: flex-start;
@@ -24,10 +24,11 @@
     .portafolio__contenedor{
         display: flex;
         position: relative;
-        justify-content: space-evenly;
+        justify-content: flex-end;
         height: 477px;
         flex-direction: row;
-        gap: 43px;
+        gap: 30px;
+        padding-right: 45px;
         align-content: flex-start;
     }
     

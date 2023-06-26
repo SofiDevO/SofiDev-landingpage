@@ -45,5 +45,6 @@
         justify-content: space-evenly;
         width: 532px;
         height: 404px;
+        max-width: 800px;
     }
 }

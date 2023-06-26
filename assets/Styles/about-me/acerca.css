@@ -26,6 +26,8 @@
         height: 68vh;
         min-height: 660px;
         justify-content: flex-start;
+        background-size: 600px;
+
     }
 
 }
