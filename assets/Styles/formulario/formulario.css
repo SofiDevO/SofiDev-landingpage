@@ -10,8 +10,10 @@
 @media (min-width:768px){
     .formulario{
         display: flex;
-        justify-content: center;
-        height: 51vh;
-        min-height: 394px;
+    justify-content: center;
+    height: 76vh;
+    min-height: 394px;
+    align-items: flex-end;
+    margin: 0 33px 0 0;
     }
 }

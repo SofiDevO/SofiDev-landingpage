@@ -1,15 +1,15 @@
 .formulario__inputs{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 15px;
     justify-content: space-evenly;
     gap: 10px;
-    
+    flex-direction: column;    
 }
 
 .formulario__inputs .text__boxes{
-    padding: 8px;
-    width: 300px;
+    padding: 6px;
+    width: 100%;
 }
 
 .formulario__inputs label {

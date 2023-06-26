@@ -7,8 +7,9 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 25px;
+    align-items: stretch;
+    padding: 33px;
+    width: 85%;
 }
 
 
