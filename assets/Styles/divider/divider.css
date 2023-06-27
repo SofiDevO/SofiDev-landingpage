@@ -6,7 +6,7 @@
 
 .custom-shape-divider-bottom-1685513857 {
     position: absolute;
-    bottom: -83px;
+    bottom: -46px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -18,7 +18,7 @@
     position: relative;
     display: block;
     width: calc(152% + 21.80000000000001px);
-    height: 167px;
+    height: 131px;
 }
 
 .custom-shape-divider-bottom-1685513857 .shape-fill {
@@ -56,7 +56,7 @@
 @media (min-width:1200px){
     .custom-shape-divider-bottom-1685513857 {
         position: absolute;
-        bottom: -269px;
+        bottom: -143px;
         left: 0;
         width: 100%;
         overflow: hidden;

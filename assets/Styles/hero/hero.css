@@ -5,6 +5,8 @@
     background: linear-gradient(180deg, #fe71d1 -11%, #64baef);
     justify-content: space-evenly;
     flex-direction: column;
+    position: relative;
+    z-index: 2;
   }
 
 

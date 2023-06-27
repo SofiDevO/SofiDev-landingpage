@@ -20,5 +20,6 @@
 
 .formulario__inputs textarea{
     height: 228px;
+    resize: none;
 
 }

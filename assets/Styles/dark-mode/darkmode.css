@@ -1,7 +1,10 @@
 .dark-mode body{
-        background: rgb(7, 7, 7);
+        background:rgba(0, 0, 0, 0.971);
+        
         color: rgb(238, 235, 235);
         transition: all 0.1s ease-out;
+        z-index: 5;
+
 }
 /* elemntos del header */
 .dark-mode .header{
@@ -76,7 +79,7 @@
     /* ELEMNTOS DEL HERO */
     
 .dark-mode  .hero{
-    background: linear-gradient(0deg, rgba(18,0,42,1) 20%,  rgba(7, 7, 7)61%);
+    background: linear-gradient(0deg, rgba(18, 0, 42, 0.752) 20%,  rgba(7, 7, 7, 0.786)61%);
 }
     
 .dark-mode  .hero__titulo{
@@ -122,7 +125,7 @@
     
 .dark-mode  #divider1{
 transition: .1s ease-out;
-fill:rgb(7, 7, 7) ;
+fill:rgba(0, 0, 0, 0.81) ;
 }
 
     
