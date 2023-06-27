@@ -28,10 +28,11 @@
       display: flex;
       height: auto;
       align-items: center;
-      align-content: center;
       flex-wrap: wrap;
       width: 100%;
       padding: 0 34px;
       justify-content: space-evenly;
+      margin: 0;
+      margin-top: 34px;
   }
 }

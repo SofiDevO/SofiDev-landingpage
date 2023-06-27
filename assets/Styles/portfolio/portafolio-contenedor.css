@@ -1,11 +1,11 @@
 .portafolio__contenedor{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
     width: 100%;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-around;
-    gap: 32px;
+    align-items: center;
+    gap: 30px;
 }
 
 
@@ -23,13 +23,9 @@
 @media (min-width:1200px){
     .portafolio__contenedor{
         display: flex;
-    position: relative;
-    justify-content: center;
-    height: 495px;
-    flex-direction: row;
-    gap: 115px;
-    /* padding-right: 111px; */
-    align-content: flex-end;
+        justify-content: flex-start;
+        padding-left: 104px;
+    
     }
     
     

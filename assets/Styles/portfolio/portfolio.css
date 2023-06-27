@@ -9,21 +9,23 @@
 
 @media (min-width:768px){
     .portafolio{
-        background: url(../../img/Calligraphy-1-removebg-preview.webp) left no-repeat;
-        background-size: 632px;
-        margin-top: -127px;
-        height: 108vh;
-        justify-content: flex-end;
+        background: url(../../img/Calligraphy-1-removebg-preview.webp) right no-repeat;
+        background-size: 717px;
+        height: 90vh;
+        position: relative;
+        justify-content: space-between;
+        min-height: 929px;
     }
 }
 
 @media (min-width:1200px){
     .portafolio{
-        background: url(../../img/Calligraphy-1-removebg-preview.webp) left no-repeat;
-        background-size: 626px;
-        margin-top: -334px;
-        height: 138vh;
-        justify-content: flex-end;
+        background: url(../../img/Calligraphy-1-removebg-preview.webp) right no-repeat;
+        background-size: 717px;
+        height: 90vh;
+        position: relative;
+        justify-content: space-between;
+        min-height: 929px;
     }
-    }
+    
 }
