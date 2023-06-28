@@ -3,7 +3,6 @@
     height: auto;
     min-height: 815px;
     flex-direction: column;
-    background: url(../../img/vice-vehicle.webp) no-repeat top;
     background-size: 197px;
     /* padding-right: 78px; */
     align-items: center;
@@ -28,7 +27,7 @@
     .formulario{
         display: flex;
         justify-content: center;
-        height: 114vh;
+        height: 165vh;
         min-height: 394px;
         align-items: flex-start;
         margin: 0 0 0 116px;
