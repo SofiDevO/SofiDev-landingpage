@@ -1,6 +1,7 @@
 .cppcode{
     text-align: left;
     display: flex;
+    font-size: 1.2rem;
 }
 
 
@@ -38,15 +39,23 @@
     color: #ffff00;
   }
   
+  .you__can {
+    color: #22ff00;
+    margin-left: 30px;
+  }
   .s1 {
     color: #22ff00;
-    width: 9%;
   }
   
   .s2 {
     color: #4281ff;
   }
   
+  .you__cant {
+    color: #ff4284;
+    width: 100%;
+    margin-left: 30px;
+  }
   .s3 {
     color: #ff4284;
     width: 100%;
@@ -56,10 +65,11 @@
     color: #ffae00;
   }
   
-  .s5 {
-    color: #ffffff;
-  }
   
-  .s6 {
-    color: #ffff00;
-  }
+@media (min-width:768px){
+  .cppcode{
+    text-align: left;
+    display: flex;
+    font-size: 1.5rem;
+}
+}

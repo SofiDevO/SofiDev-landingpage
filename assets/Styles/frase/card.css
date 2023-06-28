@@ -1,5 +1,5 @@
 .card{
-    width: 306px;
+    width: 276px;
     height: 263px;
     background: #15001f;
     border: 1px solid #c042ff;
@@ -11,11 +11,12 @@
 
 @media (min-width:768px){
     .card {
-        width: 401px;
-        height: 263px;
+        width: 471px;
+        height: 332px;
         background: #15001f;
         border: 1px solid #c042ff;
         font-size: 20px;
         font-family: monospace;
+    
     }
 }
