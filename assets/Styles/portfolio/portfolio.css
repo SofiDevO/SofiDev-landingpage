@@ -1,32 +1,23 @@
 .portafolio{
     display: flex;
     flex-direction: column;
-    height: 180vh;
     align-items: center;
     justify-content: center;
-
 }
 
 
 @media (min-width:768px){
     .portafolio{
-        background: url(../../img/Calligraphy-1-removebg-preview.webp) right no-repeat;
         background-size: 717px;
-        height: 90vh;
         position: relative;
-        justify-content: space-between;
-        min-height: 929px;
     }
 }
 
+
 @media (min-width:1200px){
     .portafolio{
-        background: url(../../img/Calligraphy-1-removebg-preview.webp) right no-repeat;
-        background-size: 717px;
-        height: 90vh;
-        position: relative;
-        justify-content: space-between;
-        min-height: 929px;
+    background-size: 717px;
+    position: relative;
+    justify-content: space-between;
     }
-    
 }

@@ -31,15 +31,15 @@
         display: flex;
         width: 100%;
         flex-wrap: wrap;
-        max-width: 2630px;
+        max-width: 2452px;
         align-content: flex-start;
         flex-direction: row;
-        height: 105vh;
         background: url(../../img/IAselfie.webp) no-repeat right;
-        background-size: 575px;
-        min-height: 1053px;
+        background-size: 607px;
+        min-height: 1032px;
+    }
     }
 }
 
-}
+
 

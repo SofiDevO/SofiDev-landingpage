@@ -5,8 +5,8 @@
     width: 100%;
     align-items: center;
     gap: 30px;
-    height: 131vh;
 }
+
 
 
 @media (min-width:768px){
@@ -15,17 +15,16 @@
         position: relative;
         justify-content: center;
         flex-direction: row;
-        gap: 43px;
-        align-content: flex-start;
+        flex-wrap: wrap;
     }    
 }
 
 @media (min-width:1200px){
     .portafolio__contenedor{
         display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: flex-end;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: flex-end;
     }
     
     

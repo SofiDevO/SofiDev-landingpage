@@ -1,8 +1,8 @@
 .slider{
     display: inline-block;
-    animation: 33s slide infinite linear;
     height: 19vh;
     min-height: 254px;
+    animation: 25s slide infinite linear;
 }
 
 @keyframes slide{
@@ -10,7 +10,7 @@
         transform: translateX(0);
     }
     to{
-        transform: translateX(-593%);
+        transform: translateX(-368%);
     }
 
 }

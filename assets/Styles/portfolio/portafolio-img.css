@@ -1,7 +1,7 @@
 .portafolio__img{
     position: absolute;
     width: 581px;
-    top: -169px;
+    top: -175px;
 }
 
 .vsc__img{
@@ -25,8 +25,8 @@
     .portafolio__img{
         position: absolute;
         object-fit: cover;
-        width: 535px;
-        top: -204px;
+        width: 540px;
+        top: -179px;
         
     }
     .vsc__img{

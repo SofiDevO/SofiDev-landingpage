@@ -8,6 +8,14 @@
     
 }
 
+.formulario__inputs input{
+    padding: 11px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
 .formulario__inputs .text__boxes{
     padding: 6px;
     width: 100%;

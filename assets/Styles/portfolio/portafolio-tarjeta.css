@@ -42,9 +42,8 @@
         position: relative;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-        width: 532px;
-        height: 404px;
+        justify-content: center;
+        width: 434px;
         max-width: 800px;
     }
 }
