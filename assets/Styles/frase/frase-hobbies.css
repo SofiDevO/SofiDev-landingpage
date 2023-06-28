@@ -1,0 +1,22 @@
+.frase__hobbies{
+    display: flex;
+    width: 253px;
+    justify-content: center;
+}
+
+@media (min-width:768px){
+    .frase__hobbies{
+        display: flex;
+        width: 472px;
+        justify-content: center;
+    }
+
+}
+@media (min-width:1200px){
+    .frase__hobbies{
+        display: flex;
+        min-width: 656px;
+        justify-content: center;
+    }
+
+}

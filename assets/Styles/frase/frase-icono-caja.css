@@ -16,14 +16,12 @@
 
 @media (min-width:768px){
     .frase__icono__caja{
-        width: 35px;
-        height: 35px;
-        min-width: 90px;
-        min-height: 90px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 }
 @media (min-width:1200px){

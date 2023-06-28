@@ -4,3 +4,13 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+@media (min-width:768px){
+    .frase__iconos{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+

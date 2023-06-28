@@ -13,8 +13,20 @@
 
 @media (min-width:768px){
     .card {
-        width: 471px;
-        height: 332px;
+        width: 333px;
+        height: 250px;
+        background: #15001f;
+        border: 1px solid #c042ff;
+        font-size: 20px;
+        font-family: monospace;
+    
+    }
+}
+
+@media (min-width:1200px){
+    .card {
+        width: 396px;
+        height: 323px;
         background: #15001f;
         border: 1px solid #c042ff;
         font-size: 20px;
