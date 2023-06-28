@@ -1,6 +1,9 @@
 .frase__imagen{
     width: 100%;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
 
 .sofi__pixel{
     width: 220px;
@@ -17,6 +20,12 @@
 }
 
 @media (min-width:1200px){
+    .frase__imagen{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    }
     .sofi__pixel{
         width: 317px;
     }

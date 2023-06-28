@@ -82,9 +82,9 @@
     <link rel="stylesheet" href="./assets/Styles/tools-css/tools-caja.css">
     <link rel="stylesheet" href="./assets/Styles/tools-css/tools-cajas.css">
     <link rel="stylesheet" href="./assets/Styles/tools-css/tools-icono.css">
-    <link rel="stylesheet" href="./assets/Styles/tools-css/tools-titulo.css">
     <link rel="stylesheet" href="./assets/Styles/tools-css/tools-descripcion.css">
     <link rel="stylesheet" href="./assets/Styles/tools-css/tools.css">
+    <link rel="stylesheet" href="./assets/Styles/tools-css/tools-titulo.css">
     <link rel="stylesheet" href="./assets/Styles/tools-css/tools-grupo.css">
     <link rel="stylesheet" href="./assets/Styles/tools-css/slider.css">
     <link rel="stylesheet" href="./assets/Styles/tools-css/tools-caja-slider.css">
@@ -101,9 +101,6 @@
     <link rel="stylesheet" href="./assets/Styles/divider-dos/divider2.css">
     <link rel="stylesheet" href="./assets/Styles/buttons/button.css">
     <link rel="stylesheet" href="./assets/Styles/buttons/link-button.css">
-    <link rel="stylesheet" href="./assets/Styles/frase/card.css">
-    <link rel="stylesheet" href="./assets/Styles/frase/frase.css">
-    <link rel="stylesheet" href="./assets/Styles/frase/title-bar.css">
     <link rel="stylesheet" href="./assets/Styles/frase/buttons-bar.css">
     <link rel="stylesheet" href="./assets/Styles/frase/cppcode.css">
     <link rel="stylesheet" href="./assets/Styles/frase/frase-img.css">
@@ -124,9 +121,20 @@
     <link rel="stylesheet" href="./assets/Styles/formulario/formulario-inputs.css">
     <link rel="stylesheet" href="./assets/Styles/formulario/formulario-titulo.css">
     <link rel="stylesheet" href="./assets/Styles/formulario/formulario-submit.css">
-    <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode.css">
-    <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode-bg.css">
+    <link rel="stylesheet" href="./assets/Styles/frase/card.css">
+    <link rel="stylesheet" href="./assets/Styles/frase/frase.css">
+    <link rel="stylesheet" href="./assets/Styles/frase/title-bar.css">
+    <link rel="stylesheet" href="./assets/Styles/frase/frase-caja.css">
+    <link rel="stylesheet" href="./assets/Styles/frase/frase-icono-caja.css">
+    <link rel="stylesheet" href="./assets/Styles/frase/frase-icono.css">
+    <link rel="stylesheet" href="./assets/Styles/frase/frase-iconos.css">
+    <link rel="stylesheet" href="./assets/Styles/frase/frase-titulo.css">
+    <link rel="stylesheet" href="./assets/Styles/frase/freas-hobbies.css">
+    <link rel="stylesheet" href="./assets/Styles/titulos/titulo.css">
     
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode.css">
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode-bg.css">    
+
 </head>
 
 
@@ -154,33 +162,33 @@
             <a class="header__link " href="/index.html">
                 <p class="header__logo" id="logo">Sofi<span class="span__dark" id="span"> Dev</span></p>
             </a>
+        </div>
+        <!-- Menu Desktop -->
+        <nav class="menu-desktop">
+            <ul class="menu__contenido">
+                <li class="menu__list"><a class="menu__link" href="#skills">Skills</a></li>
+                <li class="menu__list"><a class="menu__link" href="#aboutMe">About me</a></li>
+                <li class="menu__list"><a class="menu__link" href="#portafolio">Portfolio</a></li>
+                <li class="menu__list"><a class="menu__link" href="#formulario">Contact</a></li>
+                <li class="menu__list"><a class="menu__link" href="https://blog.itssofi.dev/" >Blog</a></li>
+            </ul>
+        </nav>
+        <div class="iconos__cabecera">
+            <div class="idioma-desktop">
+                <img class="idioma__icon-desktop" src="./assets/svg/esri.svg" alt="">
+                <span class="tooltip__box">Change language</span>
+            </div>
+            <div class="dark-mode__toogle" id="dark-mode_container" >
+                <img class="dark-mode__icon rayo-vacio" src="./assets/svg/lightning-charge.svg" alt="lightning icon"
+                id="toggle-darkmode">
+                <img class="dark-mode__icon rayo-lleno" src="./assets/svg/lightning-charge-fill.svg" alt="lightning icon"
+                id="toggle-ligthmode">
+            </div>
+        </div>
+    </section>
 
             
-        </div>
-    <!-- Menu Desktop -->
-    <nav class="menu-desktop">
-        <ul class="menu__contenido">
-            <li class="menu__list"><a class="menu__link" href="#skills">Skills</a></li>
-            <li class="menu__list"><a class="menu__link" href="#aboutMe">About me</a></li>
-            <li class="menu__list"><a class="menu__link" href="#portafolio">Portfolio</a></li>
-            <li class="menu__list"><a class="menu__link" href="#formulario">Contact</a></li>
-            <li class="menu__list"><a class="menu__link" href="https://blog.itssofi.dev/" >Blog</a></li>
-        </ul>
-    </nav>
-    <div class="iconos__cabecera">
-        <div class="idioma-desktop">
-            <img class="idioma__icon-desktop" src="./assets/svg/esri.svg" alt="">
-            <span class="tooltip__box">Change language</span>
-        </div>
-        <div class="dark-mode__toogle" id="dark-mode_container" >
-            <img class="dark-mode__icon rayo-vacio" src="./assets/svg/lightning-charge.svg" alt="lightning icon"
-            id="toggle-darkmode">
-            <img class="dark-mode__icon rayo-lleno" src="./assets/svg/lightning-charge-fill.svg" alt="lightning icon"
-            id="toggle-ligthmode">
-        </div>
-    </div>
 
-    </section>
     <!-- menu movil (hamburguesa) -->
     <button class="panel-btn hamburger hamburger--emphatic" type="button">
         <span class="hamburger-box">
@@ -603,7 +611,7 @@
    
 
     <section class="portafolio" id="portafolio">
-        <div class="portafolio__titulo titulo__dark">
+        <div class="titulo titulo__dark">
             <h2>Portfolio</h2>
         </div>
         <div class="portafolio__contenedor">
@@ -652,21 +660,18 @@
                 <div class="portafolio__cara faceB caja__dark">
                     <p class="portafolio__descripcion titulo__dark"> Just my Portfolio repository in GitHub.</p>
                     <div class="portafolio__botobnes">
-                       <!--  <a href="https://marketplace.visualstudio.com/items?itemName=SofiDev.sofidev" target="_blank" rel="nofollow noopener noreferrer">
-                            <button class="portafolio__btn boton titulo__dark"> Download Theme</button>
-                        </a> -->
                         <a href="https://github.com/SofiDevO/" target="_blank" rel="nofollow noopener noreferrer">
                             <button class="portafolio__btn boton titulo__dark">View Repo</button>
                         </a>
                     </div>
                 </div>
             </div>
-                            
         </div>
     </section>
+                            
 
     <section class="formulario" id="formulario">
-        <div class="formulario__titulo titulo__dark">
+        <div class="titulo titulo__dark">
             <h2>Contact</h2>
         </div>
         <div class="formulario__caja caja__dark">
@@ -703,39 +708,64 @@
             </form>
         </div>
     </section>
+
     <section class="frase">
-        <div class="card">
-            <div class="titlebar">
-                <span class="buttons">
-                <button class="minimize">
-                        <svg x="0px" y="0px" viewBox="0 0 10.2 1"><rect x="0" y="50%" width="10.2" height="1"></rect></svg>
-                    </button>
-                <button class="maximize">
-                        <svg viewBox="0 0 10 10"><path d="M0,0v10h10V0H0z M9,9H1V1h8V9z"></path></svg>
-                    </button>
-                <button class="close">
-                        <svg viewBox="0 0 10 10"><polygon points="10.2,0.7 9.5,0 5.1,4.4 0.7,0 0,0.7 4.4,5.1 0,9.5 0.7,10.2 5.1,5.8 9.5,10.2 10.2,9.5 5.8,5.1"></polygon></svg>
-                    </button>
-                </span>
-            </div>
-
-            <div class="cppcode">
-            <pre id="pre"><code><span class="s1">if <span class="s2">(youWant())<span class="s3">{</span></span></span>
-            <span class="you__can">youCan();</span>
-            <span class="s3">}<span class="s2">else</span><span class="s4">{ </span></span>
-                <span class="you__cant">youCant();</span> 
-            <span class="s4">}</span>
-            </div>
-
+        <div class="titulo titulo__dark">
+            <h2>Hobbies</h2>
         </div>
-        <div class="frase__imagen">
-            <img src="./assets/img/sofidev_laptop.gif" alt="" class="sofi__pixel">
+
+        <div class="frase__caja">
+            <div class="card">
+                <div class="titlebar">
+                    <span class="buttons">
+                    <button class="minimize">
+                            <svg x="0px" y="0px" viewBox="0 0 10.2 1"><rect x="0" y="50%" width="10.2" height="1"></rect></svg>
+                        </button>
+                    <button class="maximize">
+                            <svg viewBox="0 0 10 10"><path d="M0,0v10h10V0H0z M9,9H1V1h8V9z"></path></svg>
+                        </button>
+                    <button class="close">
+                            <svg viewBox="0 0 10 10"><polygon points="10.2,0.7 9.5,0 5.1,4.4 0.7,0 0,0.7 4.4,5.1 0,9.5 0.7,10.2 5.1,5.8 9.5,10.2 10.2,9.5 5.8,5.1"></polygon></svg>
+                        </button>
+                    </span>
+                </div>
+                    <div class="cppcode">
+                        <pre id="pre"><code><span class="s1">if <span class="s2">(youWant())<span class="s3">{</span></span></span>
+                        <span class="you__can">youCan();</span>
+                        <span class="s3">}<span class="s2">else</span><span class="s4">{ </span></span>
+                        <span class="you__cant">youCant();</span> 
+                        <span class="s4">}</span>
+                    </div>
+                </div>
+                
+                <div class="frase__imagen">
+                    <img src="./assets/img/sofidev_laptop.gif" alt="sofi-pixel art" class="sofi__pixel titulo__dark">
+                <div class="frase__hobbies">
+                    <div class="frase__iconos">
+                        <div class="frase__icono__caja caja__dark" >
+                            <img class="frase__icono icono__dark" src="./assets/svg/gym.svg" alt="" >
+                        </div>
+                        <div class="frase__icono__caja caja__dark" >
+                            <img class="frase__icono icono__dark" src="./assets/svg/boxing.svg" alt="" >
+                        </div>
+                        <div class="frase__icono__caja caja__dark" >
+                            <img class="frase__icono icono__dark" src="./assets/svg/code-16.svg" alt="" >
+                        </div>
+                        <div class="frase__icono__caja caja__dark" >
+                            <img class="frase__icono icono__dark" src="./assets/svg/music-note-2-play-20-filled.svg" alt="" >
+                        </div>
+                    </div>
+                </div>
+
+                </div>
             </div>
+        </div>
     </section>            
 </main>
 </body>
 
 <script src="./js/modules.js" type="module" defer></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </html>
 
 

@@ -13,7 +13,7 @@
 @media (min-width:768px){
     .frase{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-items: center;
         align-items: center;
         z-index: 2;
@@ -22,9 +22,11 @@
 }
 @media (min-width:1200px){
     .frase{
-        flex-direction: row; 
+        flex-direction: column;
         justify-items: center;
         align-items: center;
         z-index: 2;
+        display: flex;
+        justify-content: space-evenly;
     }
 }

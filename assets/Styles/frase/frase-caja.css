@@ -1,0 +1,9 @@
+.frase__caja{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+
+}
