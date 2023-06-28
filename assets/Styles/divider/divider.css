@@ -15,7 +15,10 @@
 
 
 .custom-shape-divider-bottom-1685513857 svg {
-   display: none;
+    position: relative;
+    display: block;
+    width: calc(152% + 21.80000000000001px);
+    height: 131px;
 }
 
 .custom-shape-divider-bottom-1685513857 .shape-fill {
