@@ -1,13 +1,12 @@
 .frase{
-
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    z-index: 2;
     display: flex;
     justify-content: flex-start;
-    height: 135vh;
+    height: 87vh;
 }
+
 
 
 
@@ -17,20 +16,19 @@
         flex-direction: column;
         justify-items: center;
         align-items: center;
-        z-index: 2;
-        justify-content: center;
-        height: 111vh;
+        justify-content: flex-start;
+        height: 75vh;
     }
 }
+    
 
 @media (min-width:1200px){
     .frase{
         flex-direction: column;
-        justify-items: center;
-        align-items: center;
-        z-index: 2;
-        display: flex;
-        justify-content: flex-start;
-        height: 103vh;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 78vh;
     }
 }

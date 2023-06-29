@@ -1,17 +1,18 @@
 .frase__iconos{
     display: flex;
-    width: 78%;
+    width: 100%;
     flex-wrap: wrap;
-    gap: 21px;
+    gap: 32px;
     justify-content: space-evenly;
+    position: relative;
 }
 
 @media (min-width:768px){
     .frase__iconos{
         display: flex;
-        width: 65%;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+    width: 100%;
+    gap: 64px;
+    flex-wrap: wrap;
     }
 }
 @media (min-width:1200px){
@@ -20,6 +21,7 @@
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        gap: 5px;
     }
 }
 
