@@ -2,9 +2,10 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 15px;
     justify-content: space-evenly;
     position: relative;
+    height: 49vh;
 }
 
 @media (min-width:768px){
