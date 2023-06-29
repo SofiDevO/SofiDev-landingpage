@@ -3,7 +3,7 @@
     align-items: center;
     width: 78%;
     flex-direction: row;
-    /* height: 65px; */
+    height: 68px;
     justify-content: space-evenly;
     background: rgba( 0, 0, 0, 0.75 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
