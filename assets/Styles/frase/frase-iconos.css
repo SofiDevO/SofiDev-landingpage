@@ -5,7 +5,9 @@
     gap: 15px;
     justify-content: space-evenly;
     position: relative;
-    height: 49vh;
+    height: 32vh;
+    align-content: stretch;
+
 }
 
 @media (min-width:768px){
