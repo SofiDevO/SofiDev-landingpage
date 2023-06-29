@@ -1,7 +1,5 @@
 .frase__icono__caja{
     display: flex;
-    height: 25px;
-    width: 25px;
     min-width: 60px;
     min-height: 60px;
     border-radius: 50%;
@@ -16,12 +14,12 @@
 
 @media (min-width:768px){
     .frase__icono__caja{
-    min-width: 70px;
-    min-height: 70px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        min-width: 55px;
+        min-height: 55px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (min-width:1200px){

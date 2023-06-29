@@ -1,10 +1,11 @@
 .frase__imagen{
-    min-width: 295px;
+    min-width: 232px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 .sofi__pixel{

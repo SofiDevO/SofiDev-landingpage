@@ -18,8 +18,10 @@
         align-items: center;
         z-index: 2;
         justify-content: center;
+        height: 111vh;
     }
 }
+
 @media (min-width:1200px){
     .frase{
         flex-direction: column;
@@ -27,7 +29,7 @@
         align-items: center;
         z-index: 2;
         display: flex;
-        justify-content: center;
-        height: 134vh;
+        justify-content: flex-start;
+        height: 103vh;
     }
 }

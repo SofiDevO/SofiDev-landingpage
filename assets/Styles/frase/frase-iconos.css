@@ -2,13 +2,22 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 16px;
+    justify-content: space-evenly;
 }
 
 @media (min-width:768px){
     .frase__iconos{
         display: flex;
-        width: 100%;
+        width: 65%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+@media (min-width:1200px){
+    .frase__iconos{
+        display: flex;
+        width: 80%;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }

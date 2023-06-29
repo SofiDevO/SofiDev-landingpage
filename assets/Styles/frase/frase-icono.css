@@ -1,3 +1,9 @@
 .frase__icono {
-    width: 40px;
+    width: 26px;
+}
+
+@media (min-width:768){
+    .frase__icono {
+        width: 40px;
+    }
 }

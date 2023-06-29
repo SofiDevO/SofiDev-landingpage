@@ -14,7 +14,7 @@
     .formulario{
         display: flex;
         justify-content: center;
-        height: 92vh;
+        height: 120vh;
         min-height: 394px;
         align-items: flex-start;
         margin: 0 0 0 117px;
@@ -27,7 +27,7 @@
     .formulario{
         display: flex;
         justify-content: center;
-        height: 165vh;
+        height: 132vh;
         min-height: 394px;
         align-items: flex-start;
         margin: 0 0 0 116px;
