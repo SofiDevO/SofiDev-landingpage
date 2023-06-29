@@ -3,7 +3,7 @@
 }
 
 
-.frase__grupo:hover .frase__icono__descripcion{
+ .frase__grupo:hover .frase__icono__descripcion{
     display: inline-block;
     font-size: 1.1rem;
 }
