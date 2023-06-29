@@ -2,7 +2,7 @@
     display: inline-block;
     height: 19vh;
     min-height: 254px;
-    animation: 25s slide infinite linear;
+    animation: 35s slide infinite linear;
 }
 
 @keyframes slide{

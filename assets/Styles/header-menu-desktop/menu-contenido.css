@@ -12,11 +12,11 @@
 
 @media(min-width:1200px){
     .menu__contenido{
-    display: flex;
-    width: 100%;
-    min-width: 508px;
-    max-width: 724px;
-    margin-left: -68px;
+        display: flex;
+        width: 100%;
+        min-width: 508px;
+        max-width: 805px;
+        margin-left: -68px;
     
 }
 }

@@ -103,7 +103,7 @@
         width: 100%;
         padding: 0 34px;
         gap: 82px;
-        margin-bottom: 93px;
+        margin-bottom: -8px;
     }
 }
 @media (min-width:1200px){
