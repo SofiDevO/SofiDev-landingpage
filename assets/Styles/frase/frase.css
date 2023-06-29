@@ -1,13 +1,15 @@
 .frase{
+
     flex-direction: column;
     justify-items: center;
     align-items: center;
     z-index: 2;
     display: flex;
     justify-content: flex-start;
-    height: 131vh;
-
+    height: 135vh;
 }
+
+
 
 @media (min-width:768px){
     .frase{
