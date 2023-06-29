@@ -1,7 +1,7 @@
 .frase__icono__caja{
     display: flex;
-    min-width: 60px;
-    min-height: 60px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: rgba(188, 188, 188, 0.5);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -14,8 +14,8 @@
 
 @media (min-width:768px){
     .frase__icono__caja{
-        min-width: 55px;
-        min-height: 55px;
+        width: 55px;
+        height: 55px;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -25,8 +25,8 @@
 @media (min-width:1200px){
     .frase__icono__caja{
         display: flex;
-        min-height: 80px;
-        min-width: 80px;
+        height: 80px;
+        width: 80px;
         border-radius: 50%;
         justify-content: center;
         align-items: center;

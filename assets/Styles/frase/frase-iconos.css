@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 24px;
     justify-content: space-evenly;
 }
 
@@ -17,7 +17,7 @@
 @media (min-width:1200px){
     .frase__iconos{
         display: flex;
-        width: 80%;
+        width: 100%;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }

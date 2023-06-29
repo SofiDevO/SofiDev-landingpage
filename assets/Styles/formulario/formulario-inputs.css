@@ -31,3 +31,12 @@
     resize: none;
 
 }
+
+
+@media (min-width:768px){
+    .formulario__inputs .text__boxes {
+        padding: 10px;
+        width: 100%;
+        font-size: 1rem;
+    }
+}
