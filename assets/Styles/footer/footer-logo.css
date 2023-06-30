@@ -1,0 +1,33 @@
+.footer__logo {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 25px;
+    color:  rgba(0,212,255,1);
+    
+    transition: all 0.7s;
+}
+.footer__logo:hover{
+    cursor: default;
+}
+
+
+.footer__logo span{
+    color: var(--seccond-color);
+    
+}
+
+.footer__logo span:hover{
+    color: var(--blue);
+    filter: drop-shadow(0 0 12px var(--blue));
+}
+
+@media(min-width:768px){
+    .footer__logo {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 25px;
+    }
+}
+
+

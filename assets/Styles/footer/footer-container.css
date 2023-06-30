@@ -1,0 +1,10 @@
+.footer__container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--pure-black);
+    padding: 0 20px;
+    height: 16vh;
+    align-items: center;
+    flex-wrap: nowrap;
+}
