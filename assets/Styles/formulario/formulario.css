@@ -14,8 +14,8 @@
     .formulario{
         display: flex;
         justify-content: center;
-        height: 120vh;
-        min-height: 394px;
+        height: 92vh;
+        min-height: 148px;
         align-items: flex-start;
         margin: 0 0 0 117px;
         background: url(../../img/vice-vehicle.webp) no-repeat right;

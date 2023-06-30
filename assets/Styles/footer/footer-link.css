@@ -1,0 +1,18 @@
+.footer__caja__links{
+    list-style:disc;
+    color: var(--blue);
+    list-style: disc;
+    gap: 8px;
+    color: var(--blue);
+}
+
+.footer__links a {
+    color: var(--seccond-color);
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.footer__links:hover{
+    transform: scale(1.1);
+}

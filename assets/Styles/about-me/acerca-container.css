@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100%;
   z-index: 2;
-  /* height: 69vh; */
+  height: 132vh;
   align-items: center;
 }
 
@@ -15,6 +15,7 @@
       padding-right: 11px;
       z-index: 2;
       justify-content: flex-start;
+      height: unset;
       } 
 }
 @media (min-width:1200px){

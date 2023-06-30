@@ -4,7 +4,6 @@
     align-items: center;
     display: flex;
     justify-content: flex-start;
-    height: 87vh;
 }
 
 
@@ -16,8 +15,8 @@
         flex-direction: column;
         justify-items: center;
         align-items: center;
-        justify-content: flex-start;
-        height: 75vh;
+        justify-content: center;
+        
     }
 }
     
