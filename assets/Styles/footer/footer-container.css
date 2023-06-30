@@ -4,7 +4,23 @@
     justify-content: space-between;
     background-color: var(--pure-black);
     padding: 0 20px;
-    height: 16vh;
+    height: auto;
     align-items: center;
     flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+@media (min-width:768px){
+    .footer__container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        background-color: var(--pure-black);
+        padding: 0 20px;
+        height: 16vh;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
 }
