@@ -25,10 +25,11 @@
 @media (min-width:1200px){
     .frase{
         flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    display: flex;
-    justify-content: flex-start;
-    height: 78vh;
+        justify-items: center;
+        align-items: center;
+        display: flex;
+        height: 85vh;
+        max-height: 718px;
+        justify-content: flex-start;
     }
 }
