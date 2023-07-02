@@ -1,3 +1,9 @@
+.tools{
+    display: flex;
+    flex-direction: column;
+    height: 34vh;
+    justify-content: flex-end;
+}
 .tools__titulo{
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
