@@ -3,7 +3,8 @@
     justify-items: center;
     align-items: center;
     display: flex;
-    justify-content: flex-start;
+    height: 103vh;
+    justify-content: space-between;
 }
 
 
