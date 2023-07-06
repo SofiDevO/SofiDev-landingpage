@@ -8,6 +8,25 @@
     max-height: 692px;
 }  
 
+.acerca__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 2;
+    height: 132vh;
+    align-items: center;
+}
+
+.acerca__titulo{
+    display: flex;
+    font-size: 2.3em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 13px 0;
+    text-align: center;
+    justify-content: center;
+}
+
 @media (min-width:768px){
     .acerca{
         background: url(../../img/IAselfie2.png) left no-repeat;
@@ -17,8 +36,20 @@
         justify-content: center;
         min-height: 768px;
     }
-        
+    .acerca__container{
+        display: flex;
+        width: 60%;
+        align-items: center;
+        padding-right: 11px;
+        z-index: 2;
+        justify-content: flex-start;
+        height: unset;
+    } 
+    .acerca__titulo{
+        display: flex;
+        font-size: 3em;
     }
+}
 
 @media (min-width:1200px){
     .acerca{
@@ -28,7 +59,19 @@
         min-height: 660px;
         justify-content: flex-start;
         background-size: 605px;
-
+    }
+    .acerca__container{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .acerca__titulo{
+        display: flex;
+        font-size: 3em;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 459px;
     }
 
 }

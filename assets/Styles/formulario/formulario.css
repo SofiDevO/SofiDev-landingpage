@@ -10,6 +10,72 @@
 }
 
 
+.formulario__caja{
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 24px;
+    color: var(--purple);
+    width: 91%;
+    font-weight: 600;
+    max-width: 500px;
+}
+.formulario__titulo{
+    font-size: 2rem;
+}
+
+.formulario__submit{
+    padding: 9px 36px;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 32px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.formulario__inputs{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-direction: column;    
+}
+
+.formulario__inputs input{
+    padding: 11px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.formulario__inputs .text__boxes{
+    padding: 6px;
+    width: 100%;
+}
+
+.formulario__inputs label {
+    font-size: 1rem;
+}
+    
+
+.formulario__inputs textarea{
+    height: 228px;
+    resize: none;
+}
+
+
 @media (min-width:768px){
     .formulario{
         display: flex;
@@ -19,6 +85,28 @@
         align-items: flex-start;
         margin: 0 0 0 117px;
         background: url(../../img/vice-vehicle.webp) no-repeat right;
+    }
+    .formulario__caja{
+        background: rgba( 255, 255, 255, 0.2 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 10px );
+        -webkit-backdrop-filter: blur( 10px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        max-width: 56%;
+        width: 57%;
+        align-items: stretch;
+    }
+    .formulario__img{
+        display: none;
+    }
+    .formulario__inputs .text__boxes {
+        padding: 10px;
+        width: 100%;
+        font-size: 1rem;
     }
 }
 
@@ -34,5 +122,20 @@
         background: url(../../img/vice-vehicle.webp) no-repeat right;
         background-size: 761px;
         flex-direction: column;
+    }
+    .formulario__caja{
+        background: rgba( 255, 255, 255, 0.2 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 10px );
+        -webkit-backdrop-filter: blur( 10px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 29px;
+        width: 60%;
+        max-width: 40%;
+        height: 564px;
     }
 }
