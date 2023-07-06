@@ -3,16 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 19px;
-    height: 88vh;
-    justify-content: space-evenly;
+    gap: 14px;
+    height: 90vh;
+    justify-content: center;
 }
 
-.menu-hamburger:active{
-    background: rgba( 111, 34, 149, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 14.5px );
-    -webkit-backdrop-filter: blur( 14.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-}

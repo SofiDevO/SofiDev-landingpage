@@ -1,11 +1,12 @@
 @media(min-width:768px){
     .menu__contenido{
         min-width: 471px;
-        max-width: 531px;
+        max-width: 649px;
         margin-left: -27px;
         display: flex;
         justify-content: space-around;
         width: 100%;
+    
     }
 }
 

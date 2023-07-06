@@ -1,7 +1,9 @@
 .frase__icono__caja{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
     border-radius: 50%;
     background: rgba(188, 188, 188, 0.5);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );

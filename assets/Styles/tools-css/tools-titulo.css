@@ -1,3 +1,11 @@
+.tools{
+    display: flex;
+    flex-direction: column;
+    height: 34vh;
+    justify-content: flex-end;
+    margin-top: 35px;
+
+}
 .tools__titulo{
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
@@ -10,11 +18,17 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 3.3rem;
     }
+    .tools{
+        height: 55vh;
+
+    }
 }
 @media (min-width:1200px){
     .tools__titulo{
         font-family: 'Montserrat', sans-serif;
         font-size: 3.5rem;
-
+        margin-top: 0;
     }
+    
+   
 }

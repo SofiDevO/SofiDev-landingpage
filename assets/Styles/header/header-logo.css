@@ -4,12 +4,10 @@
     font-weight: bold;
     font-size: 25px;
     color: var(--pure-black);
-    filter: drop-shadow(15px 1px 12px  rgba(0,0,0));
+    
     transition: all 0.7s;
 }
 .header__logo:hover{
-    filter: drop-shadow(0 0 12px var(--blue));
-    transform: scale(1.2);
     cursor: default;
 }
 

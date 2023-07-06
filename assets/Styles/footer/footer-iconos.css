@@ -1,0 +1,13 @@
+.footer__iconos{
+    width: 35px;
+    filter: invert(100%) saturate(0%);
+}
+
+.footer__iconos:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.github__footer{
+    width: 38px;
+}
