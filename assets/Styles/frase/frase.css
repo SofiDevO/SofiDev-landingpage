@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .frase{
     flex-direction: column;
     justify-items: center;
@@ -30,6 +31,7 @@
     justify-content: flex-start;
     height: 78vh;
     }
+=======
 .frase{
     flex-direction: column;
     justify-items: center;
@@ -64,4 +66,5 @@
         max-height: 718px;
         justify-content: flex-start;
     }
+>>>>>>> 1440d2d08c317b3f55f6616c1517063d0a144773
 }
