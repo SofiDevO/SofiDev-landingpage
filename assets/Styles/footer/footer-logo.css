@@ -2,10 +2,11 @@
     display: flex;
     justify-content: flex-start;
     font-weight: bold;
-    font-size: 25px;
-    color:  rgba(0,212,255,1);
-    
-    transition: all 0.7s;
+    font-size: 42px;
+    color: rgba(0,212,255,1);
+    /* transition: all 0.7s; */
+    margin: 0;
+    padding: 6px;
 }
 .footer__logo:hover{
     cursor: default;

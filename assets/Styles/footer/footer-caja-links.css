@@ -1,0 +1,8 @@
+.footer__caja__links{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    
+}

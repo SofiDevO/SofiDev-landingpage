@@ -35,10 +35,13 @@
         align-content: flex-start;
         flex-direction: row;
         background: url(../../img/IAselfie.webp) no-repeat right;
-        background-size: 607px;
-        min-height: 1032px;
+        background-size: 623px;
+        max-height: 1107px;
+        height: 183vh;
+        align-items: center;
+}
     }
-    }
+ 
 }
 
 

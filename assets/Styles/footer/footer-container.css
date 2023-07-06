@@ -1,14 +1,23 @@
+.footer{
+    background-color: var(--pure-black);
+    width: 100%;
+    height: auto;
+}
+
+
 .footer__container{
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    background-color: var(--pure-black);
-    padding: 0 20px;
-    height: auto;
+    padding: 10px;
+    height: 66vh;
     align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-content: center;
 }
+
 
 @media (min-width:768px){
     .footer__container{
@@ -16,9 +25,8 @@
         flex-direction: row;
         width: 100%;
         justify-content: space-between;
-        background-color: var(--pure-black);
         padding: 0 20px;
-        height: 16vh;
+        height: 24vh;
         align-items: center;
         flex-wrap: nowrap;
     }

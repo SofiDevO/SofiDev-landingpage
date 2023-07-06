@@ -4,7 +4,6 @@
     align-items: center;
     display: flex;
     justify-content: flex-start;
-    height: 87vh;
 }
 
 
@@ -16,8 +15,8 @@
         flex-direction: column;
         justify-items: center;
         align-items: center;
-        justify-content: flex-start;
-        height: 75vh;
+        justify-content: center;
+        
     }
 }
     
@@ -30,5 +29,39 @@
     display: flex;
     justify-content: flex-start;
     height: 78vh;
+    }
+.frase{
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    height: 103vh;
+    justify-content: space-between;
+}
+
+
+
+
+@media (min-width:768px){
+    .frase{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+    
+
+@media (min-width:1200px){
+    .frase{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        display: flex;
+        height: 85vh;
+        max-height: 718px;
+        justify-content: flex-start;
     }
 }
