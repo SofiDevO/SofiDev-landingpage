@@ -1,7 +1,7 @@
 .slider{
     display: inline-block;
     height: 19vh;
-    min-height: 254px;
+    min-height: 264px;
     animation: 35s slide infinite linear;
 }
 
@@ -10,7 +10,7 @@
         transform: translateX(0);
     }
     to{
-        transform: translateX(-625%);
+        transform: translateX(-590%);
     }
 
 }

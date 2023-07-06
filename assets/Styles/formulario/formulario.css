@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .formulario{
     display: flex;
     height: auto;
@@ -34,4 +35,42 @@
         background: url(../../img/vice-vehicle.webp) no-repeat right;
         background-size: 761px;
     }
+=======
+.formulario{
+    display: flex;
+    height: auto;
+    min-height: 815px;
+    flex-direction: column;
+    background-size: 197px;
+    /* padding-right: 78px; */
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+@media (min-width:768px){
+    .formulario{
+        display: flex;
+        justify-content: center;
+        height: 92vh;
+        min-height: 148px;
+        align-items: flex-start;
+        margin: 0 0 0 117px;
+        background: url(../../img/vice-vehicle.webp) no-repeat right;
+    }
+}
+
+
+@media (min-width:1200px){
+    .formulario{
+        display: flex;
+        justify-content: center;
+        height: 106vh;
+        min-height: 724px;
+        align-items: flex-start;
+        margin: 0 0 0 116px;
+        background: url(../../img/vice-vehicle.webp) no-repeat right;
+        background-size: 761px;
+    }
+>>>>>>> 1440d2d08c317b3f55f6616c1517063d0a144773
 }
