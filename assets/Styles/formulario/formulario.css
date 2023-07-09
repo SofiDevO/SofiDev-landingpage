@@ -31,16 +31,11 @@
 }
 
 .formulario__submit{
-    padding: 9px 36px;
-    font-size: 1rem;
+    padding: 15px 15px;
+    font-size: 1.1rem;
     font-weight: 700;
-    width: 100%;
-    background: rgba( 255, 255, 255, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 6px );
-    -webkit-backdrop-filter: blur( 6px );
-    border-radius: 32px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 13%;
+    
 }
 
 .formulario__inputs{
@@ -70,10 +65,7 @@
 }
     
 
-.formulario__inputs textarea{
-    height: 228px;
-    resize: none;
-}
+
 
 
 @media (min-width:768px){
@@ -137,5 +129,11 @@
         width: 60%;
         max-width: 40%;
         height: 564px;
+    }
+    .submit{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    
     }
 }
