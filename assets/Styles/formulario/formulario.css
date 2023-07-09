@@ -31,12 +31,13 @@
 }
 
 .formulario__submit{
-    padding: 15px 15px;
-    font-size: 1.1rem;
+    padding: 16px 84px;
+    font-size: 1rem;
     font-weight: 700;
-    width: 13%;
-    
+    width: 100%;
 }
+
+    
 
 .formulario__inputs{
     display: flex;
@@ -129,6 +130,12 @@
         width: 60%;
         max-width: 40%;
         height: 564px;
+    }
+    .formulario__submit{
+        padding: 15px 15px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        width: 13%;
     }
     .submit{
         display: flex;
