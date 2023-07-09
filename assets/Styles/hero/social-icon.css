@@ -1,3 +1,8 @@
+.social{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
 .social__icon {
     width: 50px;
     filter: drop-shadow(0 0 12px var(--seccond-color));
@@ -153,6 +158,12 @@
   /* VISTA DESKTOP */
   
   @media (min-width:767px){
+    .social{
+      display: flex;
+      flex-direction: column;
+      width: 50px;
+      gap: 16px;
+    }
     .github{
       position: relative;
       top: 175px;
