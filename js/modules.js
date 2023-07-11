@@ -6,6 +6,6 @@ import toggleDarkMode from "./darkTheme.js";
 
 import btnRayo from "./electricSound.js";
 
-
+import toogleLanguage from "./language.js";
 
 

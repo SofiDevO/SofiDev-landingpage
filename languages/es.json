@@ -3,7 +3,8 @@
         "skills": "Habilidades",
         "aboutMe": "Acerca de Mí",
         "portfolio": "Portafolio",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "spanLanguage":"Cambiar idioma"
     },
     "hero":{
         "heroTitulo": "Hola 👋🏻 Yo soy Sofi",
@@ -20,6 +21,28 @@
         "acercadeH3": "¿Qué me distingue?",
         "acercadeParrafo2": "¡Amo lo que hago! Creo que combinar creatividad y código puede crear experiencias de usuario mágicas. Colaboremos y construyamos algo increíble juntos. Ponte en contacto y ¡que comiencen las aventuras en el frontend!",
         "acercadeBoton":"Contáctame"
+    },
+    "portafolio":{
+        "encriptadorTitulo":"Encriptador de mensajes",
+        "ecriptadorParrafo":"Encriptador para el primer Desafío Alura Latam: Lógica de Programación.",
+        "encriptadorDemo":"Ver Demo",
+        "encriptadorrepo": "Ver repositorio"
+    },
+    "portafolio2":{
+        "vscTitulo":"Tema para Vs Code",
+        "vscParrafo":"Cree mi propio tema de Visual Stuido Code.",
+        "vscDwnl":"Descargar Tema",
+        "vscRepo":"Ver repositorio"
+    },
+    "portafolio3":{
+        "portafolioTitulo":"Tema para Vs Code",
+        "portafolioParrafo":"Solo el repositorio de mi portafolio en GitHub.",
+        "portafolioRepo":"Ver repositorio"
+    },
+    "footer":{
+        "cursosPlatzi":"Mis cursos en Platzi",
+        "cursosYoutube":"Mi canal de Youtube",
+        "cursosAlura":"Mis cursos en Alura"
     }
 
 
