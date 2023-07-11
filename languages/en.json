@@ -15,6 +15,9 @@
         "skillsParrafo": "Currently studying in the One Oracle Next Education Project and at Platzi. I also have a strong foundation in HTML5, CSS3, and JavaScript, currently working on improving my skills in Vanilla JavaScript and React.",
         "skillsParrafo2": "With over five years of experience in content management platforms (CMS) such as WordPress, Elementor, WooCommerce, and LMS like Learndash. I also excel in SEO writing, graphic design, and the Adobe Suite."
     },
+    "tools":{
+        "tools":"Tools"
+    },
     "acercade": {
         "acercadeTitulo": "Who is SofiDev?",
         "acercadeParrafo": "I'm a dedicated junior front-end developer based in Mexico, passionate about technology and constantly expanding my skills.",
