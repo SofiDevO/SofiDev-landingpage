@@ -673,7 +673,7 @@
                             </a>
                             <a href="https://github.com/SofiDevO/encriptador-mensajes" target="_blank"
                                 rel="nofollow noreferrer noopener">
-                                <button class="portafolio__btn boton titulo__dark">View Repo </button>
+                                <button class="portafolio__btn boton titulo__dark"data-section="portafolio" data-value="encriptadorrepo">View Repo </button>
                             </a>
                         </div>
                     </div>
@@ -683,18 +683,18 @@
                     <div class="portafolio__cara faceA">
                         <img class="portafolio__img vsc__img" src="./assets/img/Vscode-theme.png"
                             alt="Portada, Vscode-theme">
-                        <h3 class="portafolio__subtitulo titulo__dark">Vs Code Theme</h3>
+                        <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio2" data-value="vscTitulo">Vs Code Theme</h3>
                     </div>
                     <div class="portafolio__cara faceB caja__dark">
-                        <p class="portafolio__descripcion titulo__dark"> I created my own Visual Studio Code Theme.</p>
+                        <p class="portafolio__descripcion titulo__dark" data-section="portafolio2" data-value="vscParrafo"> I created my own Visual Studio Code Theme.</p>
                         <div class="portafolio__botobnes">
                             <a href="https://marketplace.visualstudio.com/items?itemName=SofiDev.sofidev"
                                 target="_blank" rel="nofollow noopener noreferrer">
-                                <button class="portafolio__btn boton titulo__dark"> Download Theme</button>
+                                <button class="portafolio__btn boton titulo__dark" data-section="portafolio2" data-value="vscDwnl"> Download Theme</button>
                             </a>
                             <a href="https://github.com/SofiDevO/dark-purple.git" target="_blank"
                                 rel="nofollow noopener noreferrer">
-                                <button class="portafolio__btn boton titulo__dark">View Repo</button>
+                                <button class="portafolio__btn boton titulo__dark" data-section="portafolio2" data-value="vscRepo">View Repo</button>
                             </a>
                         </div>
                     </div>
@@ -703,13 +703,13 @@
                     <div class="portafolio__cara faceA">
                         <img class="portafolio__img vsc__img" src="./assets/img/portada-portafolio.png"
                             alt="Portada, Vscode-theme">
-                        <h3 class="portafolio__subtitulo titulo__dark">Portafolio</h3>
+                        <h3 class="portafolio__subtitulo titulo__dark"  data-section="portafolio3" data-value="miPortafolioTitulo">Portfolio</h3>
                     </div>
                     <div class="portafolio__cara faceB caja__dark">
-                        <p class="portafolio__descripcion titulo__dark"> Just my Portfolio repository in GitHub.</p>
+                        <p class="portafolio__descripcion titulo__dark" data-section="portafolio3" data-value="portafolioParrafo"> Just my Portfolio repository in GitHub.</p>
                         <div class="portafolio__botobnes">
                             <a href="https://github.com/SofiDevO/" target="_blank" rel="nofollow noopener noreferrer">
-                                <button class="portafolio__btn boton titulo__dark">View Repo</button>
+                                <button class="portafolio__btn boton titulo__dark" data-section="portafolio3" data-value="portafolioRepo">View Repo</button>
                             </a>
                         </div>
                     </div>
@@ -720,14 +720,14 @@
 
         <section class="formulario" id="formulario">
             <div class="titulo titulo__dark">
-                <h2>Contact</h2>
+                <h2 data-section="contact" data-value="contactTitulo">Contact</h2>
             </div>
             <div class="formulario__caja caja__dark">
                 <img class="formulario__img" src="./assets/img/vice-vehicle.webp" alt="Ia image portrait">
                 <form class="formulario__contacto">
 
                     <div class="formulario__inputs">
-                        <label class="titulo__dark" for="name">Name</label>
+                        <label class="titulo__dark" for="name"  data-section="contact" data-value="contactName">Name</label>
                         <input class="text__boxes" type="text" name="name" placeholder="Your name"
                             title="Only letters and blank spaces are accepted" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\\s ]+$"
                             required>
@@ -735,14 +735,14 @@
 
 
                     <div class="formulario__inputs">
-                        <label class="titulo__dark" for="email">E-mail</label>
+                        <label class="titulo__dark" for="email"  data-section="contact" data-value="contactEmail">E-mail</label>
                         <input class="text__boxes" type="email" name="email" placeholder=" Your e-mail"
                             title="Invalid Email " required>
                     </div>
 
 
                     <div class="formulario__inputs ">
-                        <label class="titulo__dark" for="mensaje">Message</label>
+                        <label class="titulo__dark" for="mensaje"  data-section="contact" data-value="contactMensaje">Message</label>
                         <textarea class="text__boxes" name="mensaje" cols="50" rows="7" placeholder="Your message"
                             data-pattern=" ^.{1,255}$" required></textarea>
                     </div>
@@ -750,7 +750,7 @@
             </div>
             <!-- Boton, enviar  -->
             <div class=" submit">
-                <input class="formulario__submit boton titulo__dark" type="submit" value="Send">
+                <input class="formulario__submit boton titulo__dark" type="submit" value="Send"> 
             </div>
             <!-- Loader -->
             <!--   <div class="contact-form-loader none">
@@ -861,9 +861,9 @@
             <div class="foooter__cajas">
                 <ul class="footer__caja__links">
                     <li class="footer__links"><a href="https://blog.itssofi.dev/" class="footer__link" target="_blank">Blog</a></li>
-                    <li class="footer__links"><a href="https://www.youtube.com/channel/UC36_js-krsAHAEAWpEDhHtw" class="footer__link" target="_blank"  rel="nofollow noreferrer noopener">Youtube channel</a></li>
-                    <li class="footer__links"><a href="https://platzi.com/p/SofiDev/" class="footer__link" target="_blank"  rel="nofollow noreferrer noopener">My courses at  Platzi</a></li>
-                    <li class="footer__links"><a href="https://app.aluracursos.com/user/sofidev" class="footer__link" target="_blank"  rel="nofollow noreferrer noopener">My courses at Alura</a></li>
+                    <li class="footer__links"><a href="https://www.youtube.com/channel/UC36_js-krsAHAEAWpEDhHtw" class="footer__link" target="_blank"  rel="nofollow noreferrer noopener" data-section="footer" data-value="cursosYoutube">Youtube channel</a></li>
+                    <li class="footer__links"><a href="https://platzi.com/p/SofiDev/" class="footer__link" target="_blank"  rel="nofollow noreferrer noopener" data-section="footer" data-value="cursosPlatzi">My courses at  Platzi</a></li>
+                    <li class="footer__links"><a href="https://app.aluracursos.com/user/sofidev" class="footer__link" target="_blank"  rel="nofollow noreferrer noopener" data-section="footer" data-value="cursosAlura">My courses at Alura</a></li>
                 </ul>
             </div>
             <div class="foooter__cajas">
