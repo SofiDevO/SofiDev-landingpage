@@ -28,8 +28,8 @@
 .hero__titulo span {
   transition: all 0.9s;
   color: var(--seccond-color);
-  
 }
+  
 
 .hero__titulo span:hover {
   color: var(--blue);

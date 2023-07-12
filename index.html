@@ -130,10 +130,10 @@
         <!-- Menu Desktop -->
         <nav class="menu-desktop">
             <ul class="menu__contenido">
-                <li class="menu__list"><a class="menu__link" href="#skills">Skills</a></li>
-                <li class="menu__list"><a class="menu__link" href="#aboutMe">About me</a></li>
-                <li class="menu__list"><a class="menu__link" href="#portafolio">Portfolio</a></li>
-                <li class="menu__list"><a class="menu__link" href="#formulario">Contact</a></li>
+                <li class="menu__list"><a class="menu__link" href="#skills" data-section="menu" data-value="skills">Skills</a></li>
+                <li class="menu__list"><a class="menu__link" href="#aboutMe" data-section="menu" data-value="aboutMe">About me</a></li>
+                <li class="menu__list"><a class="menu__link" href="#portafolio"data-section="menu" data-value="portfolio">Portfolio</a></li>
+                <li class="menu__list"><a class="menu__link" href="#formulario" data-section="menu" data-value="contact">Contact</a></li>
                 <li class="menu__list"><a class="menu__link" href="#hobbies">Hobbies</a></li>
                 <li class="menu__list"><a class="menu__link" href="https://blog.itssofi.dev/" target="_blank">Blog</a>
                 </li>
@@ -168,10 +168,10 @@
     <!-- panel que se depliega lateralmente -->
     <aside id="panel" class="panel">
         <nav class="menu-hamburger">
-            <a class="menu-hamburger__link" id="skills-menuA" href="#skills">Skills</a>
-            <a class="menu-hamburger__link" id="acercaDe-menuA" href="#aboutMe">About me</a>
-            <a class="menu-hamburger__link" id="portafolio-menuA" href="#portafolio">Portfolio</a>
-            <a class="menu-hamburger__link" id="contacto-menuA" href="#formulario">Contact</a>
+            <a class="menu-hamburger__link" id="skills-menuA" href="#skills"data-section="menu" data-value="skills">Skills</a>
+            <a class="menu-hamburger__link" id="acercaDe-menuA" href="#aboutMe" data-section="menu" data-value="aboutMe">About me</a>
+            <a class="menu-hamburger__link" id="portafolio-menuA" href="#portafolio" data-section="menu" data-value="portfolio">Portfolio</a>
+            <a class="menu-hamburger__link" id="contacto-menuA" href="#formulario" data-section="menu" data-value="contact">Contact</a>
             <a class="menu-hamburger__link" id="contacto-menuA" href="#hobbies">Hobbies</a>
             <a class="menu-hamburger__link" id="blog-menuA" href="https://blog.itssofi.dev" target="_blank"> Blog </a>
             <div class="menu__icons">
@@ -204,10 +204,9 @@
         <section class="hero" id="hero">
             <div class="hero__contenedor">
                 <div class="hero__saludo">
-                    <h1 class="hero__titulo" id="titulo-saludo">Hi! 👋🏻 I'm Sofi<span class="span__dark"
+                    <h1 class="hero__titulo" id="titulo-saludo"  data-section="hero" data-value="heroTitulo">Hi! 👋🏻 I'm Sofi<span class="span__dark"
                             id="span-titulo">Dev</span> </h1>
-                    <h2 class="hero__subtitulo" id="subtitulo">Frontend Developer in Mexico <img class="mexico-bandera"
-                            src="./assets/svg/flag-mexico.svg" alt="icono, bandera de mexico"></h2>
+                    <h2 class="hero__subtitulo" id="subtitulo"  data-section="hero" data-value="heroSubtitulo">Frontend Developer in Mexico </h2>
                 </div>
                 <div class="side__container">
                     <div class="side__profile" id="profile-pic">
@@ -258,7 +257,7 @@
 
 
         <section class="skills " id="skills">
-            <h2 class="skills__titulo titulo__dark">Skills</h2>
+            <h2 class="skills__titulo titulo__dark" data-section="skills" data-value="skillsTitulo">Skills</h2>
             <div class="skills__cajas ">
 
                 <div class=" skills__caja caja__dark">
@@ -335,16 +334,16 @@
                             <p class="user">sofidev@admin: ~</p>
                         </div>
                         <div class="skills__parrafos">
-                            <p class="textos__parrafo">
-                                Currently studying at The Project <a class="textos__link" id="link-oracle"
+                            <span class="textos__parrafo" data-section="skills" data-value="skillsParrafo">
+                                Currently studying at The Project </span><a class="textos__link textos__parrafo" id="link-oracle"
                                     href="https://www.oracle.com/mx/education/oracle-next-education/" target="_blank"
-                                    rel="nofollow noopener noreferrer">"One Oracle Next Education" </a> and <a
-                                    class="textos__link" id="link-platzi" href="https://platzi.com/p/SofiDev/"
-                                    target="_blank" rel="nofollow noreferrer noopener">Platzi.</a> I also have a strong
+                                    rel="nofollow noopener noreferrer">"One Oracle Next Education" </a> <span class="textos__parrafo"data-section="skills" data-value="skillsSpan1">and</span>  <a
+                                    class="textos__link textos__parrafo" id="link-platzi" href="https://platzi.com/p/SofiDev/"
+                                    target="_blank" rel="nofollow noreferrer noopener">Platzi.</a><p class="textos__parrafo" data-section="skills" data-value="skillsParrafo2"> I also have a strong
                                 foundation in HTML5, CSS3, and JavaScript, currently working on improving my skills in
                                 Vanilla JavaScript and React.
                             </p>
-                            <p class="textos__parrafo ">
+                            <p class="textos__parrafo"  data-section="skills" data-value="skillsParrafo3">
                                 With over five years of experience in content management platforms (CMS) such as WordPress, Elementor, WooCommerce, and LMS like Learndash. I also excel in SEO writing, graphic design, and the Adobe Suite.
                             </p>
                         </div>
@@ -352,7 +351,7 @@
                 </div>
                 <div class="skills__descargar">
                     <a class="link__boton" href="./assets/documents/Angela_Sofia_Osorio_Curriculum.pdf" download>
-                        <button class="boton titulo__dark"> Download CV <img
+                        <button class="boton titulo__dark"> <span data-section="skills" data-value="skillsBtn">Download CV</span> <img
                                 class="skills__descargar__icono icono__boton" src="./assets/svg/generate-pdf.svg"
                                 alt="download button"> </button>
                     </a>
@@ -362,7 +361,7 @@
         </section>
 
         <section class="tools">
-            <h2 class="tools__titulo titulo__dark">Tools</h2>
+            <h2 class="tools__titulo titulo__dark" data-section="tools" data-value="toolsTitulo">Tools</h2>
             <div class="tools__caja__slider">
                 <div class="slider">
                     <div class="tools__cajas" id="">
@@ -389,6 +388,12 @@
                                 <img class="tools__icono terminal" src="./assets/svg/terminal-fill.svg" alt="terminal">
                             </div>
                             <span class="tools__descripcion titulo__dark">terminal</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono terminal" src="./assets/svg/npm-wordmark.svg" alt="terminal">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">npm</span>
                         </div>
                         <div class="tools__grupo">
                             <div class="tools__caja caja__dark">
@@ -474,6 +479,7 @@
                             </div>
                             <span class="tools__descripcion titulo__dark">premier</span>
                         </div>
+                        <!-- Se repite -->
                         <div class="tools__grupo">
                             <div class="tools__caja caja__dark">
                                 <img class="tools__icono tool__dark" src="./assets/svg/slack.svg" alt="slack">
@@ -497,6 +503,12 @@
                                 <img class="tools__icono terminal" src="./assets/svg/terminal-fill.svg" alt="terminal">
                             </div>
                             <span class="tools__descripcion titulo__dark">terminal</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono terminal" src="./assets/svg/npm-wordmark.svg" alt="terminal">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">npm</span>
                         </div>
                         <div class="tools__grupo">
                             <div class="tools__caja caja__dark">
@@ -590,8 +602,8 @@
         <!-- Acerca de Mi -->
         <section class="acerca" id="aboutMe">
             <div class="acerca__container">
-                <h2 class="acerca__titulo" id="acercaDeTitulo">Who is Sofi <span class="acerca__span span__dark"
-                        id="span-titulo2">Dev</span> ? </h2>
+                <h2 class="acerca__titulo" id="acercaDeTitulo" data-section="acercade" data-value="acercadeTitulo">Who is Sofi <span class="span__dark" 
+                        id="span-titulo2"> Dev</span>? </h2>
 
                 <div class="acerca__caja-cristal caja__dark" id="caja-cristal">
                     <div class="terminal_toolbar">
@@ -606,17 +618,17 @@
                         <h3 class="acerca__nombre">
                             Angela Sofía Osorio
                         </h3>
-                        <p class="acerca__texto contenido">
+                        <p class="acerca__texto contenido" data-section="acercade" data-value="acercadeParrafo">
                             I'm a dedicated junior front-end developer based in Mexico, passionate about technology and
                             constantly expanding my skills.
                         </p>
 
 
-                        <h3 class="acerca__nombre contenido">
+                        <h3 class="acerca__nombre contenido" data-section="acercade" data-value="acercadeH3">
                             What <span class="acerca__span span__dark">sets me apart?</span>
                         </h3>
-                        <p class="acerca__texto contenido">
-                            I genuinely <span class="span__dark">love what I do! <span class="acerca__corazon">💙</span></span> I believe that blending creativity and code
+                        <p class="acerca__texto contenido" data-section="acercade" data-value="acercadeParrafo2">
+                            I genuinely <span class="span__dark">love what I do! 💙</span> I believe that blending creativity and code
                             can create magical user experiences. Let's collaborate and build something amazing together.
                             Get in touch and let the frontend adventures begin!
                         </p>
@@ -625,7 +637,7 @@
                 <div class="acerca__contactar">
                     <a class="link__boton " href="mailto: contact@itssofi.dev" target="_blank"
                         rel="nofollow noreferrer noopener">
-                        <button class="boton titulo__dark">Get in touch
+                        <button class="boton titulo__dark"> <span data-section="acercade" data-value="acercadeBtn">Get in touch</span>
                             <img class="contactar__boton__icono icono__boton" src="./assets/svg/mail (1).svg" alt="mail icon">
                         </button>
                     </a>
@@ -639,7 +651,7 @@
 
         <section class="portafolio" id="portafolio">
             <div class="titulo titulo__dark">
-                <h2>Portfolio</h2>
+                <h2 data-section="portafolio" data-value="portafolioTitulo">Portfolio</h2>
             </div>
             <div class="portafolio__contenedor">
                 <div class="portafolio__trajeta caja__dark__portafolio">
@@ -648,16 +660,16 @@
                             alt="portada, encriptador de mensajes">
                         <img class="portafolio__img ligth__img" src="./assets/img/Encriptador-mensajes-dark.png"
                             alt="portada, encriptador de mensajes">
-                        <h3 class="portafolio__subtitulo titulo__dark">Message Encryptor</h3>
+                        <h3 class="portafolio__subtitulo titulo__dark"data-section="portafolio" data-value="encriptadorTitulo">Message Encryptor</h3>
                     </div>
                     <div class="portafolio__cara faceB caja__dark">
-                        <p class="portafolio__descripcion titulo__dark">Message Encryptor for the first Alura Latam
+                        <p class="portafolio__descripcion titulo__dark" data-section="portafolio" data-value="ecriptadorParrafo">Message Encryptor for the first Alura Latam
                             Challenge: Programming Logic.</p>
                         <div class="portafolio__botobnes">
                             <a href="https://sofidevo.github.io/encriptador-mensajes/" target="_blank"
                                 rel="nofollow noreferrer noopener">
-                                <button class="portafolio__btn boton titulo__dark" class="portafolio__btn "> View
-                                    Demo</button>
+                                <button class="portafolio__btn boton titulo__dark" class="portafolio__btn "> <span data-section="portafolio" data-value="encriptadorDemo">View
+                                    Demo</span></button>
                             </a>
                             <a href="https://github.com/SofiDevO/encriptador-mensajes" target="_blank"
                                 rel="nofollow noreferrer noopener">

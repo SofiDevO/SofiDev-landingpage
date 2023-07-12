@@ -68,7 +68,7 @@
         display: block;
         width: calc(93% + 969.8px);
         height: 290px;
-        z-index: 0;
+        z-index: -2;
     }
     
     

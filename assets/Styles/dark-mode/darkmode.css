@@ -22,7 +22,12 @@
 }
 
     
-.dark-mode .span__dark{
+.dark-mode .span__dark {
+    transition: .5s ease-in;
+    color: rgba(0,212,255,1);
+    filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
+} 
+.dark-mode .acerca__nombre span {
     transition: .5s ease-in;
     color: rgba(0,212,255,1);
     filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
@@ -99,6 +104,8 @@
 .dark-mode  .hero__titulo{
     color: white;
 }
+
+
 .dark-mode  .hero__titulo span{
     color: rgba(0,212,255,1);
     filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
@@ -146,13 +153,21 @@
     
      /* SECCION ACERCA DE */
     
- 
-   
+.dark-mode .titulo__dark{
+    color: rgba(0,212,255,1);
+    filter: drop-shadow(0 0 5px rgba(0,212,255,1));
+}
+.dark-mode  .acerca__titulo span{
+    color: rgba(0,212,255,1);
+    filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
+    transition: 3s ease-in-out;
+}
+.dark-mode  .acerca__texto span{
+    color: rgba(0,212,255,1);
+    filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
+    transition: 3s ease-in-out;
+}
     
-    .dark-mode .titulo__dark{
-        color: rgba(0,212,255,1);
-        filter: drop-shadow(0 0 5px rgba(0,212,255,1));
-     }
     
 
     
@@ -169,9 +184,7 @@
         color: #58ecff;
     }
 
-.dark-mode .acerca__corazon{
-        display: inline-block;
-    }
+
 .dark-mode .icono__boton{
     filter: invert(100%) saturate(0%) drop-shadow(-1px 2px 4px #76FFC3);
 }

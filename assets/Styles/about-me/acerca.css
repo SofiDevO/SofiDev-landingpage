@@ -19,21 +19,23 @@
 
 .acerca__titulo{
     display: flex;
-    font-size: 2.3em;
+    font-size: 2em;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 13px 0;
+    margin: 15px 0;
     text-align: center;
     justify-content: center;
 }
-.acerca__span{
+.acerca__titulo span{
     color: var(--seccond-color);
     text-shadow: 0px -1px 5px #000000;
 }
+.acerca__titulo span:hover {
+    color: var(--blue);
+    filter: drop-shadow(0 0 12px var(--blue));
+  }
 
-.acerca__corazon{
-    display: none;
-}
+
 .acerca__caja-cristal{
     display: flex;
     flex-direction: column;

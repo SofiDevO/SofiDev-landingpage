@@ -3,29 +3,33 @@
         "skills": "Habilidades",
         "aboutMe": "Acerca de Mí",
         "portfolio": "Portafolio",
-        "contact": "Contacto",
-        "spanLanguage":"Cambiar idioma"
+        "contact": "Contacto"
     },
     "hero":{
-        "heroTitulo": "Hola 👋🏻 Yo soy Sofi",
-        "heroSpan":"Dev",
-        "heroSubtitulo": "Frontend Developer en México"
+        "heroTitulo": "Hola 👋🏻 Yo soy Sofi<span>Dev</span>",
+        "heroSubtitulo": "Frontend Developer en México "
     },
     "skills":{
-        "skillsParrafo": "Actualmente estudiando en el Proyecto One Oracle Next Education y en Platzi. También tengo una base sólida en HTML5, CSS3 y JavaScript, actualmente estoy trabajando en mejorar mis habilidades en Vanilla JavaScript y React.",
-        "skillsParrafo2":"Con más de cinco años de experiencia en plataformas de gestión de contenido (CMS) como WordPress, Elementor, WooCommerce y LMS como Learndash. También destaco en exritura SEO, diseño gráfico y la paquetería Adobe."
+        "skillsTitulo":"Habilidades",
+        "skillsParrafo": "Actualmente estudiando en el Proyecto",
+        "skillsSpan1": "y",
+        "skillsParrafo2": "También tengo una base sólida en HTML5, CSS3 y JavaScript, actualmente estoy trabajando en mejorar mis habilidades en Vanilla JavaScript y React.",
+        "skillsParrafo3":"Con más de cinco años de experiencia en plataformas de gestión de contenido (CMS) como WordPress, Elementor, WooCommerce y LMS como Learndash. También destaco en exritura SEO, diseño gráfico y la paquetería Adobe.",
+        "skillsBtn":"Descargar CV"
     },
     "tools":{
-        "tools":"Herramientas"
+        "toolsTitulo":"Herramientas"
     },
     "acercade":{
-        "acercadeTitulo": "¿Quién es SofiDev?",
+        "acercadeTitulo": "¿Quién es Sofi <span>Dev </span> ?",
         "acercadeParrafo":"Soy una dedicada desarrolladora front-end junior que radica en México, apasionada por la tecnología y siempre ampliando mis habilidades.",
-        "acercadeH3": "¿Qué me distingue?",
-        "acercadeParrafo2": "¡Amo lo que hago! Creo que combinar creatividad y código puede crear experiencias de usuario mágicas. Colaboremos y construyamos algo increíble juntos. Ponte en contacto y ¡que comiencen las aventuras en el frontend!",
-        "acercadeBoton":"Contáctame"
+        "acercadeH3": "¿Qué <span>me distingue?</span> ",
+        "acercadeParrafo2": "Genuinamente <span>¡Amo lo que hago! 💙</span> Creo que combinar creatividad y código puede crear experiencias de usuario mágicas. Colaboremos y construyamos algo increíble juntos. Ponte en contacto y ¡que comiencen las aventuras en el frontend!",
+        "acercadeBtn":"Contáctame"
+        
     },
     "portafolio":{
+        "portafolioTitulo": "Portafolio",
         "encriptadorTitulo":"Encriptador de mensajes",
         "ecriptadorParrafo":"Encriptador para el primer Desafío Alura Latam: Lógica de Programación.",
         "encriptadorDemo":"Ver Demo",
@@ -38,7 +42,7 @@
         "vscRepo":"Ver repositorio"
     },
     "portafolio3":{
-        "portafolioTitulo":"Tema para Vs Code",
+        "miPortafolioTitulo":"Tema para Vs Code",
         "portafolioParrafo":"Solo el repositorio de mi portafolio en GitHub.",
         "portafolioRepo":"Ver repositorio"
     },

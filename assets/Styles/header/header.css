@@ -178,6 +178,9 @@
 .rayo-lleno{
     display: none;
 }
+.idioma__icon-desktop{
+    display: none;
+}
 
 /* TABLET VIEW */
 @media(min-width:768px){
@@ -227,7 +230,7 @@
         
         }
     }
-    .menu-desktop:hover .tooltooltiptip{
+    .menu-desktop:hover .tooltip{
         display: inline-block;
     }
     .menu__list{
@@ -259,6 +262,9 @@
         justify-content: space-between;
         width: 37%;
         min-width: 151px;
+    }
+    .idioma__icon-desktop{
+        display: inline-block;
     }
     .iconos__cabecera{
         display: flex;
@@ -320,10 +326,11 @@
     .menu__contenido{
         display: flex;
         width: 100%;
-        min-width: 508px;
-        max-width: 805px;
-        margin-left: -68px;
+        min-width: 511px;
+        max-width: 952px;
+        margin-left: -60px;
     }
+    
     .menu__link{
         text-decoration: none;
         font-size: 1.4rem;   

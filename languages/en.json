@@ -3,29 +3,30 @@
         "skills": "Skills",
         "aboutMe": "About Me",
         "portfolio": "Portfolio",
-        "contact": "Contact",
-        "spanLanguage": "Change language"
+        "contact": "Contact"
     },
     "hero": {
-        "heroTitulo": "Hi 👋🏻 I'm Sofi",
+        "heroTitulo": "Hi 👋🏻 I'm Sofi<span>Dev</span>",
         "heroSpan": "Dev",
         "heroSubtitulo": "Frontend Developer in Mexico"
     },
     "skills": {
+        "skillsTitulo":"Skills",
         "skillsParrafo": "Currently studying in the One Oracle Next Education Project and at Platzi. I also have a strong foundation in HTML5, CSS3, and JavaScript, currently working on improving my skills in Vanilla JavaScript and React.",
         "skillsParrafo2": "With over five years of experience in content management platforms (CMS) such as WordPress, Elementor, WooCommerce, and LMS like Learndash. I also excel in SEO writing, graphic design, and the Adobe Suite."
     },
     "tools":{
-        "tools":"Tools"
+        "toolsTitulo":"Tools"
     },
     "acercade": {
-        "acercadeTitulo": "Who is SofiDev?",
+        "acercadeTitulo": "Who is Sofi<span>Dev</span>?",
         "acercadeParrafo": "I'm a dedicated junior front-end developer based in Mexico, passionate about technology and constantly expanding my skills.",
-        "acercadeH3": "What sets me apart?",
-        "acercadeParrafo2": "I love what I do! I believe that blending creativity and code can create magical user experiences. Let's collaborate and build something amazing together. Get in touch and let the frontend adventures begin!",
-        "acercadeBoton": "Contact Me"
+        "acercadeH3": "What <span>sets me apart?</span>",
+        "acercadeParrafo2": "I genuinely <span>love what I do!💙 </span> I believe that blending creativity and code can create magical user experiences. Let's collaborate and build something amazing together. Get in touch and let the frontend adventures begin!"
+        
     },
     "portafolio": {
+        "portafolioTitulo": "Portfolio",
         "encriptadorTitulo": "Message Encryptor",
         "ecriptadorParrafo": "Encryptor for the first Alura Latam Challenge: Programming Logic.",
         "encriptadorDemo": "View Demo",
