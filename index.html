@@ -728,38 +728,42 @@
             </div>
             <div class="formulario__caja caja__dark">
                 <img class="formulario__img" src="./assets/img/vice-vehicle.webp" alt="Ia image portrait">
+
                 <form class="formulario__contacto">
-
-                    <div class="formulario__inputs">
+                    
+                    <div class="input-container ">
                         <label class="titulo__dark" for="name"  data-section="contact" data-value="contactName">Name</label>
-                        <input class="text__boxes" type="text" name="name" placeholder="Your name"
+                        <input class="input text__boxes" type="text" name="name" placeholder="Your name"
                             title="Only letters and blank spaces are accepted" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\\s ]+$"
-                            required>
+                            required data-type="nombre">
+                            <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    
+
+
+                    <div class="input-container formulario__inputs">
+                        <label class="input-label titulo__dark" for="email"  data-section="contact" data-value="contactEmail">Email</label>
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" required data-type="email">
+                        <span class="input-message-error">Este campo no es valido</span>
+                        
                     </div>
 
 
-                    <div class="formulario__inputs">
-                        <label class="titulo__dark" for="email"  data-section="contact" data-value="contactEmail">E-mail</label>
-                        <input class="text__boxes" type="email" name="email" placeholder=" Your e-mail"
-                            title="Invalid Email " required>
-                    </div>
-
-
-                    <div class="formulario__inputs ">
+                    <div class="input-container formulario__inputs ">
                         <label class="titulo__dark" for="mensaje"  data-section="contact" data-value="contactMensaje">Message</label>
-                        <textarea class="text__boxes" name="mensaje" cols="50" rows="7" placeholder="Your message"
-                            data-pattern=" ^.{1,255}$" required></textarea>
+                        <textarea class="input text__boxes" name="mensaje" cols="50" rows="7" placeholder="Your message"
+                            data-pattern=" ^.{1,255}$" required data-type="email"></textarea>
+                            <span class="input-message-error">Este campo no es valido</span>
                     </div>
+                    <input class="formulario__submit boton submit  titulo__dark" type="submit" value="Send"> 
                 </form>
             </div>
-            <!-- Boton, enviar  -->
-            <div class=" submit">
-                <input class="formulario__submit boton titulo__dark" type="submit" value="Send"> 
-            </div>
+            
+            
             <!-- Loader -->
-            <!--   <div class="contact-form-loader none">
-                        <img src="./assets/three-dots.svg" alt="Cargando">
-                    </div> -->
+           <div class="contact-form-loader none">
+                        <img src="./assets/svg/three-dots.svg" alt="Cargando">
+                    </div> 
         </section>
 
 

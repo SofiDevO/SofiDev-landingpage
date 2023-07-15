@@ -39,7 +39,7 @@
 
     
 
-.formulario__inputs{
+.input-container{
     display: flex;
     align-items: flex-start;
     margin-bottom: 15px;
@@ -48,7 +48,7 @@
     flex-direction: column;    
 }
 
-.formulario__inputs input{
+.input-container input{
     padding: 11px;
     width: 100%;
     border-top: none;
@@ -56,13 +56,17 @@
     border-right: none;
 }
 
-.formulario__inputs .text__boxes{
+.input-container .text__boxes{
     padding: 6px;
     width: 100%;
 }
 
-.formulario__inputs label {
+.input-container label {
     font-size: 1rem;
+}
+
+.contact-form-loader{
+    display: none;
 }
     
 
@@ -90,7 +94,7 @@
     .formulario__img{
         display: none;
     }
-    .formulario__inputs .text__boxes {
+    .input-container .text__boxes {
         padding: 10px;
         width: 100%;
         font-size: 1rem;
@@ -111,13 +115,13 @@
         flex-direction: column;
     }
     .formulario__caja{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    padding: 29px;
-    width: 60%;
-    max-width: 40%;
-    height: 463px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 29px;
+        width: 60%;
+        max-width: 40%;
+        height: auto;
     }
     .formulario__submit{
         padding: 15px 15px;
