@@ -77,6 +77,15 @@
     justify-content: center;
 }
 
+.formulario__contacto [required]:valid{
+    border:  2px solid var(--form-ok-color);
+
+}
+.formulario__contacto [required]:invalid{
+    border: 1.5px solid var(--form-error-color);
+
+}
+
 
 
 
@@ -107,6 +116,7 @@
         padding: 10px;
         width: 100%;
         font-size: 1rem;
+        resize: none;
     }
 }
 
