@@ -128,7 +128,7 @@
         min-height: 148px;
         align-items: flex-start;
         margin: 0 0 0 117px;
-        background: url(../../img/vice-vehicle.webp) no-repeat right;
+        background: url(../img/vice-vehicle.webp) no-repeat right;
     }
     .formulario__caja{
         display: flex;
@@ -158,7 +158,7 @@
         min-height: 724px;
         align-items: flex-start;
         margin: 0 0 0 116px;
-        background: url(../../img/vice-vehicle.webp) no-repeat right;
+        background: url(../img/vice-vehicle.webp) no-repeat right;
         background-size: 761px;
         flex-direction: column;
     }

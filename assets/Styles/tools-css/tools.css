@@ -93,10 +93,11 @@
     }
     .tools{
         height: unset;
+        margin-top: 107px;
     }
     .slider{
-        height: 30vh;
-        min-height: 262px;
+        height: 36vh;
+        min-height: 331px;
         animation: 30s slide infinite linear;
         }
     @keyframes slide{
@@ -151,6 +152,10 @@
     
 /* DESKTOP VIEW */
 @media (min-width:1200px){
+    .tools {
+        height: unset;
+        margin-top: -110px;
+    }
     .tools__titulo{
         font-family: 'Montserrat', sans-serif;
         font-size: 3.5rem;

@@ -25,7 +25,7 @@
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
-    gap: 29px;
+    gap: 27px;
 }
 .skills__caja {
     height: 142px;
@@ -112,9 +112,14 @@ z-index: 1;
 }
 .textos{
     display: flex;
+    flex-direction: column;
     width: 100%;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+
 .skills__parrafos{
     padding: 0 15px;
 }
@@ -139,6 +144,12 @@ z-index: 1;
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+.skills__imagen__side img{
+    display:flex;
+    width: 300px;
+}
+
 .skills__descargar{
     display: flex;
     align-items: center;
@@ -160,6 +171,7 @@ z-index: 1;
 .skills__descargar__icono{
     width: 30px;
 }
+
 @media (min-width:768px){
     .skills{
         display: flex;
@@ -169,10 +181,8 @@ z-index: 1;
         max-width: 1182px;
         align-content: flex-start;
         flex-direction: row;
-        height: 104vh;
-        background: url(../../img/IAselfie.webp) no-repeat right;
+        height: unset;
         background-size: 506px;
-        min-height: 913px;
     }
     .skills__titulo{
         display: flex;
@@ -211,9 +221,14 @@ z-index: 1;
     }
     .textos{
         display: flex;
-        flex-direction: column;
-        width: 51%;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        
     }
+    
     .textos__parrafo{
     font-size: 1.1rem;
     text-align: justify;
@@ -221,8 +236,13 @@ z-index: 1;
     .skills__textos__contenido{
         display: flex;
         flex-direction: column;
-        width: 97%;
+        width: 49%;
     }
+    .skills__imagen__side img{
+        display: flex;
+        width: 442px;
+    }
+    
     .skills__descargar{
         display: flex;
         justify-content: flex-start;
@@ -232,6 +252,9 @@ z-index: 1;
 }
 
 @media (min-width:1200px){
+    .skills__imagen__side{
+        display:none;
+    }
     .skills{
         display: flex;
         width: 100%;
@@ -239,7 +262,7 @@ z-index: 1;
         max-width: 2452px;
         align-content: flex-start;
         flex-direction: row;
-        background: url(../../img/IAselfie.webp) no-repeat right;
+        background: url(../img/IAselfie.webp) no-repeat right;
         background-size: 623px;
         max-height: 1107px;
         height: 183vh;
@@ -262,7 +285,7 @@ z-index: 1;
         align-items: center;
         flex-direction: row;
         min-height: 523px;
-        margin-left: 80px;
+        margin-left: 74px;
     }
     .skills__caja{
         height: 260px;
@@ -283,9 +306,11 @@ z-index: 1;
     .skills__icono .javascript{
         width:170px;
     }
+    
     .textos{
         display: flex;
-        width: 80%;
+        width: 77%;
+        justify-content: flex-start;
     }
     .textos__parrafo{
         font-size: 1.2rem;
