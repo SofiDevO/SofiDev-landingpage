@@ -86,6 +86,35 @@
 
 }
 
+.contact-form-error{
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+    font-size: 80%;
+    background-color: var(--form-error-color);
+    transition:  all 800ms ease;
+}
+
+.contact-form-error.is-active{
+    display: block;
+    animation: show-message 1s 1 normal 0s ease-in-out both;
+}
+.none{
+    display: none;
+}
+
+@keyframes show-message{
+    0%{
+        visibility: hidden;
+        opacity: 0;
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
 
 
 

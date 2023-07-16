@@ -735,13 +735,13 @@
                         <input class="input text__boxes" type="text" name="name" placeholder="Your name"
                             title="Only letters and blank spaces are accepted" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
                             required data-type="nombre">
-                            <span class="input-message-error">This field is mandatory</span>
+                            <span class="contact-form-error none">This field is mandatory</span>
                     </div>
 
                     <div class="input-container formulario__inputs">
                         <label class="input-label titulo__dark" for="email"  data-section="contact" data-value="contactEmail">Email</label>
                         <input name="email" id="email" class="input" type="email" placeholder="Email" required data-type="email" pattern=" ^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
-                        <span class="input-message-error">This field is mandatory</span>
+                        <span class="contact-form-error none">This field is mandatory</span>
                     </div>
                         
 
@@ -749,7 +749,7 @@
                         <label class="titulo__dark" for="mensaje"  data-section="contact" data-value="contactMensaje">Message</label>
                         <textarea  class=" text__boxes" name="mensaje" cols="50" rows="7" 
                             data-pattern="^.{1,255}$"  data-type="mensaje" placeholder="Your message" required></textarea>
-                            <span class="input-message-error">This field is mandatoryo</span>
+                            <span class="contact-form-error none">This field is mandatoryo</span>
                     </div>
                     <input class="formulario__submit boton submit  titulo__dark" type="submit" value="Send"> 
                 </form>
