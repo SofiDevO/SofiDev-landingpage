@@ -16,6 +16,8 @@
     --dark-purple: #150050;
     --purple: #3F0071;
     --ligth-purple: #610094;
+    --form-ok-color: #4caf50;
+    --form-error-color: #f44336;
 }
 a{
  text-decoration: none;   
