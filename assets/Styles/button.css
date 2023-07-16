@@ -1,58 +1,74 @@
-
-.portafolio__btn{
+.boton{
     display: flex;
-    font-size: 12px;
-    width: 127px;
+    font-size: 1rem;
+    width: 82%;
     margin-top: 20px;
-    padding: 19px 8px;
+    padding: 22px 11px;
     align-items: center;
+    background: rgba( 255, 255, 255, 0.3 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 10px );
     border-radius: 40px;
-    border: 3px solid rgb(255 255 255 / 74%);
+    border: 3px solid rgba(18, 18, 18, 0.743);
     justify-content: space-evenly;
     font-weight: 700;
 }
 
-
-.portafolio__btn:hover{
+.boton:hover{
+    transform: scale(1.2);
     border: 3px solid var(--blue);
+}
+.link__boton{
+    text-decoration: none;
+    display: flex;
+    width: 67%;
+    justify-content: center;
 }
 
 
+
 @media (min-width:768px){
-    .portafolio__btn{
+    .boton{
         display: flex;
-        font-size: 15px;
-        width: 107%;
-        padding: 22px 16px;
+        font-size: 1rem;
+        width: 56%;
+        padding: 28px 8px;
         align-items: center;
         border-radius: 40px;
         justify-content: space-evenly;
         font-weight: 800;
     }
     
-    .portafolio__btn:hover{
+    .boton:hover{
         transform: scale(1.1);
+    }
+    .link__boton{
+        text-decoration: none;
+        display: flex;
     }
 
 
 }
 @media (min-width:1200px){
-    .portafolio__btn{
+    .boton{
         display: flex;
-        font-size: 15px;
-        width: 116%;
-        padding: 24px 14px;
+        font-size: 1rem;
+        width: 143%;
+        padding: 28px 8px;
         align-items: center;
         border-radius: 40px;
         justify-content: space-evenly;
-        font-weight: 700;
+        font-weight: 800;
     }
     
-    .portafolio__btn:hover{
+    .boton:hover{
         transform: scale(1.1);
+    }
+    .link__boton{
+        display: flex;
+        width: 12%;
+        min-width: 203px;
     }
 
 }
