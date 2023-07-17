@@ -89,7 +89,7 @@
 .contact-form-error{
     display: flex;
     justify-content: center;
-    margin-top: -1rem;
+    margin-top: 0rem;
     font-size: 80%;
     background-color: var(--form-error-color);
     transition:  all 800ms ease;
