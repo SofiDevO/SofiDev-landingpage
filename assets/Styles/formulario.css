@@ -99,9 +99,20 @@
     display: block;
     animation: show-message 1s 1 normal 0s ease-in-out both;
 }
+.contact-form-span{
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    font-size: 80%;
+    background-color: var(--form-error-color);
+    animation: show-message 1s 1 normal 0s ease-in-out both;
+}
 .none{
     display: none;
 }
+
+
 
 @keyframes show-message{
     0%{

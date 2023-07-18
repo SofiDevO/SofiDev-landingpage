@@ -8,7 +8,7 @@ import btnRayo from "./electricSound.js";
 
 import toogleLanguage from "./language.js";
 
-import contactFormValidation from  "./form.js";
+import inputs from  "./form.js";
 
 
 

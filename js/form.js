@@ -1,16 +1,42 @@
 const d = document;
-/* const inputs = d.querySelectorAll('input');
-const mensaje = d.querySelectorAll('[data-span]')
+const inputs = d.querySelectorAll('[data-type]');
+const mensajes = d.querySelectorAll('[data-span]');
+const submitBtn = d.querySelector(".submit");
+const loader = d.querySelector(".contact_form_loader")
 
-inputs.forEach(input => {
+
+    
+    
+
+
+
+export default inputs.forEach(input => {
+    function mostrarError(){
+        mensajes.forEach(mensaje =>{
+            if(input.value == ""){
+                mensaje.classList.remove("none");
+            }else{
+                mensaje.classList.add("none");
+                
+                
+            };
+        });
+    };
     input.addEventListener('blur', (input)=>{
-        console.log('escucho')
-        if (input.value === ""){
-            mensaje.classList.remove(".none");
-        }
+        mostrarError();
+        submitBtn.addEventListener('click', (event)=>{
+            event.preventDefault();
+            loader.classList.remove("none");
+        })
+        
     })
-}); */
-export default function contactFormValidation(){
+
+    
+});
+
+
+
+  function contactFormValidation(){
     const $form = d.querySelector(".formulario__contacto"),
     $inputs = d.querySelectorAll(".formulario__contacto [required"); 
     
@@ -38,11 +64,6 @@ export default function contactFormValidation(){
         };
     })
 }
-            
-
-
-
-
-
 
 contactFormValidation();
+
