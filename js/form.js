@@ -17,17 +17,15 @@ export default inputs.forEach(input => {
                 mensaje.classList.remove("none");
             }else{
                 mensaje.classList.add("none");
-                
-                
+                submitBtn.addEventListener('click', (event)=>{
+                    event.preventDefault();
+                    loader.classList.remove("none");
+                })
             };
         });
     };
     input.addEventListener('blur', (input)=>{
         mostrarError();
-        submitBtn.addEventListener('click', (event)=>{
-            event.preventDefault();
-            loader.classList.remove("none");
-        })
         
     })
 
