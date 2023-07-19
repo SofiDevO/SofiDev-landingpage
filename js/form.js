@@ -3,6 +3,7 @@ const inputs = d.querySelectorAll('[data-type]');
 const mensajes = d.querySelectorAll('[data-span]');
 const loader = d.querySelector(".contact_form_loader")
 const response = d.querySelector(".contact__div__form__response");
+const form = d.querySelector(".formulario__contacto")
 export default inputs.forEach(input => {
     function mostrarError(){
         mensajes.forEach(mensaje =>{
@@ -53,9 +54,9 @@ d.addEventListener("submit", (e)=>{
     e.preventDefault();
     loader.classList.remove("none");
     setTimeout(() =>{
-        loader.classList.remove("none");
+        loader.classList.add("none");
         response.classList.remove("none");
         form.reset();
-    }, 300);
-
+    }, 400);
+    
 });
