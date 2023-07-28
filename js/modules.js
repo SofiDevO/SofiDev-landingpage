@@ -6,7 +6,7 @@ import toggleDarkMode from "./darkTheme.js";
 
 import btnRayo from "./electricSound.js";
 
-import toogleLanguage from "./language.js";
+/* import toogleLanguage from "./language.js"; */
 
 import inputs from  "./form.js";
 

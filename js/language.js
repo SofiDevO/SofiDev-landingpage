@@ -27,7 +27,7 @@ const changeLanguage = async (language) =>{
 /* Ocultar iconos */
 iconEn.style.display = 'none'; 
 
-export default  toogleLanguage.addEventListener('click',(e)=>{
+ toogleLanguage.addEventListener('click',(e)=>{
     changeLanguage(e.target.parentElement.dataset.language);
 });
 
