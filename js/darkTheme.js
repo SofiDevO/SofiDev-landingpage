@@ -39,7 +39,8 @@ button.addEventListener("click", () => {
   setDarkModeLocalStorage(darkModeState);
 });
 
-buttonligth.addEventListener("click", () => {
+buttonligth.addEventListener("click", (event) => {
+  event.preventDefault()
   darkModeState = !darkModeState;
 
   toggleDarkMode(darkModeState);
