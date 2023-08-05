@@ -1,10 +1,10 @@
 const d = document;
 import hamburgerMenu from "./hamburger.js";
-
-
+import btnDarkMode from "./electricSound.js";
 import toggleDarkMode from "./darkTheme.js";
 
-import btnRayo from "./electricSound.js";
+
+
 
 /* import toogleLanguage from "./language.js"; */
 
