@@ -45,9 +45,7 @@
     transition: .2s ease-in-out;
 }
 
-.dark-mode .fa-sun{
-    font-size: 22px;
-}
+
 
     
 /* ELEMENTOS DEL MENU HAMBURGUESA */
@@ -308,9 +306,6 @@
         margin: 0;
         margin-top: 77px;
     }
-    .dark-mode .fa-sun{
-        font-size: 28px;
 
-    }
 }
 
