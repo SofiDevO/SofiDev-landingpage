@@ -93,6 +93,7 @@
     font-size: 80%;
     background-color: var(--form-error-color);
     transition:  all 800ms ease;
+    font-size: 1.2rem;
 }
 
 .contact-form-error.is-active{
@@ -107,6 +108,7 @@
     font-size: 80%;
     background-color: var(--form-error-color);
     animation: show-message 1s 1 normal 0s ease-in-out both;
+    font-size: 1.1rem;
 }
 .none{
     display: none;
@@ -162,6 +164,13 @@
     .input{
         font-size: 2rem;
     }
+    .contact-form-span{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .contact-form-error {
+        font-size: 2rem;
+    }
 }
 
 
@@ -188,7 +197,7 @@
     }
     .formulario__submit{
         padding: 15px 15px;
-        font-size: 1.1rem;
+        font-size: 2rem;
         font-weight: 700;
         width: 13%;
     }
@@ -196,6 +205,7 @@
         display: flex;
         width: 100%;
         flex-direction: row;
-    
     }
+   
+    
 }

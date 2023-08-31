@@ -35,8 +35,10 @@
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Nanum+Gothic+Coding&display=swap"
+        rel="stylesheet">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERDGRLBQQL"></script>
@@ -56,6 +58,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
         integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
 
     <!-- CSS ESTYLES -->
     <link rel="stylesheet" href="./assets/Styles/settings.css">
@@ -242,7 +245,7 @@
                         </div>
                         <p class="user">sofidev@admin: ~</p>
                     </div>
-    
+
                     <div class="skills__parrafos">
                         <span class="textos__parrafo" data-section="skills" data-value="skillsParrafo">
                             Studying at The Project </span><a class="textos__link textos__parrafo" id="link-oracle"
@@ -276,14 +279,14 @@
                     <div class="skills__cajas ">
                         <div class=" skills__caja caja__dark">
                             <div class="img">
-                                <img class="skills__icono  skills__icono__dark html" src="./assets/svg/file-type-html.svg"
-                                    alt="HTML icon">
+                                <img class="skills__icono  skills__icono__dark html"
+                                    src="./assets/svg/file-type-html.svg" alt="HTML icon">
                             </div>
                             <div class="skills__texto">
                                 <p class="text head titulo__dark">HTML <br> ✅</p>
                             </div>
                         </div>
-    
+
                         <div class=" skills__caja caja__dark">
                             <div class="img">
                                 <img class="skills__icono skills__icono__dark css" src="./assets/svg/css-color.svg"
@@ -293,7 +296,7 @@
                                 <p class="text head titulo__dark">CSS <br> ✅</p>
                             </div>
                         </div>
-    
+
                         <div class=" skills__caja caja__dark">
                             <div class="img">
                                 <img class="skills__icono skills__icono__dark javascript"
@@ -303,7 +306,7 @@
                                 <p class="text head titulo__dark">Javascript <br> ✅</p>
                             </div>
                         </div>
-    
+
                         <div class=" skills__caja caja__dark">
                             <div class="img">
                                 <img class="skills__icono skills__icono__dark react" src="./assets/svg/react-dark.svg"
@@ -313,8 +316,8 @@
                                 <p class="text head titulo__dark">React <br>✅</p>
                             </div>
                         </div>
-    
-    
+
+
                         <div class=" skills__caja caja__dark">
                             <div class="img">
                                 <img class="skills__icono skills__icono__dark react" src="./assets/svg/nodejs-dark.svg"
@@ -324,7 +327,7 @@
                                 <p class="text head titulo__dark">NodeJs <br>🌱</p>
                             </div>
                         </div>
-    
+
                         <div class=" skills__caja caja__dark">
                             <div class="img">
                                 <img class="skills__icono  wordpress skills__icono__dark"
@@ -342,9 +345,9 @@
                                 <p class="text head titulo__dark ">npm✅</p>
                             </div>
                         </div>
-    
+
                     </div>
-    
+
                 </div>
             </div>
 
@@ -635,78 +638,113 @@
                 <h2 data-section="portafolio" data-value="portafolioTitulo">Portfolio</h2>
             </div>
             <div class="portafolio__contenedor">
-                <div class="portafolio__trajeta caja__dark__portafolio">
+                <!-- Cards -->
+                <div class="portafolio__trajeta ">
+                    <!-- Face A -->
                     <div class="portafolio__cara faceA ">
-                        <img class="portafolio__img dark__img" src="./assets/img/Encriptador-mensajes.png"
-                            alt="portada, encriptador de mensajes">
-                        <img class="portafolio__img ligth__img" src="./assets/img/Encriptador-mensajes-dark.png"
-                            alt="portada, encriptador de mensajes">
-                        <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio"
-                            data-value="encriptadorTitulo">Message Encryptor</h3>
+                        <div class="img__container">
+                            <img class="portafolio__img ligth__img" src="./assets/img/portada-react'org.png"
+                                alt="portada, encriptador de mensajes">
+                        </div>
+                        <div class="container__info">
+                            <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio"
+                                data-value="portafolioTitulo">React ORG</h3>
+                            <div class="tecnology">
+                                <i class="fa-brands fa-react fa-bounce" style="color: #6beeff;"></i>
+                            </div>
+                        </div>
                     </div>
-                    <div class="portafolio__cara faceB caja__dark">
+                    <!-- Face B  -->
+                    <div class="portafolio__cara faceB caja__dark caja__dark__portafolio">
                         <p class="portafolio__descripcion titulo__dark" data-section="portafolio"
-                            data-value="ecriptadorParrafo">Message Encryptor for the first Alura Latam
+                            data-value="parrafo">React application to manage your team members.</p>
+                        <div class="portafolio__botobnes">
+                            <a href="https://react-org-delta.vercel.app/" target="_blank"
+                                rel="nofollow noreferrer noopener">
+                                <button class="portafolio__btn boton titulo__dark" class="portafolio__btn "> <span
+                                        data-section="portafolio" data-value="demo">View
+                                        Demo</span></button>
+                            </a>
+                            <a href="https://github.com/SofiDevO/react-org" target="_blank"
+                                rel="nofollow noreferrer noopener">
+                                <button class="portafolio__btn boton titulo__dark" data-section="portafolio"
+                                    data-value="repo">View Repo </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portafolio__trajeta ">
+                    <!-- Face A -->
+                    <div class="portafolio__cara faceA ">
+                        <div class="img__container">
+                            <img class="portafolio__img" src="./assets/img/Encriptador-mensajes-dark.png"
+                                alt="portada, encriptador de mensajes">
+                        </div>
+                        <div class="container__info">
+                            <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio2"
+                                data-value="portafolioTitulo">Message Encryptor</h3>
+                            <div class="tecnology">
+                                <i class="fa-brands fa-square-js" style="color: #ffdb29; font-size: 2rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Face B  -->
+                    <div class="portafolio__cara faceB caja__dark caja__dark__portafolio">
+                        <p class="portafolio__descripcion titulo__dark" data-section="portafolio2"
+                            data-value="parrafo">Message Encryptor for the first Alura Latam
                             Challenge: Programming Logic.</p>
                         <div class="portafolio__botobnes">
                             <a href="https://sofidevo.github.io/encriptador-mensajes/" target="_blank"
                                 rel="nofollow noreferrer noopener">
                                 <button class="portafolio__btn boton titulo__dark" class="portafolio__btn "> <span
-                                        data-section="portafolio" data-value="encriptadorDemo">View
+                                        data-section="portafolio2" data-value="demo">View
                                         Demo</span></button>
                             </a>
                             <a href="https://github.com/SofiDevO/encriptador-mensajes" target="_blank"
                                 rel="nofollow noreferrer noopener">
-                                <button class="portafolio__btn boton titulo__dark" data-section="portafolio"
-                                    data-value="encriptadorrepo">View Repo </button>
+                                <button class="portafolio__btn boton titulo__dark" data-section="portafolio2"
+                                    data-value="repo">View Repo </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portafolio__trajeta ">
+                    <!-- Face A -->
+                    <div class="portafolio__cara faceA ">
+                        <div class="img__container">
+                            <img class="portafolio__img ligth__img" src="./assets/img/portada-portafolio.png"
+                                alt="portada, encriptador de mensajes">
+                        </div>
+                        <div class="container__info">
+                            <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio3"
+                                data-value="portafolioTitulo">Portfolio</h3>
+                            <div class="tecnology">
+                                <i class="fa-brands fa-square-js" style="color: #ffdb29; font-size: 2rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Face B  -->
+                    <div class="portafolio__cara faceB caja__dark caja__dark__portafolio">
+                        <p class="portafolio__descripcion titulo__dark" data-section="portafolio3"
+                            data-value="parrafo">Just the repository of my portfolio on GitHub.</p>
+                        <div class="portafolio__botobnes">
+                            <a href="./index.html" target="_blank"
+                                rel="nofollow noreferrer noopener">
+                                <button class="portafolio__btn boton titulo__dark" class="portafolio__btn "> <span
+                                        data-section="portafolio3" data-value="demo">View
+                                        Demo</span></button>
+                            </a>
+                            <a href="https://github.com/SofiDevO/portafolio-sofidev" target="_blank"
+                                rel="nofollow noreferrer noopener">
+                                <button class="portafolio__btn boton titulo__dark" data-section="portafolio3"
+                                    data-value="repo">View Repo </button>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="portafolio__trajeta caja__dark__portafolio">
-                    <div class="portafolio__cara faceA">
-                        <img class="portafolio__img vsc__img" src="./assets/img/Vscode-theme.png"
-                            alt="Portada, Vscode-theme">
-                        <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio2"
-                            data-value="vscTitulo">Vs Code Theme</h3>
-                    </div>
-                    <div class="portafolio__cara faceB caja__dark">
-                        <p class="portafolio__descripcion titulo__dark" data-section="portafolio2"
-                            data-value="vscParrafo"> I created my own Visual Studio Code Theme.</p>
-                        <div class="portafolio__botobnes">
-                            <a href="https://marketplace.visualstudio.com/items?itemName=SofiDev.sofidev"
-                                target="_blank" rel="nofollow noopener noreferrer">
-                                <button class="portafolio__btn boton titulo__dark" data-section="portafolio2"
-                                    data-value="vscDwnl"> Download Theme</button>
-                            </a>
-                            <a href="https://github.com/SofiDevO/dark-purple.git" target="_blank"
-                                rel="nofollow noopener noreferrer">
-                                <button class="portafolio__btn boton titulo__dark" data-section="portafolio2"
-                                    data-value="vscRepo">View Repo</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portafolio__trajeta caja__dark__portafolio">
-                    <div class="portafolio__cara faceA">
-                        <img class="portafolio__img vsc__img" src="./assets/img/portada-portafolio.png"
-                            alt="Portada, Vscode-theme">
-                        <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio3"
-                            data-value="miPortafolioTitulo">Portfolio</h3>
-                    </div>
-                    <div class="portafolio__cara faceB caja__dark">
-                        <p class="portafolio__descripcion titulo__dark" data-section="portafolio3"
-                            data-value="portafolioParrafo"> Just my Portfolio repository in GitHub.</p>
-                        <div class="portafolio__botobnes">
-                            <a href="https://github.com/SofiDevO/portafolio-sofidev" target="_blank"
-                                rel="nofollow noopener noreferrer">
-                                <button class="portafolio__btn boton titulo__dark" data-section="portafolio3"
-                                    data-value="portafolioRepo">View Repo</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
         </section>
         <section class="formulario" id="formulario">

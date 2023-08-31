@@ -1,8 +1,3 @@
-/**
- * MOBILE FIRST
- *
- * @format
- */
 
 .header {
 	display: flex;
@@ -25,11 +20,11 @@
 }
 .header__container {
 	display: flex;
-	padding: 0 2px;
-	transition: all 0.9s;
-	width: 100%;
-	align-items: center;
-	justify-content: space-between;
+    padding: 0 11px;
+    transition: all 0.9s;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__logo {
@@ -77,10 +72,10 @@
 .panel-btn {
 	position: fixed;
 	z-index: 999;
-	bottom: 1vh;
-	right: 2vw;
-	width: 6rem;
-	height: 6rem;
+	bottom: 3vh;
+    right: 3vw;
+    width: 6rem;
+    height: 6rem;
 	border-radius: 50%;
 	padding: 0;
 	display: flex;

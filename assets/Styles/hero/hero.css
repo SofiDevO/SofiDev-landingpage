@@ -19,7 +19,7 @@
 .hero__titulo {
   transition: all 0.9s;
   color: var(--pure-black);
-  font-size: 5.2em;
+  font-size: 4.5rem;
   text-align: center;
   font-weight: bold;
   margin: 0 0 31px 0;

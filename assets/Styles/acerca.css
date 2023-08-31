@@ -56,7 +56,7 @@
 }
 
 .acerca__textos{
-    text-align: justify;
+    text-align: left;
     font-size: 18px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
