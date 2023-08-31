@@ -65,13 +65,13 @@
 	cursor: pointer;
 }
 
-.bi-lightning-charge{
+.bi-lightning-charge {
 	font-size: 2rem;
 	cursor: pointer;
 }
 
-.desktop-rayo{
-    font-size: 1.5rem;
+.desktop-rayo {
+	font-size: 2rem;
 }
 /* Menu hamburguesa */
 .panel-btn {
@@ -79,8 +79,8 @@
 	z-index: 999;
 	bottom: 1vh;
 	right: 2vw;
-	width: 4rem;
-	height: 4rem;
+	width: 6rem;
+	height: 6rem;
 	border-radius: 50%;
 	padding: 0;
 	display: flex;
@@ -221,13 +221,13 @@
 
 /* TABLET VIEW */
 @media (min-width: 768px) {
-	.header{
+	.header {
 		height: 97px;
 	}
 	.header__logo {
 		display: flex;
 		justify-content: flex-start;
-		font-size: 23px;
+		font-size: 3rem;
 	}
 	/* menu hamburguesa */
 	.panel-btn {
@@ -240,20 +240,20 @@
 	/* Menu desktop */
 	.menu-desktop {
 		display: flex;
-        width: 88%;
-        align-items: center;
-        position: relative;
-        transform: translateY(-200px);
-        animation: appear 0.8s ease forwards;
-        justify-content: flex-start;
+		width: 88%;
+		align-items: center;
+		position: relative;
+		transform: translateY(-200px);
+		animation: appear 0.8s ease forwards;
+		justify-content: flex-start;
 	}
 	.menu__contenido {
 		min-width: 226px;
 		display: flex;
-		width: 97%;
-		/* gap: 10px; */
-		justify-content: space-between;
+		width: 96%;
+		justify-content: space-around;
 	}
+
 	/* Animacion de entrada para los links del menu */
 	@keyframes appear {
 		0% {
@@ -278,7 +278,7 @@
 	}
 	.menu__link {
 		text-decoration: none;
-		font-size: 1rem;
+		font-size: 1.8rem;
 		font-weight: 500;
 		color: var(--seccond-color);
 		font-weight: bold;
@@ -316,20 +316,20 @@
 	}
 	.tooltip__box {
 		color: var(--seccond-color);
-        background: rgba(0, 0, 0, 0.592);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(17px);
-        -webkit-backdrop-filter: blur(19px);
-        border-radius: 10px;
-        border: 1px solid rgba(76, 75, 75, 0.518);
-        padding: 3px 7px;
-        line-height: 28px;
-        text-align: center;
-        position: absolute;
-        font-size: 11px;
-        left: -109px;
-        top: 32px;
-        display: none;
+		background: rgba(0, 0, 0, 0.592);
+		box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+		backdrop-filter: blur(17px);
+		-webkit-backdrop-filter: blur(19px);
+		border-radius: 10px;
+		border: 1px solid rgba(76, 75, 75, 0.518);
+		padding: 3px 7px;
+		line-height: 28px;
+		text-align: center;
+		position: absolute;
+		font-size: 11px;
+		left: -109px;
+		top: 32px;
+		display: none;
 	}
 
 	.idioma-desktop:hover .tooltip__box {
@@ -364,16 +364,14 @@
 
 /* DESKTOP VIEW */
 @media (min-width: 1200px) {
-	
 	.header__container {
 		display: flex;
-    width: 100%;
-    padding: 0 19px;
+		width: 100%;
+		padding: 0 19px;
 	}
-	
-    .menu-desktop {
-		
-        justify-content: center;
+
+	.menu-desktop {
+		justify-content: center;
 	}
 	.menu__contenido {
 		display: flex;
@@ -383,16 +381,16 @@
 
 	.menu__link {
 		text-decoration: none;
-		font-size: 1.4rem;
+		font-size: 2.4rem;
 		font-weight: 500;
 		color: var(--seccond-color);
 		font-weight: bold;
 	}
 	.menu__icons__desktop {
-        display: flex;
-        width: 11%;
-        height: 52px;
-        justify-content: space-evenly;
+		display: flex;
+		width: 11%;
+		height: 52px;
+		justify-content: space-evenly;
 	}
 	.idioma__icon-desktop {
 		width: 25px;
@@ -403,12 +401,12 @@
 			brightness(104%) contrast(113%) drop-shadow(rgb(0, 0, 0) 0px 0px 6px);
 	}
 	.tooltip__box {
-        padding: 3px 7px;
-        text-align: center;
-        left: -97px;
-        top: 52px;
-        display: none;
-        width: auto;
+		padding: 3px 7px;
+		text-align: center;
+		left: -97px;
+		top: 52px;
+		display: none;
+		width: auto;
 	}
 	.bi-lightning-charge {
 		font-size: 28px;

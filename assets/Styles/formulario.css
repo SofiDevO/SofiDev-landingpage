@@ -62,7 +62,7 @@
 }
 
 .input-container label {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 /* validaciones formulario */
@@ -155,8 +155,12 @@
     .input-container .text__boxes {
         padding: 10px;
         width: 100%;
-        font-size: 1rem;
+        font-size: 2.3rem;
         resize: none;
+    }
+
+    .input{
+        font-size: 2rem;
     }
 }
 
