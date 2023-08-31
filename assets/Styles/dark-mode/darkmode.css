@@ -44,7 +44,7 @@
     transition: .2s ease-in-out;
 }
 .dark-mode .bi-lightning-charge-fill{
-    font-size: 2rem;
+    font-size: 3rem;
     filter: invert(0%)sepia(80%) saturate(300%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1));
     cursor: pointer;
 }
