@@ -93,6 +93,7 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 2rem;
 }
 
 .curlies {
@@ -246,6 +247,9 @@
         border: 1px solid #c042ff;
         font-size: 20px;
         font-family: monospace;
+    }
+    #pre code{
+        font-size: 3rem;
     }
     .cppcode{
         text-align: left;

@@ -18,7 +18,7 @@
 	transition: all 0.9s;
 	align-items: center;
 	justify-content: center;
-	z-index: 2000;
+	z-index: 200;
 }
 .header__container {
 	display: flex;
@@ -73,7 +73,7 @@
 /* Menu hamburguesa */
 .panel-btn {
 	position: fixed;
-	z-index: 999;
+	z-index: 9999;
 	bottom: 3vh;
 	right: 3vw;
 	width: 6rem;
