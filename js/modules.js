@@ -2,7 +2,7 @@ const d = document;
 import hamburgerMenu from "./hamburger.js";
 import btnDarkMode from "./electricSound.js";
 import toggleDarkMode from "./darkTheme.js";
-
+import {toTop} from "./toTop.js";
 
 
 

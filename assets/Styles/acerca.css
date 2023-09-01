@@ -79,7 +79,7 @@
 
 @media (min-width:768px){
     .acerca{
-        background: url(../img/IAselfie2.png) left no-repeat;
+        background: url(../img/IAselfie2.webp) left no-repeat;
         height: 88vh;
         background-size: 457px;
         align-items: flex-end;

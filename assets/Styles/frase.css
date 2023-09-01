@@ -1,19 +1,20 @@
 .frase{
     display: flex;
-    align-items: center;
+    position: relative;
     width: 100%;
-    justify-content: space-evenly;
-    align-content: space-around;
+    justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
-    height: 108vh;
+    align-items: center;
 }
 .frase__caja{
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-evenly;
-    align-content: space-around;
+    align-content: center;
     flex-wrap: wrap;
+    height: 88vh;
+    justify-content: center;
 }
 .card{
     width: 276px;
@@ -225,12 +226,11 @@
 
 @media (min-width:768px){
     .frase{
-        display: flex;
         flex-direction: column;
         justify-items: center;
         align-items: center;
+        display: flex;
         justify-content: center;
-        height: unset;
     }
     .frase__caja{
         display: flex;
@@ -283,14 +283,7 @@
     
 
 @media (min-width:1200px){
-    .frase{
-        flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    display: flex;
-    justify-content: flex-start;
-    height: 78vh;
-    }
+    
     .frase__caja{
         display: flex;
         align-items: center;

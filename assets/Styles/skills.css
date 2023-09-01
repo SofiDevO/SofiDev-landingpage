@@ -178,9 +178,9 @@
 @media (min-width: 768px) {
 	.skills {
 		display: flex;
-    width: 100%;
-    height: 120vh;
-    justify-content: flex-start;
+		width: 100%;
+		min-height: 109vh;
+		justify-content: flex-start;
 	}
     .skills__container {
         width: 100%;

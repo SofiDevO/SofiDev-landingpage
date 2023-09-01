@@ -13,12 +13,10 @@
     border: 3px solid rgba(18, 18, 18, 0.743);
     justify-content: space-evenly;
     font-weight: 700;
+    cursor: pointer;
 }
 
-.boton:hover{
-    transform: scale(1.2);
-    border: 3px solid var(--blue);
-}
+
 .link__boton{
     text-decoration: none;
     display: flex;
@@ -101,7 +99,8 @@
     }
     
     .boton:hover{
-        transform: scale(1.1);
+        
+        border: 3px solid var(--blue);
     }
     .link__boton{
         text-decoration: none;
@@ -130,9 +129,7 @@
         font-weight: 800;
     }
     
-    .boton:hover{
-        transform: scale(1.1);
-    }
+ 
     .link__boton{
         display: flex;
         width: 12%;

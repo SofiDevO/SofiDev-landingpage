@@ -216,9 +216,10 @@
 
 @media (min-width:1200px){
     .portafolio{
-    background-size: 717px;
-    position: relative;
-    justify-content: space-between;
+        background-size: 717px;
+        position: relative;
+        justify-content: center;
+        height: 93vh;
     }
     .portafolio__contenedor{
         display: flex;
