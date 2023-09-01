@@ -6,6 +6,7 @@
     align-content: center;
     flex-wrap: wrap;
     align-items: center;
+    height: 114vh;
 }
 .frase__caja{
     display: flex;
@@ -13,7 +14,7 @@
     width: 100%;
     align-content: center;
     flex-wrap: wrap;
-    height: 88vh;
+    height: 77vh;
     justify-content: center;
 }
 .card{
@@ -231,14 +232,15 @@
         justify-items: center;
         align-items: center;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        height: 94vh;
     }
     .frase__caja{
-        display: flex;
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        align-content: center;
+        align-content: start;
+        height: 64vh;    
     }
     .card {
         width: 262px;

@@ -84,8 +84,15 @@
     font-size: 1.6rem;
     text-align: center;
     overflow: hidden;
-
 }
+.skills__used{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 
 .tecnology{
     display: flex;
@@ -99,7 +106,6 @@
     border: 2px solid rgba( 255, 255, 255, 0.18 );
     padding: 1rem;
 }
-
 .fa-react{
     font-size: 1.8rem;
     
@@ -224,17 +230,18 @@
     .portafolio__contenedor{
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-content: flex-end;
     }
+
+    
     .portafolio__trajeta{
         display: flex;
         position: relative;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 414px;
-        max-width: 800px;
+        width: 52rem;
     }
     .portafolio__img{
         width: 540px;
