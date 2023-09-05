@@ -15,6 +15,18 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+.dark-mode .menu__link{
+    color: rgba(0,212,255,1);
+}
+
+.dark-mode .menu__list:hover{
+    background-color: white;
+    
+}
+.dark-mode .menu__list .menu__link:hover{
+    color: black;
+}
+
     
 .dark-mode .logo__dark{
     filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
@@ -32,9 +44,7 @@
     color: rgba(0,212,255,1);
     filter: drop-shadow(0 0 11px  rgba(0,212,255,1));
 } 
-.dark-mode .menu__link{
-    color: rgba(0,212,255,1);
-}
+
     
 .dark-mode  .dark-mode__icon{
     align-items: center;
@@ -44,14 +54,12 @@
     transition: .2s ease-in-out;
 }
 .dark-mode .bi-lightning-charge-fill{
-    font-size: 3rem;
-    filter: invert(0%)sepia(80%) saturate(300%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1));
+    font-size: 2.8rem;
+    filter: invert(0%)sepia(80%) saturate(300%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px rgba(0,212,255,1));
+    color: white;
     cursor: pointer;
 }
-.dark-mode  .desktop-rayo{
-    font-size: 2rem;
-    filter: invert(0%)sepia(80%) saturate(300%) hue-rotate(110deg) brightness(91%) contrast(101%) drop-shadow(0 0 12px  rgba(0,212,255,1));
-}
+
 
 
 
@@ -325,10 +333,6 @@
         justify-content: space-evenly;
         margin: 0;
         margin-top: 201px;
-    }
-
-    .dark-mode .bi-lightning-charge-fill{
-        font-size: 28px;
     }
 
 }

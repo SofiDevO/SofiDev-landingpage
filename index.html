@@ -63,7 +63,8 @@
     <!-- CSS ESTYLES -->
     <link rel="stylesheet" href="./assets/Styles/settings.css">
     <link rel="stylesheet" href="./assets/Styles/header.css">
-    <link rel="stylesheet" href="./assets/Styles/toTop.css">
+    <link rel="stylesheet" href="./assets/Styles/menuFlotante/toTop.css">
+    <link rel="stylesheet" href="./assets/Styles/menuFlotante/iconosFlotantes.css">
     <link rel="stylesheet" href="./assets/Styles/hero/hero.css">
     <link rel="stylesheet" href="./assets/Styles/hero/social-icon.css">
     <link rel="stylesheet" href="./assets/Styles/divider.css">
@@ -81,8 +82,8 @@
 </head>
 
 <body>
-    <section class="header" id="header">
-        <div class="header__container">
+    <header class="header" id="header">
+        
             <a class="header__link " href="/index.html">
                 <p class="header__logo logo__dark" id="logo">Sofi<span class="span__dark" id="span">Dev</span></p>
             </a>
@@ -90,7 +91,7 @@
             <!-- Menu Desktop -->
             <nav class="menu-desktop">
                 <ul class="menu__contenido">
-                    <li class="menu__list"><a class="menu__link" href="#skills" data-section="menu"
+                    <li class="menu__list "><a class="menu__link" href="#skills" data-section="menu"
                             data-value="skills">Skills</a></li>
                     <li class="menu__list"><a class="menu__link" href="#aboutMe" data-section="menu"
                             data-value="aboutMe">About me</a></li>
@@ -103,28 +104,12 @@
                             target="_blank">Blog</a>
                     </li>
                 </ul>
-            </nav>
-
-            <div class="menu__icons__desktop">
-                <div id="idoma_icons" class="iconos__cabecera">
-                    <div class="idioma-desktop english" data-language="en">
-                        <img class="idioma__icon-desktop" src="./assets/svg/esri.svg" alt="change language"
-                            data-type="toogleLanguage">
-                        <span class="tooltip__box">Cambiar idioma</span>
-                    </div>
-                    <div class="idioma-desktop espanol" data-language="es">
-                        <img class="idioma__icon-desktop" src="./assets/svg/esri.svg" alt="change language"
-                            data-type="toogleLanguage">
-                        <span class="tooltip__box">Change language</span>
-                    </div>
-                </div>
-                <div id="dark-mode_container" class="dark-mode_container">
-                    <i class="bi bi-lightning-charge desktop-rayo" data-toogle></i>
-                </div>
-            </div>
+            
+        </header>
 
 
-    </section>
+
+
 
 
 
@@ -177,6 +162,23 @@
             <div class="to__top" data-menu="float">
                 <a class="to__top-link" href="#">
                     <i class="bi bi-arrow-up-circle"></i>
+            </div>
+        </div>
+        <div class="menu__icons__desktop">
+            <div id="idoma_icons" class="iconos__cabecera">
+                <div class="idioma-desktop english" data-language="en">
+                    <img class="idioma__icon-desktop" src="./assets/svg/esri.svg" alt="change language"
+                        data-type="toogleLanguage">
+                    <span class="tooltip__box">Cambiar idioma</span>
+                </div>
+                <div class="idioma-desktop espanol" data-language="es">
+                    <img class="idioma__icon-desktop" src="./assets/svg/esri.svg" alt="change language"
+                        data-type="toogleLanguage">
+                    <span class="tooltip__box">Change language</span>
+                </div>
+            </div>
+            <div id="dark-mode_container" class="dark-mode_container">
+                <i class="bi bi-lightning-charge desktop-rayo" data-toogle></i>
             </div>
         </div>
     </div>
@@ -696,8 +698,8 @@
                                 alt="portada, encriptador de mensajes">
                         </div>
                         <div class="container__info">
-                            <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio"
-                                data-value="portafolioTitulo">React ORG</h3>
+                            <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio2"
+                                data-value="portafolioTitulo">Message Encryptor</h3>
                             <div class="skills__used">
                                 
                                 <div class="tecnology">
@@ -734,8 +736,8 @@
                                 alt="portada, encriptador de mensajes">
                         </div>
                         <div class="container__info">
-                            <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio"
-                                data-value="portafolioTitulo">React ORG</h3>
+                            <h3 class="portafolio__subtitulo titulo__dark" data-section="portafolio3"
+                                data-value="portafolioTitulo">My Portfolio</h3>
                             <div class="skills__used">
                                 <div class="tecnology">
                                     <i class="fa-brands fa-square-js" style="color: #ffdb29; font-size: 2rem;"></i>
@@ -956,6 +958,7 @@
     </footer>
 </body>
 
-<script src="./js/modules.js" type="module" defer></script>
-<script src="./js/language.js" defer></script>
+<script src="./modules.js" type="module" defer></script>
+<script src="./controllers/language.js" defer></script>
+
 </html>
