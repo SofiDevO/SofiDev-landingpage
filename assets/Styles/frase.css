@@ -6,7 +6,7 @@
     align-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    height: 107vh;
+    height: 119vh;
 }
 .frase__caja{
     display: flex;
@@ -230,10 +230,11 @@
     .frase{
         flex-direction: column;
         justify-items: center;
-        align-items: center;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         height: 94vh;
+        align-content: center;
+        align-items: center;
     }
     .frase__caja{
         align-items: center;

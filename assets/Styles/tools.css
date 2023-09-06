@@ -93,7 +93,7 @@
     }
     .tools{
         height: unset;
-        margin-top: 107px;
+        margin-top: 163px;
     }
     .slider{
         height: 36vh;
@@ -152,10 +152,7 @@
     
 /* DESKTOP VIEW */
 @media (min-width:1200px){
-    .tools {
-        height: unset;
-        margin-top: -110px;
-    }
+
     .tools__titulo{
         font-family: 'Montserrat', sans-serif;
         font-size: 4rem;

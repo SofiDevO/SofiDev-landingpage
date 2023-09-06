@@ -22,8 +22,8 @@
   font-size: 4.5rem;
   text-align: center;
   font-weight: bold;
-  margin: 0 0 31px 0;
-  filter: drop-shadow(0 0 6px var(--pure-black));
+  margin: 0 0 81px 0;
+  filter: drop-shadow(2 -1px 1px var(--pure-black));
 }
 .hero__titulo span {
   transition: all 0.9s;
@@ -126,9 +126,10 @@
       align-items: center;
       flex-wrap: wrap;
       width: 100%;
-      padding: 0 27px;      justify-content: space-evenly;
+      justify-content: space-evenly;
       margin: 0;
-      margin-top: 34px;
+      margin-top: 116px;
+      align-content: center;
     }
     .img__ligth{
       width: 340px;

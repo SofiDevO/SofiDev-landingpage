@@ -178,9 +178,9 @@
 @media (min-width: 768px) {
 	.skills {
 		display: flex;
-		width: 100%;
-		min-height: 109vh;
-		justify-content: flex-start;
+    width: 100%;
+    min-height: 67vh;
+    justify-content: center;
 	}
     .skills__container {
         width: 100%;
@@ -245,6 +245,12 @@
 }
 
 @media (min-width: 1200px) {
+	.skills{
+		display: flex;
+		width: 100%;
+		min-height: 65vh;
+		justify-content: flex-end;
+	}
 	.skills__container {
 
         flex-direction: row;
