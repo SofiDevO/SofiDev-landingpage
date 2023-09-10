@@ -857,11 +857,11 @@
                 <div class="formulario__caja caja__dark">
                     <img class="formulario__img" src="./assets/img/vice-vehicle.webp" alt="Ia image portrait">
     
-                    <form class="formulario__contacto">
+                    <formaction="https://formsubmit.co/contact@itssofi.dev" method="POST" class="formulario__contacto">
                         <div class="input-container ">
                             <label class="titulo__dark" for="name" data-section="contact"
                                 data-value="contactName">Name</label>
-                            <input class="input text__boxes" type="text" name="name" placeholder="Your name"
+                            <input class="input text__boxes" type="text" name="name"  placeholder="Your name"
                                 title="Only letters and blank spaces are accepted" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
                                 required data-type="nombre">
                             <span class="contact-form-span none" data-span="error">This field is mandatory</span>
@@ -870,7 +870,7 @@
                         <div class="input-container formulario__inputs">
                             <label class="input-label titulo__dark" for="email" data-section="contact"
                                 data-value="contactEmail">Email</label>
-                            <input name="email" id="email" class="input" type="email" placeholder="Email"
+                            <input type="email" name="email" id="email" class="input"  placeholder="Email"
                                 title="Invalid email" required data-type="email"
                                 pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
                             <span class="contact-form-span none" data-span="error"> This field is mandatory</span>
@@ -880,7 +880,7 @@
                         <div class="input-container formulario__inputs ">
                             <label class="titulo__dark" for="mensaje" data-section="contact"
                                 data-value="contactMensaje">Message</label>
-                            <textarea class="text__boxes" name="mensaje" cols="50" rows="7" data-pattern="^.{1,255}$"
+                            <textarea class="text__boxes"name="message"  cols="50" rows="7" data-pattern="^.{1,255}$"
                                 data-type="mensaje" placeholder="Your message" required
                                 title="Message cannot exceed 255 characters"></textarea>
                             <span class="contact-form-span none" data-span="error">This field is mandatory</span>
