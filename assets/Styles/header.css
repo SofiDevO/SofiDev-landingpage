@@ -220,9 +220,9 @@
 	}
 
 	.menu__contenido {
-		min-width: 226px;
+		min-width: 169px;
 		display: flex;
-		width: 100%;
+		width: 70%;
 		justify-content: space-around;
 	}
 
@@ -269,7 +269,7 @@
 /* DESKTOP VIEW */
 @media (min-width: 1200px) {
 	.header {
-		padding: 0 3rem;
+		padding: 0 7rem;
 		justify-content: space-between;
 		height: 9rem;
 	}	
@@ -278,9 +278,7 @@
 		justify-content: flex-start;
 		font-size: 3.5rem;
 	}
-	.menu__contenido {
-	    justify-content: flex-end;
-	}
+	
 	.menu__list {
 		padding: 0.6rem 1rem;
 	}
