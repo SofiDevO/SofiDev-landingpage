@@ -272,6 +272,7 @@
 		padding: 0 7rem;
 		justify-content: space-between;
 		height: 9rem;
+		background-color: black;
 	}	
 	.header__logo {
 		display: flex;
