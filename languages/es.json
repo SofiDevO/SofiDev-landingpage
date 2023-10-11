@@ -28,10 +28,8 @@
         "acercadeBtn":"Contáctame"
         
     },
-    "titulo-portafolio":{
-        "encabezado": "Portafolio"
-    },
     "portafolio":{
+        "encabezado": "Portafolio",
         "portafolioTitulo":"React ORG",
         "parrafo":"Aplicaón de react para administrar a los miembros de tu empresa",
         "demo":"Ver Demo",
