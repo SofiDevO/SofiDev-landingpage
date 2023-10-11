@@ -2,7 +2,7 @@
     transition: all 0.9s ease;
     display: flex;
     height: 798px;
-    background: linear-gradient(180deg, #fe71d1 -11%, #64baef);
+    background: linear-gradient(180deg, #000000 -11%, #33017a);
     justify-content: space-evenly;
     flex-direction: column;
     position: relative;
@@ -18,11 +18,10 @@
   
 .hero__titulo {
   transition: all 0.9s;
-  color: var(--pure-black);
+  color: var(--seccond-color);
   font-size: 4.5rem;
   text-align: center;
   font-weight: bold;
-  margin: 0 0 81px 0;
   filter: drop-shadow(2 -1px 1px var(--pure-black));
 }
 .hero__titulo span {
@@ -37,22 +36,16 @@
 }
 .hero__subtitulo{
   font-size: 1.7rem;
-  text-align: center;
-  font-weight: 500;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  position: relative;
-  top: -1px;
   transform: translateY(-300px);
-  gap: 14px;
   animation: expand 0.8s ease forwards;
   transition: all 1.5s;
   justify-content: center;
   align-content: center;
-  padding: 5px;
   font-weight: 600;
-  color: black;
+  color: #ffffff;
 }
 .mexico-bandera{
   width: 35px;
@@ -89,6 +82,7 @@
       align-content: space-around;
       flex-wrap: wrap;
       width: 100%;
+      margin-bottom: 20rem;
     }
     .hero__titulo {
       font-size: 8em;
@@ -118,7 +112,7 @@
 }  
   @media (min-width:1200px){
     .hero{
-      height: 881px;
+      height: 946px;
     }
     .hero__contenedor {
       display: flex;
@@ -127,8 +121,6 @@
       flex-wrap: wrap;
       width: 100%;
       justify-content: space-evenly;
-      margin: 0;
-      margin-top: 116px;
       align-content: center;
     }
     .img__ligth{

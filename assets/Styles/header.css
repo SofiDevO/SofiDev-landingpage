@@ -7,12 +7,12 @@
 	width: 100%;
 	background: linear-gradient(
 		135deg,
-		rgba(62, 62, 62, 0.1),
-		rgba(138, 138, 138, 0.415)
+		rgba(0, 0, 0, 0.674),
+		rgba(34, 34, 34, 0.84)
 	);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
-	box-shadow: 0 5px 6px -2px rgba(0, 0, 0, 0.37);
+	box-shadow: 0 5px 6px -2px rgba(0, 0, 0, 0.614);
 	position: fixed;
 	z-index: 50;
 	top: 0;
@@ -28,7 +28,8 @@
 	justify-content: flex-start;
 	font-weight: bold;
 	font-size: 3rem;
-	color: var(--pure-black);
+	color: var(--seccond-color);
+	filter: drop-shadow(0 0 12px var(--blue));
 
 	transition: all 0.7s;
 }
