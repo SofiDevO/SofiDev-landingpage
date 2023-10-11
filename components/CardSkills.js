@@ -14,6 +14,7 @@ const cardsData = [
         title: "CSS<br>✅",
         class: "css"
     },
+
     {
         imgSrc: "./assets/svg/javascript-fill.svg",
         imgAlt: "Javascript icon",
@@ -67,10 +68,15 @@ for (const data of cardsData) {
     const cardHTML = `
         <div class="skills__caja caja__dark">
             <div class="img">
-                <img class="skills__icono skills__icono__dark ${data.class}" src="${data.imgSrc}" alt="${data.imgAlt}">
+                <img class="skills__icono skills__icono__dark
+                ${data.class}"
+                src="${data.imgSrc}"
+                alt="${data.imgAlt}">
             </div>
             <div class="skills__texto">
-                <p class="text head titulo__dark">${data.title}</p>
+                <p class="text head titulo__dark">
+                    ${data.title}
+                </p>
             </div>
         </div>
     `;
