@@ -78,17 +78,17 @@
       display: flex;
       height: auto;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
       align-content: space-around;
       flex-wrap: wrap;
       width: 100%;
       margin-bottom: 20rem;
     }
     .hero__titulo {
-      font-size: 8em;
-      text-align: center;
+      font-size: 6em;
       font-weight: 900;
       font-family: 'Montserrat', sans-serif;
+      padding: 0;
     }
     .hero__subtitulo {
       font-size: 2.6em;
@@ -122,6 +122,9 @@
       width: 100%;
       justify-content: space-evenly;
       align-content: center;
+    }
+    .hero__titulo {
+      font-size: 8.5em;
     }
     .img__ligth{
       width: 340px;

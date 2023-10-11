@@ -221,11 +221,12 @@
 	}
 
 	.menu__contenido {
-		min-width: 169px;
-		display: flex;
-		width: 70%;
-		justify-content: space-around;
+		min-width: 212px;
+    display: flex;
+    width: 92%;
+    justify-content: space-around;
 	}
+	
 
 	/* Animacion de entrada para los links del menu */
 	@keyframes appear {
@@ -262,7 +263,7 @@
 	.menu__link {
 		text-decoration: none;
 		font-weight: 500;
-		font-size: 2rem;
+		font-size: 1.7rem;
 		color: var(--seccond-color);
 		font-weight: bold;
 	}
@@ -280,9 +281,18 @@
 		justify-content: flex-start;
 		font-size: 3.5rem;
 	}
-	
+	.menu__contenido{
+		
+		min-width: 169px;
+		display: flex;
+		width: 70%;
+		justify-content: space-around;
+	}
 	.menu__list {
 		padding: 0.6rem 1rem;
+	}
+	.menu__link{
+		font-size: 2rem;
 	}
 
 	
