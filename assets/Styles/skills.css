@@ -88,8 +88,9 @@
 	display: flex;
     height: auto;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 13px;
     justify-content: center;
+    column-gap: 1.5rem;
 }
 .skills__caja {
 	height: 112px;
@@ -116,10 +117,9 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 43px;
 	transition: 0.2s ease-in-out;
 	z-index: 2;
-	padding: 18px;
+	
 }
 
 .skills__texto > .head {
@@ -227,8 +227,8 @@
     gap: 27px;
 	}
 	.skills__caja {
-		height: 191px;
-		width: 135px;
+		height: 157px;
+		width: 120px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -237,7 +237,7 @@
 		gap: 0;
 	}
 	.skills__icono {
-		width: 104px;
+		width: 7.9rem;
 	}
 	.skills__icono .javascript {
 		width: 170px;
@@ -252,16 +252,15 @@
 		justify-content: flex-end;
 	}
 	.skills__container {
-
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        padding: 0 5rem;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		padding: 0 10rem;
     }
 
 	.skills__titulo {
-		font-size: 3.5rem;
+		font-size: 5.5rem;
 	}
 	.textos {
 		display: flex;
@@ -284,10 +283,10 @@
 
 	.skills__caja {
 		height: 168px;
-		width: 110px;
+		width: 11.7rem;
 	}
 	.skills__texto > .head {
-		font-size: 16px;
+		font-size: 1.5rem;
 		font-weight: 700;
 		text-align: center;
 	}
