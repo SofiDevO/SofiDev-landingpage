@@ -217,7 +217,7 @@
 		transform: translateY(-200px);
 		animation: appear 0.8s ease forwards;
 		width: 100%;
-		justify-content: center;
+		justify-content: space-around;
 	}
 
 	.menu__contenido {

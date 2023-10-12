@@ -21,7 +21,7 @@
 }
 
 .custom-shape-divider-bottom-1685513857 .shape-fill {
-	fill: rgb(206, 206, 206);
+	fill: rgb(228, 228, 228);
 }
 
 @media (min-width: 768px) {
@@ -40,9 +40,7 @@
 		width: calc(124% + 453.8px);
 		height: 268px;
 	}
-	.custom-shape-divider-bottom-1685513857 .shape-fill {
-		fill: rgb(206, 206, 206);
-	}
+	
 }
 @media (min-width: 1200px) {
 	.custom-shape-divider-bottom-1685513857 {
@@ -59,9 +57,5 @@
 		display: block;
 		width: calc(124% + 453.8px);
 		height: 342px;
-	}
-
-	.custom-shape-divider-bottom-1685513857 .shape-fill {
-		fill: rgb(206, 206, 206);
 	}
 }
