@@ -49,7 +49,7 @@
     align-items: center;
     padding: 0;
     margin-right: 5px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     height:1.4rem;
     width: 1.4rem;
     box-sizing: border-box;
@@ -60,8 +60,15 @@
     box-shadow: 0px 0px 1px 0px #41403A, 0px 1px 1px 0px #474642;
   }
   
-.btn-color {
+ .btn__red {
     background: #ee411a;
+}
+
+.btn__yellow {
+    background: #ffae00;
+}
+.btn__green {
+    background: #15ff00;
 }
 
 .btn:hover {
