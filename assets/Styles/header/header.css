@@ -143,17 +143,15 @@
 /* icono idioma en menu hamburguesa */
 .menu__icons {
 	display: flex;
-	align-items: center;
-	width: 78%;
-	flex-direction: row;
-	height: 68px;
-	justify-content: space-evenly;
-	backdrop-filter: blur(10px);
-	background-color: rgba(255, 255, 255, 0);
-	border-radius: 50px;
-	box-shadow: -35px 35px 68px 0px rgba(145, 192, 255, 0.5),
-		inset 12px -12px 16px 0px rgba(214, 232, 255, 0.214),
-		inset 0px 11px 28px 0px rgb(255, 255, 255);
+    align-items: center;
+    width: 6rem;
+    flex-direction: row;
+    height: 6rem;
+    justify-content: space-evenly;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    box-shadow: -35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset 12px -12px 16px 0px rgba(214, 232, 255, 0.214), inset 0px 11px 28px 0px rgb(255, 255, 255);
 }
 
 .idioma-caja {
