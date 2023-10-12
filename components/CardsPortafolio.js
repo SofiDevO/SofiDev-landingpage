@@ -66,7 +66,7 @@ export default function CardsPortafolio(){
                     </div>
                 </div>
                 
-                <div class="portafolio__cara faceB caja__dark caja__dark__portafolio">
+                <div class="portafolio__cara faceB  caja__dark__portafolio">
                     <p class="portafolio__descripcion titulo__dark">${data.descripcion}</p>
                     <div class="portafolio__botobnes">
                         <a href="${data.demoURL}"target="_blank" rel="nofollow noreferrer noopener">
