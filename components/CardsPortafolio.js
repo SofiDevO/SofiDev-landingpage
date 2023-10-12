@@ -41,7 +41,7 @@ export default function CardsPortafolio(){
     const skillIcons = {
         React: '<i class="fa-brands fa-react fa-beat-fade" style="color: #6beeff;"></i>',
         JavaScript: '<i class="fa-brands fa-square-js fa-beat-fade" style="color: #ffdb29; font-size: 2rem;"></i>',
-        Sass: '<i class="fa-brands fa-sass fa-beat-fade" style="color: #ff00ea;font-size: 1.5   rem;"></i>'
+        Sass: '<i class="fa-brands fa-sass fa-beat-fade" style="color: #ff00ea;font-size: 2rem;"></i>'
     };
     
     const portafolioContainer = document.querySelector('[data-card]');

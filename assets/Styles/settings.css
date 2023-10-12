@@ -11,9 +11,9 @@ html{
 :root{
     --main-color: #181818;
     --seccond-color: rgb(228, 228, 228);
-    --purple: #33017a;
+    --purple: #2e016c;
     --blue: #58ecff;
-    --gradient: 175deg, #000000 15%, #33017a 100%;
+    --gradient: 181deg, #000000 20%, #2e006e 100%;
     --glow-blue: drop-shadow(0 0 11px rgba(0, 212, 255, 1));
 
     /* Darktheme */

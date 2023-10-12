@@ -4,6 +4,8 @@
 	transition: all 0.4s ease-out;
 	z-index: 10;
 }
+
+
 /* elemntos del header */
 .dark-mode .header {
 	background: rgba(0, 0, 0, 0.802);
@@ -72,7 +74,7 @@
 }
 
 .dark-mode .menu-hamburger__link {
-	color: rgba(0, 212, 255, 1);
+	color: var(--blue);
 }
 
 .dark-mode .idioma__icon {
@@ -87,7 +89,7 @@
 /* Btn to TOP */
 
 .dark-mode .bi-arrow-up-circle {
-	color: rgba(0, 212, 255, 1);
+	color: var(--blue);
 	filter: brightness(91%) contrast(101%)
 		drop-shadow(0 0 12px rgba(0, 212, 255, 1));
 }
@@ -103,7 +105,7 @@
 }
 
 .dark-mode .hero__titulo span {
-	color: rgba(0, 212, 255, 1);
+	color: var(--blue);
 	filter: var(--glow-blue);
 	transition: 2.5s ease-in-out;
 }
@@ -119,7 +121,7 @@
 	width: 200px;
 	animation: slideup 0.8s ease forwards;
 	position: relative;
-	filter: drop-shadow(2px -5px 16px #d608a9);
+	filter: drop-shadow(1px 0 15px #ff2386);
 	transition: 3s ease-in-out;
 }
 .dark-mode .icono__dark {
@@ -135,10 +137,16 @@
     justify-content: flex-start;
     background:  linear-gradient(var(--gradient));
 }
+/* DIVIDERS */
+.dark-mode .custom-shape-divider-bottom-1685513857 .shape-fill {
+    fill: var(--pure-black);
+}
+.dark-mode .wrapper__black {
+	display: none;
+}
 
 
 /* Carrusel */
-
 /* icono terminal */
 .dark-mode .terminal {
 	filter: invert(100%) drop-shadow(-1px 2px 4px #76ffc3);
@@ -147,50 +155,33 @@
 	filter: drop-shadow(-1px 2px 4px #76ffc3);
 }
 
-/* DIVIDERS */
-.dark-mode .custom-shape-divider-bottom-1685513857 .shape-fill {
-    fill: var(--pure-black);
-}
 
-
-.dark-mode .wrapper__black {
-	display: none;
-}
 
 /* SECCION ACERCA DE */
-
 .dark-mode .titulo__dark {
-	color: rgba(0, 212, 255, 1);
+	color: var(--blue);
 	filter: var(--glow-blue);
 }
 .dark-mode .acerca__titulo span {
-	color: rgba(0, 212, 255, 1);
+	color: var(--blue);
 	filter: var(--glow-blue);
 	transition: 3s ease-in-out;
 }
-.dark-mode .acerca__texto span {
-	color: rgba(0, 212, 255, 1);
+.dark-mode .terminal__content span {
+	color: var(--blue);
 	filter: var(--glow-blue);
 	transition: 3s ease-in-out;
 }
 
-.dark-mode .acerca__foto-perfil {
-	filter: drop-shadow(0 0 5px rgba(0, 212, 255, 1));
-	border: 2px solid white;
+.dark-mode .terminal__content p{
+	color:white;
 }
-
-.dark-mode .acerca__link {
-	color: #8758ff;
+.dark-mode .terminal__content a:hover {
+	color: var(--blue);
 }
-
-.dark-mode .acerca__link:hover {
-	color: #58ecff;
-}
-
 .dark-mode .icono__boton {
 	filter: invert(100%) saturate(0%) drop-shadow(-1px 2px 4px #76ffc3);
 }
-
 .dark-mode .boton {
 	background: rgba(0, 0, 0, 0.8);
 	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -198,9 +189,8 @@
 	-webkit-backdrop-filter: blur(19px);
 	border: 3px solid rgba(244, 247, 247, 0.743);
 }
-
 .dark-mode .boton:hover {
-	border: 3px solid rgba(30, 255, 255, 0.743);
+	border: 3px solid var(--blue);
 }
 
 /* SECCION SKILLS */
@@ -211,7 +201,7 @@
 }
 
 .dark-mode .caja__dark {
-	background: rgba(0, 0, 0, 0.549);
+	background: rgba(18, 0, 33, 0.734);
 	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 	backdrop-filter: blur(19px);
 	-webkit-backdrop-filter: blur(19px);
