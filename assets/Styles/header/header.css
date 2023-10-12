@@ -266,6 +266,7 @@
 	}
 	.menu__link:hover{
 		color: var(--blue);
+		transform: scale(1.1);
 	}
 }
 
