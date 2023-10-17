@@ -8,12 +8,6 @@ const cardsData = [
         title: "HTML<br>✅",
         class: "html"
     },
-    {
-        imgSrc: "./assets/svg/css-color.svg",
-        imgAlt: "CSS icon",
-        title: "CSS<br>✅",
-        class: "css"
-    },
 
     {
         imgSrc: "./assets/svg/javascript-fill.svg",
@@ -28,6 +22,24 @@ const cardsData = [
         class: "React"
     },
     {
+        imgSrc: "./assets/svg/nodejs-dark.svg",
+        imgAlt: "Node.js icon",
+        title: "Node.js<br>🌱",
+        class: ""
+    },
+    {
+        imgSrc: "./assets/svg/npm-wordmark.svg",
+        imgAlt: "Wordpress icon",
+        title: "npm<br>✅",
+        class: "npm"
+    },
+    {
+        imgSrc: "./assets/svg/css-color.svg",
+        imgAlt: "CSS icon",
+        title: "CSS<br>✅",
+        class: "css"
+    },
+    {
         imgSrc: "./assets/svg/sass.svg",
         imgAlt: "Sass icon",
         title: "Sass<br>✅",
@@ -40,22 +52,10 @@ const cardsData = [
         class: ""
     },
     {
-        imgSrc: "./assets/svg/nodejs-dark.svg",
-        imgAlt: "Node.js icon",
-        title: "Node.js<br>🌱",
-        class: ""
-    },
-    {
         imgSrc: "./assets/svg/wordpress-icon.svg",
         imgAlt: "Wordpress icon",
         title: "Wordpress<br>✅",
         class: "wordpress"
-    },
-    {
-        imgSrc: "./assets/svg/npm-wordmark.svg",
-        imgAlt: "Wordpress icon",
-        title: "npm<br>✅",
-        class: "npm"
     },
     
 ];
