@@ -9,11 +9,5 @@ import CardsPortafolio from "./components/CardsPortafolio.js";
 
 
 
-
-d.querySelector(".menu__icons__desktop").addEventListener("click", (e)=>{
-	e.preventDefault()
-})
-
-
 CardsPortafolio();
 
