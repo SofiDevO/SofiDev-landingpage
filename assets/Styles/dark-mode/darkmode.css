@@ -247,7 +247,10 @@
 
 
 	.dark-mode .panel__styles{
-		background-color: transparent;
+		background: transparent;
+			box-shadow: unset;
+			border: none;
+			color: none;
 	}
 }
 
