@@ -17,8 +17,3 @@ export default btnDarkMode.forEach(boton => {
     
 
 
-
-window.addEventListener("load", (event) => {
-    console.log("page is fully loaded");
-});
-

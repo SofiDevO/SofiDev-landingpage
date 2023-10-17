@@ -73,7 +73,7 @@
     <link rel="stylesheet" href="./assets/Styles/skills.css">
     <link rel="stylesheet" href="./assets/Styles/tools.css">
     <link rel="stylesheet" href="./assets/Styles/about.css">
-    <link rel="stylesheet" href="./assets/Styles/portfolio.css">
+    <link rel="stylesheet" href="./assets/Styles/portfolio/portfolio.css">
     <link rel="stylesheet" href="./assets/Styles/formulario.css">
     <link rel="stylesheet" href="./assets/Styles/frase.css">
     <link rel="stylesheet" href="./assets/Styles/footer.css">
@@ -520,13 +520,20 @@
             </div>
         </section>
         <!-- Portafolio -->
-        <section class="portafolio" id="portafolio">
+        <section class="portafolio swiper" id="portafolio">
             <div class="titulo titulo__dark">
                 <h2>Portfolio</h2>
             </div>
-            <div class="portafolio__contenedor" data-card>
+            <div class="portafolio__contenedor swiper-wrapper" data-card>
                 <!-- Aquí se insertarán las tarjetas generadas dinámicamente -->
             </div>
+            <div class="swiper-pagination"></div>
+             <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
         </section>
 
         <!-- Seccion Hobbies -->
