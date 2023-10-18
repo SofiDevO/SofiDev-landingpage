@@ -36,14 +36,13 @@
 	transform: perspective(600px) rotateY(360deg);
 }
 .portafolio__trajeta .portafolio__cara {
-    display: flex;
+	display: flex;
     position: absolute;
     backface-visibility: hidden;
     transition: 0.5s;
     flex-direction: column;
     height: 369px;
-    
-    width: 86%;
+    width: 95%;
     align-items: center;
     flex-wrap: nowrap;
 }
