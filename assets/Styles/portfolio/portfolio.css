@@ -27,7 +27,7 @@
     justify-content: space-evenly;
     width: 100%;
     border-radius: 20px;
-    min-width: 118%;
+    min-width: 100%;
 }
 .portafolio__trajeta:hover .faceA {
 	transform: perspective(600px) rotateY(180deg);
@@ -125,15 +125,15 @@
     height: 369px;
     width: 90%;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
 }
 .portafolio__descripcion {
-	text-align: center;
-	font-family: "Open snas", sans-serif;
+	text-align: left;
+	font-family: 'Source Code Pro', monospace;
 	line-height: 1.5;
 	color: var(--pink-terminal);
 	font-weight: 600;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 }
 .portafolio__botobnes {
 	display: flex;
