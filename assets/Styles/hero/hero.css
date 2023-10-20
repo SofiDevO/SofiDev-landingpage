@@ -8,12 +8,11 @@
 	justify-content: space-around;
 }
 .hero__contenedor {
-	display: flex;
+    display: flex;
     flex-direction: column-reverse;
-    height: 147vh;
+    height: 43vh;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 9rem;
+    /* margin-bottom: 8rem;*/
 }
 
 .hero__titulo {
@@ -178,9 +177,10 @@
 	position: relative;
 }
 .side__img {
-	min-width: 29rem;
+	min-width: 28rem;
     width: 60%;
     position: relative;
+    max-width: 29rem;
 }
 .img__dark {
 	display: none;
@@ -240,6 +240,7 @@
 	.side__img {
 		min-width: 25rem;
 		width: 85%;
+		max-width: 60rem;
 	}
 	
 }

@@ -161,9 +161,9 @@
 
 @media (min-width: 768px) {
 	.about {
-        height: 104vh;
-        background-size: 457px;
-        min-height: 1151px;
+		height: 101vh;
+		/* background-size: 457px; */
+		min-height: 880px;
 	}
 	.about__container {
 		flex-direction: row;
@@ -173,7 +173,7 @@
 		/* height: unset; */
 		flex-wrap: wrap;
 		gap: 7rem;
-		height: 98vh;
+		height: 190vh;
 		flex-wrap: nowrap;
 	}
 	.card-title {

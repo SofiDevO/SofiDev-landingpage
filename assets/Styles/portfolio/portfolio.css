@@ -17,56 +17,53 @@
 	align-items: center;
 	gap: 25px;
 }
-.portafolio__trajeta {
-	display: flex;
-	position: relative;
-	flex-direction: column;
-	align-items: center;
-	height: 448px;
-	overflow: hidden;
-	justify-content: space-evenly;
-	width: 100%;
-	border-radius: 20px;
-	min-width: 100%;
+.portafolio__tarjeta {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 318px;
+    overflow: hidden;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 20px;
+    min-width: 100%;
 }
-.portafolio__trajeta:hover .faceA {
+.portafolio__tarjeta:hover .faceA {
 	transform: perspective(600px) rotateY(180deg);
 }
-.portafolio__trajeta:hover .faceB {
+.portafolio__tarjeta:hover .faceB {
 	transform: perspective(600px) rotateY(360deg);
 }
 .portafolio__cara {
 	display: flex;
-	backdrop-filter: blur(16px);
-	-webkit-backdrop-filter: blur(16px);
-	position: absolute;
-	backface-visibility: hidden;
-	transition: 0.5s;
-	height: 286px;
-	width: 98%;
-	max-width: 49rem;
-	align-items: center;
-	flex-wrap: nowrap;
-	overflow: hidden;
-	flex-direction: column;
-	justify-content: center;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 0.5s;
+    height: 286px;
+    width: 100%;
+    max-width: 45rem;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    flex-direction: column;
 }
 
-.portafolio__trajeta .faceA {
+.portafolio__tarjeta .faceA {
 	transform: perspective(600px) ratateY(0deg);
 	box-shadow: 0 5px 10px var(--pure-black);
 	background: var(--dark-purple);
 	box-shadow: 0 0px 2px 0 rgba(31, 38, 135, 0.37);
-	border-radius: 47px;
+
 }
-.portafolio__trajeta .faceB {
+.portafolio__tarjeta .faceB {
 	transform: perspective(600px) rotateY(180deg);
 	background: var(--dark-purple);
 	border-radius: 15px;
 	border: 1px solid rgba(255, 255, 255, 0.18);
 	align-items: center;
 	justify-content: center;
-	border-radius: 47px;
 }
 
 .img__container {
@@ -173,15 +170,14 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
-	.portafolio__trajeta {
+	.portafolio__tarjeta {
 		display: flex;
 		position: relative;
-		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		width: 26%;
-		min-width: 30%;
-		min-width: 48%;
+		width: 48%;
+		min-width: 34rem;
+		flex-direction: column;
 	}
 	.portafolio__cara {
 		width: 75%;
@@ -235,7 +231,7 @@
 		padding: 0 3rem;
 	}
 
-	.portafolio__trajeta {
+	.portafolio__tarjeta {
 		display: flex;
 		position: relative;
 		flex-direction: column;
