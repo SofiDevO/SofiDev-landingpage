@@ -7,7 +7,7 @@
 	right: 81.7vw;
 }
 .dark-mode__container {
-	width: 5rem;
+    width: 5rem;
     height: 5rem;
     transition: all 0.4s;
     justify-content: center;
@@ -18,10 +18,11 @@
     box-shadow: -15px 35px 68px 0px rgba(145, 192, 255, 0.5), inset 12px -12px 16px 0px rgba(214, 232, 255, 0.214), inset 0px 11px 28px 0px rgb(255, 255, 255);
     padding: 20px;
     display: flex;
-    bottom: 22vh;
+    bottom: 91vh;
     right: 1.1rem;
     position: fixed;
 }
+
 
 /* icono modo oscuro */
 .dark-mode__icon {
@@ -40,8 +41,9 @@
         bottom: 8vh;
         right: 1px;
         position: absolute;
-        
     }
+    
+        
 }
 @media (min-width: 1200px) {
 	.dark-mode__container {

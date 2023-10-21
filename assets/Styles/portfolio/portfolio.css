@@ -28,6 +28,7 @@
     width: 100%;
     border-radius: 20px;
     min-width: 100%;
+	border-radius: 15px;
 }
 .portafolio__tarjeta:hover .faceA {
 	transform: perspective(600px) rotateY(180deg);
@@ -48,6 +49,7 @@
     flex-wrap: nowrap;
     overflow: hidden;
     flex-direction: column;
+	border-radius: 15px;
 }
 
 .portafolio__tarjeta .faceA {
@@ -55,7 +57,7 @@
 	box-shadow: 0 5px 10px var(--pure-black);
 	background: var(--dark-purple);
 	box-shadow: 0 0px 2px 0 rgba(31, 38, 135, 0.37);
-
+	border-radius: 15px;
 }
 .portafolio__tarjeta .faceB {
 	transform: perspective(600px) rotateY(180deg);
@@ -96,11 +98,12 @@
 }
 .skills__used {
 	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	width: 100%;
-	flex-wrap: wrap;
-	margin-bottom: 4rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    gap: 0.8rem;
 }
 
 .tecnology {
@@ -181,6 +184,7 @@
 	}
 	.portafolio__cara {
 		width: 75%;
+		border-radius: 15px;
 	}
 	.portafolio__img {
 		width: 459px;
@@ -220,7 +224,7 @@
 	.portafolio {
 		position: relative;
 		justify-content: center;
-		height: 146vh;
+		height: 103vh;
 		width: 100%;
 	}
 	.portafolio__contenedor {
@@ -239,11 +243,11 @@
 		justify-content: center;
 		width: 26%;
 		min-width: 31%;
+		
 	}
 	.portafolio__cara {
-		width: 90%;
-		height: 354px;
-	}
+		width: 100%;
+		height: 308px;
 	.portafolio__img {
 		width: 509px;
 	}
