@@ -1,4 +1,4 @@
-.frase{
+.hobbies{
     display: flex;
     position: relative;
     width: 100%;
@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     align-items: center;
 }
-.frase__caja{
+.hobbies__caja{
     display: flex;
     align-items: center;
     width: 100%;
@@ -69,7 +69,7 @@
   .minimize:hover {
     background-color: #c042ff2e;
   }
-  /* frase codigo */
+  /* hobbies codigo */
 .cppcode{
     text-align: left;
     display: flex;
@@ -138,7 +138,7 @@
 }
 
 /* side area, hobbies */
-.frase__imagen{
+.hobbies__imagen{
     min-width: 232px;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@
     width: 220px;
     border-radius: 28px;
 }
-.frase__iconos{
+.hobbies__iconos{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -161,7 +161,7 @@
     position: relative;
     align-content: stretch;
 }
-.frase__grupo{
+.hobbies__grupo{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,7 +169,7 @@
     gap: 17px;
     height: 12vh;
 }
-.frase__icono__caja{
+.hobbies__icono__caja{
     display: flex;
     width: 60px;
     height: 60px;
@@ -184,26 +184,26 @@
     justify-content: center;
     align-items: center;
 }
-.frase__icono {
+.hobbies__icono {
     width: 26px;
 }
 
-.frase__grupo:hover .gym{
+.hobbies__grupo:hover .gym{
     filter: invert(73%) sepia(93%) saturate(2588%) hue-rotate(2deg) brightness(110%) contrast(109%);
 }
 
-.frase__grupo:hover .boxing{
+.hobbies__grupo:hover .boxing{
     filter: invert(9%) sepia(100%) saturate(6481%) hue-rotate(1deg) brightness(95%) contrast(106%);
 }
 
 
 
-.frase__grupo:hover .coding{
+.hobbies__grupo:hover .coding{
     filter: invert(96%) sepia(34%) saturate(6363%) hue-rotate(132deg) brightness(105%) contrast(101%);
 
 
 }
-.frase__grupo:hover .music{
+.hobbies__grupo:hover .music{
     filter: invert(53%) sepia(99%) saturate(1703%) hue-rotate(70deg) brightness(113%) contrast(110%);
 }
 
@@ -211,29 +211,29 @@
 
 
 
-.frase__grupo:hover .frase__icono__caja{
+.hobbies__grupo:hover .hobbies__icono__caja{
     background-color: black;
     transform: scale(1.2);
 }
-.frase__icono__descripcion{
+.hobbies__icono__descripcion{
     display: none;
 }
 
 
- .frase__grupo:hover .frase__icono__descripcion{
+ .hobbies__grupo:hover .hobbies__icono__descripcion{
     display: inline-block;
     font-size: 2rem;
 }
 
 @media (min-width:768px){
-    .frase{
+    .hobbies{
         justify-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     }
-    .frase__caja{
+    .hobbies__caja{
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -258,20 +258,20 @@
     .sofi__pixel{
         width: 262px;
     }
-    .frase__iconos{
+    .hobbies__iconos{
         display: flex;
     width: 100%;
     gap: 64px;
     flex-wrap: wrap;
     }
-    .frase__grupo{
+    .hobbies__grupo{
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
         gap: 17px;
     }
-    .frase__icono__caja{
+    .hobbies__icono__caja{
         width: 55px;
         height: 55px;
         border-radius: 50%;
@@ -279,7 +279,7 @@
         justify-content: center;
         align-items: center;
     }
-    .frase__icono {
+    .hobbies__icono {
         width: 32px;
     }
 }
@@ -287,7 +287,7 @@
 
 @media (min-width:1200px){
     
-    .frase__caja{
+    .hobbies__caja{
         display: flex;
         width: 100%;
         flex-wrap: wrap;
@@ -308,7 +308,7 @@
         display: flex;
         font-size: 1.4rem;
     }
-    .frase__imagen{
+    .hobbies__imagen{
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -316,7 +316,7 @@
         flex-wrap: wrap;
         align-items: center;
     }
-    .frase__imagen{
+    .hobbies__imagen{
         display: flex;
         width: 500px;
         flex-direction: column;
@@ -325,14 +325,14 @@
     .sofi__pixel{
         width: 317px;
     }
-    .frase__iconos{
+    .hobbies__iconos{
         display: flex;
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-evenly;
         gap: 5px;
     }
-    .frase__grupo{
+    .hobbies__grupo{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -342,7 +342,7 @@
         margin-bottom: 59px;
         justify-content: center;
     }
-    .frase__icono__caja{
+    .hobbies__icono__caja{
         display: flex;
         height: 80px;
         width: 80px;
@@ -351,7 +351,7 @@
         align-items: center;
         margin-top: -45px;
     }
-    .frase__icono {
+    .hobbies__icono {
         width: 40px;
     }
 }
