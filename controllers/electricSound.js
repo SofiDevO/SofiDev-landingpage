@@ -1,34 +1,38 @@
-import toggleDarkMode from "../controllers/darkTheme.js"
+import toggleDarkMode from "../controllers/darkTheme.js";
+
 const d = document;
-const btnDarkMode = d.querySelectorAll("[data-toogle]")
+const btnDarkMode = d.querySelector("[data-toogle]");
 
-
-function playIntro(time_in_milisec_volume, time_in_milisec){
+function shortCircuit() {
     let audio = new Audio();
-    audio.src = "../assets/sounds/LOKI Opening Theme.mp3";
+    audio.src = "../assets/sounds/short_circuit.mp3";
     audio.volume -= 0.6;
-    audio.play()
-    setTimeout(() => {audio.volume -= 0.2;}, time_in_milisec_volume);
-    setTimeout(() => { audio.pause() ;}, time_in_milisec);
+    audio.play();
 }
 
-function playSound(){
+export function playSound() {
     let audio = new Audio();
     audio.src = "../assets/sounds/franks-electricity.mp3";
-    audio.volume -=0.7;
-    audio.play()
+    audio.volume -= 0.7;
+    audio.play();
 }
 
-export default btnDarkMode.forEach(boton => {
-    boton.addEventListener('click', ()=>{
-        if(d.documentElement.classList.contains("dark-mode")){
-            playIntro(7000, 14000);
-        }else{
-            playSound()
+let botonRayo = 0;
+
+function clickHandler() {
+    botonRayo++;
+
+    if (botonRayo <= 10) {
+        playSound();
+    } else {
+        shortCircuit();
+        console.log("Hola " + botonRayo + ", reproduciendo shortCircuit()");
+        // Si se han hecho 11 clics, desvincula el evento click
+        if (botonRayo >= 11) {
+            btnDarkMode.removeEventListener("click", clickHandler);
+            console.log("Evento click desvinculado");
         }
-    })
+    }
+}
 
-});
-    
-
-
+btnDarkMode.addEventListener("click", clickHandler);
