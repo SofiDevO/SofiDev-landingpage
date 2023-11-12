@@ -18,7 +18,7 @@ html{
     --blue: #58ecff;
     --gradient: 181deg, #000000 35%, #2e006e 100%;
     --gradient-transparent: 181deg, #2e006e 50%,#000000c5  100%;
-    --glow-blue: drop-shadow(0 0 11px rgba(0, 212, 255, 1));
+    --glow-blue: drop-shadow(0 -1px 5px rgba(0, 212, 255, 1));
     --green-terminal: rgb(0, 255, 102);
     --yellow-terminal:rgb(182, 182, 3);
     --pink-terminal:rgb(255, 0, 144);
