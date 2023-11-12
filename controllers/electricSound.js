@@ -22,7 +22,7 @@ function playSound(){
 export default btnDarkMode.forEach(boton => {
     boton.addEventListener('click', ()=>{
         if(d.documentElement.classList.contains("dark-mode")){
-            playIntro(7000, 11000);
+            playIntro(7000, 14000);
         }else{
             playSound()
         }

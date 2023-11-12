@@ -1,7 +1,7 @@
 const d = document;
 
 
-let darkModeState = true;
+let darkModeState = false;
 
 const toogleDarkMode = d.querySelectorAll("[data-toogle]");
 
