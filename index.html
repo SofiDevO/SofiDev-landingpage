@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
     <!-- canonical url -->
@@ -75,6 +75,7 @@
     <link rel="stylesheet" href="./assets/Styles/Dividers/divider.css">
     <link rel="stylesheet" href="./assets/Styles/Dividers/divierBlack.css">
     <link rel="stylesheet" href="./assets/Styles/Dividers/dividerSkillsTools.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/divider-tools.css">
     <link rel="stylesheet" href="./assets/Styles/elements/cajaTerminal.css">
     <link rel="stylesheet" href="./assets/Styles/button.css">
     <link rel="stylesheet" href="./assets/Styles/skills.css">
@@ -87,6 +88,7 @@
     <!-- dark mode -->
     <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode.css">
     <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode-bg.css">
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/short-circuit.css">
 </head>
 
 <body>
@@ -147,6 +149,8 @@
                         <img class="side__img img__ligth" src="./assets/img/avatar-black.webp"
                             alt="Sofidev profile photo">
                         <img class="side__img img__dark" src="./assets/img/avatar_pink.webp"
+                            alt="Sofidev profile photo">
+                        <img class="side__img img__damage" src="./assets/img/IA_damage.webp"
                             alt="Sofidev profile photo">
                     </div>
                     <div class="social">
@@ -236,8 +240,7 @@
                 </div>
             </div>
         </section>
-
-        <section class="tools">
+        <div class="wraper__skills">
             <div class="custom-shape-divider-top-1697134839">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                     preserveAspectRatio="none">
@@ -246,6 +249,9 @@
                         class="shape-fill"></path>
                 </svg>
             </div>
+        </div>
+
+        <section class="tools">
             <h2 class="tools__titulo titulo__dark">Tools</h2>
             <div class="tools__caja__slider">
                 <div class="slider">
@@ -473,7 +479,13 @@
                 </div>
             </div>
         </section>
-
+        <div class="wraper__tools">
+            <div class="custom-shape-divider-top-1699780157">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
         <!-- Acerca de Mi -->
         <section class="about" id="aboutMe">
             <h2 class="about__titulo" id="aboutDeTitulo">Who
@@ -619,7 +631,7 @@
                 </div>
                 <div class="form__content">
                     <form action="https://formsubmit.co/contact@itssofi.dev" method="POST" class="formulario__contacto">
-                        <div class="input-container ">
+                        <div class="input-container ">\
                             <label class="titulo__dark" for="name">Name</label>
                             <input class="input text__boxes" id="name" type="text" name="name" placeholder="Your name"
                                 title="Only letters and blank spaces are accepted" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
